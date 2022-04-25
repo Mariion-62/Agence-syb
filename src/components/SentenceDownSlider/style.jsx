@@ -61,23 +61,38 @@ const SSliderSentence = styled.section`
       width: 80vw;
       font-size: 20px;
     }
+    .contentSentence {
+      width: 40vw;
+      margin-left: 5vw;
+    }
+    .lineBlackDownSlider {
+      width: 70vw;
+      padding-bottom: 2vh;
+    }
+    .rightBlocSentence {
+      display: flex;
+      flex-direction: column;
+    }
     .funSentence {
-      padding-left: 2vh;
     }
-    .textFunSentence {
+    .textFunSentenceOne {
       width: 45vw;
-    }
-    .textSentence {
-      width: 60vw;
-      font-size: 15px;
+      font-size: 25px;
       text-align: left;
-      font-family: var(--primary-font-family);
-      line-height: 1.8vh;
+      margin-top: 2vh;
+      margin-left: -6.5vw;
+      margin-bottom: 2vh;
+    }
+    .textSentenceDownSlider {
+      width: 60vw;
+      font-size: 14px;
+      padding-top: 1vh;
     }
     .textSentenceTwo {
       width: 60vw;
+      padding-top: 4vh;
       font-size: 20px;
-      margin-left: 5vh;
+      margin-left: -1.5vw;
     }
   }
   /*MODE TABLET*/

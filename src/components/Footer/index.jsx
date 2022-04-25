@@ -15,6 +15,7 @@ export default function Footer() {
     <SFooter>
       <section className="allFooter">
         <section className="blocLeftFooter">
+          <div className="lineWhiteFooter" />
           <section className="funFooter">
             <h1 className="titleContact">Contact</h1>
             <p className="textFunFooterOne">

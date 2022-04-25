@@ -25,9 +25,10 @@ const HeaderClient = styled.section`
   @media screen and (min-width: 360px) and (max-width: 768px) {
     margin-top: 50vh;
     .titleClient {
-      font-size: 22px;
-      width: 80%;
-      padding-left: 0;
+      font-size: 20px;
+      width: 52vw;
+      text-align: left;
+      padding-left: 3vw;
       padding-bottom: 3vh;
     }
     .itsThem {
@@ -50,11 +51,18 @@ const STrustFolio = styled.section`
 
 const SLogo = styled.div`
   background-color: var(--fourth-bg-color);
-  .containerSlide {
-    width: 70vw;
+  .allContainerLogo {
     display: flex;
-    margin: 5vh 15vw 13vh 17vw;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70vw;
+    margin-left: 18vw;
+  }
+  .containerLogoFirst {
+    display: flex;
+  }
+  .containerLogoSecond {
+    display: flex;
+    margin-left: 5vw;
   }
   img {
     width: 100px;
@@ -62,7 +70,18 @@ const SLogo = styled.div`
     padding: 2vh 2vw;
     object-fit: contain;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    .allContainerLogo {
+      display: flex;
+      flex-direction: row;
+    }
+    .containerLogoFirst {
+      flex-direction: column;
+    }
+    .containerLogoSecond {
+      flex-direction: column;
+      margin-top: 8vh;
+    }
   }
   /*MODE TABLET*/
   @media screen and (min-width: 769px) and (max-width: 1024px) {
