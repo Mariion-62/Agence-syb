@@ -3,6 +3,10 @@ import styled from 'styled-components';
 const TitleMethods = styled.h2`
   color: var(--primary-font-color);
   margin-top: 5vh;
+  .methods {
+    display: flex;
+    flex-direction: column;
+  }
   .allTitleMethods {
     display: flex;
     margin-bottom: 2vh;
@@ -27,16 +31,22 @@ const TitleMethods = styled.h2`
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 768px) {
     padding-top: 15%;
+    .lineWhiteMethods {
+    border-top: var(--primary-font-color) 1px solid;
+    width: 70vw;
+    padding-top: 5vh;
+    margin-left: 5vw;
+  }
     .titleMethods {
-      font-size: 30px;
-      margin-left: 5%;
+      font-size: 13px;
+      margin-left: 5vw;
       padding-bottom: 20px;
-      width: 50%;
+      width: 18vw;
     }
     .subTitleMethods {
-      width: 60%;
-      height: 5%;
-      margin-left: 20%;
+      font-size: 20px;
+      width: 35vw;
+      margin-left: 21vw;
     }
   }
   /*MODE MAC*/

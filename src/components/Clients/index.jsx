@@ -8,7 +8,6 @@ import Edilians from '../../assets/logoClients/Edilians.png';
 import Ineo from '../../assets/logoClients/Ineo.png';
 import Kinkelder from '../../assets/logoClients/Kinkelder.png';
 import Koltrain from '../../assets/logoClients/Koltrain.png';
-import Lazare from '../../assets/logoClients/Lazare.png';
 import Meo from '../../assets/logoClients/Meo.png';
 import NPE from '../../assets/logoClients/NPE.png';
 import Yper from '../../assets/logoClients/Yper.png';
@@ -23,48 +22,49 @@ export default function Client() {
             Si eux nous on fait confiance, pourquoi pas toi ?{' '}
           </h2>
           <SLogo>
-            <div className="containerSlide">
-              <div>
-                <img src={soixanteDouzeH} alt="img" />
+            <div className="allContainerLogo">
+              <div className="containerLogoFirst">
+                <div>
+                  <img src={soixanteDouzeH} alt="img" />
+                </div>
+                <div>
+                  <img src={Axa} alt="img" />
+                </div>
+                <div>
+                  <img src={Boulanger} alt="img" />
+                </div>
+                <div>
+                  <img src={caisseEpargne} alt="img" />
+                </div>
+                <div>
+                  <img src={cdh} alt="img" />
+                </div>
+                <div>
+                  <img src={DPPatrimoine} alt="img" />
+                </div>
+                <div>
+                  <img src={Edilians} alt="img" />
+                </div>{' '}
               </div>
-              <div>
-                <img src={Axa} alt="img" />
-              </div>
-              <div>
-                <img src={Boulanger} alt="img" />
-              </div>
-              <div>
-                <img src={caisseEpargne} alt="img" />
-              </div>
-              <div>
-                <img src={cdh} alt="img" />
-              </div>
-              <div>
-                <img src={DPPatrimoine} alt="img" />
-              </div>
-              <div>
-                <img src={Edilians} alt="img" />
-              </div>
-              <div>
-                <img src={Ineo} alt="img" />
-              </div>
-              <div>
-                <img src={Kinkelder} alt="img" />
-              </div>
-              <div>
-                <img src={Koltrain} alt="img" />
-              </div>
-              <div>
-                <img src={Lazare} alt="img" />
-              </div>
-              <div>
-                <img src={Meo} alt="img" />
-              </div>
-              <div>
-                <img src={NPE} alt="img" />
-              </div>
-              <div>
-                <img src={Yper} alt="img" />
+              <div className="containerLogoSecond">
+                <div>
+                  <img src={Ineo} alt="img" />
+                </div>
+                <div>
+                  <img src={Kinkelder} alt="img" />
+                </div>
+                <div>
+                  <img src={Koltrain} alt="img" />
+                </div>
+                <div>
+                  <img src={Meo} alt="img" />
+                </div>
+                <div>
+                  <img src={NPE} alt="img" />
+                </div>
+                <div>
+                  <img src={Yper} alt="img" />
+                </div>{' '}
               </div>
             </div>
           </SLogo>

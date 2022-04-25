@@ -6,10 +6,12 @@ export default function Methods() {
   return (
     <>
       <TitleMethods>
-        <section id="methods">
+        <section className="methods">
           <div className="lineWhiteMethods" />
-          <p className="titleMethods">Nos méthodes</p>
-          <h2 className="subTitleMethods">Notre mécanique bien huilé</h2>
+          <div className="allTitleMethods">
+            <p className="titleMethods">Nos méthodes</p>
+            <h2 className="subTitleMethods">Notre mécanique bien huilé</h2>
+          </div>
         </section>
       </TitleMethods>
       <SSlideMethods>

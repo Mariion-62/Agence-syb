@@ -11,6 +11,12 @@ const SFooter = styled.section`
   .blocLeftFooter {
     width: 50vw;
   }
+  .lineWhiteFooter {
+    border-top: var(--primary-font-color) 1px solid;
+    width: 65vw;
+    padding-top: 5vh;
+    margin-left: 15vw;
+  }
   .titleContact {
     display: flex;
     width: 10vw;
@@ -50,7 +56,7 @@ const SFooter = styled.section`
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 8vh;
+    padding-top: 21vh;
   }
   .containerSocialLogo,
   .containerPhone,
@@ -177,34 +183,43 @@ const SFooter = styled.section`
     text-align: center;
   }
   /*MODE MOBIL*/
-  @media screen and (min-width: 360px) and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
     .allFooter {
       display: flex;
       flex-direction: column;
     }
     .blocLeftFooter {
-      width: 100%;
+      width: 100vw;
     }
-    .textFunFooter {
-      width: 22%;
-      font-size: 11px;
-      padding: 27% 3% 0% 5%;
+    .lineWhiteFooter {
+      width: 60vw;
+      margin-left: 5vw;
+    }
+    .funFooter {
+      margin-left: 1vw;
+    }
+    .textFunFooterOne {
+      width: 40vw;
+      font-size: 20px;
       text-align: left;
     }
-    .titleFooter {
-      width: 45%;
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-top: 10%;
+    .titleContact {
+      width: 20vw;
+      margin-right: 8vw;
     }
-    .textFooter {
-      width: 42vw;
-      padding-bottom: 10%;
-      line-height: 15px;
+    .textFooterOne {
+      width: 60vw;
+      font-size: 20px;
     }
     .blocRightFooter {
-      width: 90%;
-      margin: 0 5%;
+      width: 90vw;
+      padding-top: 0vh;
+      margin-left: 4vw;
+    }
+    .lineWhiteFooterText {
+      border-top: var(--primary-font-color) 1px solid;
+      width: 60vw;
+      padding-top: 5vh;
     }
     .containerSocialLogo,
     .containerPhone,
@@ -215,50 +230,49 @@ const SFooter = styled.section`
       width: 100vw;
     }
     .titleMail {
-      padding-top: 9%;
-      padding-left: 10%;
+      padding-top: 2.5vh;
+      padding-left: 2vw;
       padding-right: 0;
       width: 35vw;
+      font-size: 18px;
+    }
+    .titleFollow,
+    .titleAdresse,
+    .titlePhone {
+      padding-top: 2.5vh;
+      font-size: 18px;
     }
     h3 {
       width: 20vw;
+      font-size: 10px;
       padding-left: 10%;
     }
     .socialLogo {
       display: flex;
     }
-    .social {
-      width: 49%;
-      height: 50%;
-    }
-    .adresse {
-      width: 49%;
-      height: 50%;
-    }
-    .phone {
-      width: 49%;
-      height: 50%;
-    }
+    .social,
+    .adresse,
+    .phone,
     .mail {
-      width: 49%;
-      height: 50%;
+      width: 44vw;
+      height: 29vh;
     }
     .iconLinkedIn {
-      padding-top: 2vh;
+      padding-top: 5vh;
     }
     .iconMail {
-      padding-top: 2vh;
+      padding-top: 5vh;
       padding-bottom: 0;
     }
     .iconInsta,
     .iconPhone {
-      padding-top: 2vh;
+      padding-top: 5vh;
     }
     .iconAdresse {
-      padding-top: 2vh;
+      padding-top: 5vh;
     }
     .iconArrow {
-      padding: 80% 5% 2% 0%;
+      padding: 18vh 1vw 0 0;
     }
     .place,
     .street,
@@ -273,7 +287,7 @@ const SFooter = styled.section`
       width: 60%;
     }
     .copyright {
-      padding-top: 40%;
+      padding-top: 9vh;
       text-align: center;
     }
   }

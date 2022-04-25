@@ -99,6 +99,12 @@ const SGoals = styled.section`
     .parafGoal {
       display: flex;
     }
+    .lineWhiteGoals {
+      border-top: var(--primary-font-color) 1px solid;
+      width: 70vw;
+      padding-top: 5vh;
+      margin-left: 5vw;
+    }
     .containerTitleGoal {
       width: 90vw;
       margin-left: 2.5vh;
