@@ -38,7 +38,7 @@ const SGoals = styled.section`
   }
   .blocGoal {
     display: flex;
-    width: 100%;
+    width: 100vw;
   }
   .rightGoals {
     margin-left: 63vw;
@@ -55,68 +55,102 @@ const SGoals = styled.section`
     font-size: 25px;
     text-align: left;
   }
+  .peleMele {
+    position: absolute;
+    margin: 15vh 15vw;
+  }
 
+  .photo5 {
+    width: 15vw;
+    position: absolute;
+    z-index: 1;
+    margin: 0vh 23vw;
+  }
+  .photo6 {
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+    margin: 5vh 5vw;
+    z-index: 1;
+    position: absolute;
+  }
+  .photo7 {
+    width: 10vw;
+    height: 30vh;
+    position: absolute;
+    margin: 38vh 15vw;
+    object-fit: cover;
+  }
+  .photo9 {
+    width: 30vw;
+    margin-top: 27vh;
+    margin-left: -3vw;
+  }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 768px) {
-    .titleGoal {
-      width: 60vw;
-    }
     .blocGoal {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 100vw;
+    }
+    .titleGoal {
+      width: 45.5vw;
     }
     .parafGoal {
       display: flex;
     }
+    .containerTitleGoal {
+      width: 90vw;
+      margin-left: 2.5vh;
+    }
     .contentGoal {
       width: 90vw;
     }
+    .rightGoals {
+      width: 70vw;
+      margin-left: 5vw;
+    }
+    .lineWhiteGoalsText {
+      border-top: var(--primary-font-color) 1px solid;
+      width: 70vw;
+    }
     .textGoal {
-      width: 100vw;
+      width: 70vw;
       font-size: 5vw;
+      font-size: 14px;
     }
     .textGoalTwo {
       width: 70vw;
       font-size: 14px;
-      margin-left: 4%;
-    }
-    .more {
-      margin-left: 32%;
-    }
-    .textMore {
-      font-size: 14px;
-      padding-right: 15px;
-    }
-    .arrow {
-      width: 50px;
-      margin-top: -15px;
     }
     .textFun {
-      padding: 3%;
-      width: 46%;
+      width: 30vw;
+      font-size: 20px;
     }
     .peleMele {
-      margin-top: 85%;
-      margin-left: 0%;
+      width: 80vw;
+      margin-top: 40vh;
     }
-    .graphique {
-      margin: 50% 0 0 70%;
-      height: 180px;
+    .photo5 {
+      width: 38vw;
+      margin-left: 41vw;
+      margin-top: 0vh;
     }
-    .workDev {
-      width: 150px;
-      height: 100px;
-      margin: 30% 0 0 35%;
-      object-fit: cover;
+    .photo6 {
+      width: 40vw;
+      height: 12vh;
+      margin-top: 5vh;
     }
-    .workOrga {
-      margin: 90% 0 0 60%;
-      height: 140px;
+    .photo7 {
+      width: 25vw;
+      height: 20vh;
+      margin-top: 27vh;
+      margin-left: 21vw;
     }
-    .colorPc {
-      margin-top: 60%;
-      height: 200px;
+    .photo9 {
+      width: 50vw;
+      height: 15vh;
+      margin-top: 19vh;
     }
   }
   /*MODE TABLET*/
