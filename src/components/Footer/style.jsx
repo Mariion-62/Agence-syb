@@ -7,6 +7,7 @@ const SFooter = styled.section`
   padding-top: 10vh;
   .allFooter {
     display: flex;
+    flex-direction: column;
   }
   .blocLeftFooter {
     width: 50vw;
@@ -35,6 +36,9 @@ const SFooter = styled.section`
     margin-left: 2.5vw;
     width: 20vw;
   }
+  .footerLineText {
+    margin-left: 50vw;
+  }
   .lineWhiteFooterText {
     border-top: var(--primary-font-color) 1px solid;
     width: 30vw;
@@ -47,16 +51,22 @@ const SFooter = styled.section`
     line-height: 2.5vh;
     padding-bottom: 5vh;
   }
+  .gridFooter {
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    margin-left: 36vw;
+  }
   a {
     text-decoration: none;
     color: white;
   }
   .blocRightFooter {
-    width: 50vw;
+    width: 80vw;
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 21vh;
+    flex-direction: column;
   }
   .containerSocialLogo,
   .containerPhone,
@@ -191,6 +201,9 @@ const SFooter = styled.section`
     .blocLeftFooter {
       width: 100vw;
     }
+    .footerLineText {
+      margin-left: 5vw;
+    }
     .lineWhiteFooter {
       width: 60vw;
       margin-left: 5vw;
@@ -203,6 +216,10 @@ const SFooter = styled.section`
       font-size: 20px;
       text-align: left;
     }
+    .gridFooter {
+      width: 100vw;
+      margin-left: 5vw;
+    }
     .titleContact {
       width: 20vw;
       margin-right: 8vw;
@@ -212,9 +229,10 @@ const SFooter = styled.section`
       font-size: 20px;
     }
     .blocRightFooter {
-      width: 90vw;
-      padding-top: 0vh;
-      margin-left: 4vw;
+      width: 100vw;
+      height: 65vh;
+      margin-bottom: 0vh;
+      border: 1px solid red;
     }
     .lineWhiteFooterText {
       border-top: var(--primary-font-color) 1px solid;
@@ -254,7 +272,7 @@ const SFooter = styled.section`
     .adresse,
     .phone,
     .mail {
-      width: 44vw;
+      width: 45vw;
       height: 29vh;
     }
     .iconLinkedIn {
@@ -287,7 +305,7 @@ const SFooter = styled.section`
       width: 60%;
     }
     .copyright {
-      padding-top: 9vh;
+      padding-top: 1vh;
       text-align: center;
     }
   }
