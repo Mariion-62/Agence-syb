@@ -3,56 +3,54 @@ import styled from 'styled-components';
 const SFooter = styled.section`
   color: var(--primary-font-color);
   font-family: var(--primary-font-family);
-  font-size: 13px;
   height: 100vh;
+  padding-top: 10vh;
   .allFooter {
     display: flex;
   }
   .blocLeftFooter {
-    width: 50%;
+    width: 50vw;
   }
-  .titleFooter {
-    width: 60%;
-  }
-  h1 {
+  .titleContact {
     display: flex;
-    width: 100%;
-    padding: 25% 10%;
+    width: 10vw;
     justify-content: center;
     font-family: var(--title-font-family);
-    font-size: 35px;
+    font-size: 13px;
     text-align: right;
   }
   .funFooter {
     display: flex;
+    margin-left: 12vw;
   }
-  .textFunFooter {
+  .textFunFooterOne {
+    font-size: 25px;
+    height: 15vh;
+    margin-left: 2.5vw;
+    width: 20vw;
+  }
+  .lineWhiteFooterText {
+    border-top: var(--primary-font-color) 1px solid;
     width: 30vw;
-    font-size: 11px;
-    padding: 20% 3% 0 2%;
-    text-align: left;
-    line-height: 11px;
+    padding-top: 5vh;
   }
-  .textFooter {
-    width: 18vw;
-    font-size: 12px;
-    text-align: right;
-    margin-left: 20%;
-    line-height: 11px;
+  .textFooterOne {
+    width: 30vw;
+    font-size: 25px;
+    text-align: left;
+    line-height: 2.5vh;
+    padding-bottom: 5vh;
   }
   a {
     text-decoration: none;
     color: white;
   }
-  .linkFooter {
-    pointer-events: none;
-  }
   .blocRightFooter {
-    width: 50%;
-    height: 80%;
+    width: 50vw;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 2%;
+    padding-top: 8vh;
   }
   .containerSocialLogo,
   .containerPhone,
@@ -60,12 +58,11 @@ const SFooter = styled.section`
   .containerMail {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
   }
   h3 {
     display: flex;
-    padding-left: 20%;
-    line-height: 20px;
+    padding-left: 3.6vw;
   }
   .socialLogo {
     display: flex;
@@ -76,8 +73,8 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 1px solid var(--fourth-bg-color);
-    width: 45%;
-    height: 50%;
+    width: 22vw;
+    height: 32vh;
     color: var(--primary-font-color);
   }
   .adresse {
@@ -86,8 +83,8 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 1px solid var(--fourth-bg-color);
-    width: 45%;
-    height: 50%;
+    width: 22vw;
+    height: 32vh;
     color: var(--primary-font-color);
   }
   .phone {
@@ -96,8 +93,8 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 0;
-    width: 45%;
-    height: 50%;
+    width: 22vw;
+    height: 32vh;
     color: var(--primary-font-color);
   }
   .mail {
@@ -106,8 +103,8 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 0;
-    width: 45%;
-    height: 50%;
+    width: 22vw;
+    height: 32vh;
     color: var(--primary-font-color);
   }
   .iconLinkedIn {
@@ -120,7 +117,7 @@ const SFooter = styled.section`
   }
   .iconMail {
     padding-top: 18vh;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
     padding-left: 4vw;
     &:hover {
       color: var(--secondary-bg-color);
@@ -128,32 +125,28 @@ const SFooter = styled.section`
   }
   .iconInsta,
   .iconPhone {
-    padding-top: 25vh;
-    padding-left: 3.6vw;
+    padding-top: 20vh;
+    padding-left: 4vw;
     color: var(--primary-font-color);
     &:hover {
       color: var(--secondary-bg-color);
     }
   }
   .iconAdresse {
-    padding-top: 18vh;
+    padding-top: 17vh;
     padding-left: 3.5vw;
     &:hover {
       color: var(--secondary-bg-color);
     }
   }
-  .icon {
-    padding: 30% 10% 10% 20%;
-  }
   .iconArrow {
-    padding: 80% 0 0 0;
-    width: 20%;
     &:hover {
       color: var(--secondary-bg-color);
     }
   }
   .titleMail {
-    padding: 0% 0% 5% 20%;
+    margin-left: 2vw;
+    font-size: 25px;
   }
   .titlePhone {
     width: 100%;
@@ -161,17 +154,26 @@ const SFooter = styled.section`
   .titleFollow,
   .titleAdresse,
   .titlePhone {
-    padding-top: 8%;
+    padding-top: 2.5vh;
+    font-size: 25px;
+  }
+  .email {
+    padding-top: 2vh;
+    padding-left: 4vw;
+    font-size: 20px;
+  }
+  .place {
+    padding-top: 1.5vh;
   }
   .place,
   .street,
-  .city,
-  .email {
-    font-size: 10px;
-    padding-left: 20%;
+  .city {
+    font-size: 20px;
+    padding-left: 3.7vw;
   }
   .copyright {
     padding-top: 5vh;
+    font-size: 20px;
     text-align: center;
   }
   /*MODE MOBIL*/

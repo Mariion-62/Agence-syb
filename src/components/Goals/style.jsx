@@ -19,9 +19,9 @@ const SGoals = styled.section`
   }
   .lineWhiteGoals {
     border-top: var(--primary-font-color) 1px solid;
-    width: 85vw;
+    width: 65vw;
     padding-top: 5vh;
-    margin-left: 8vw;
+    margin-left: 15vw;
   }
   .lineWhiteGoalsText {
     border-top: var(--primary-font-color) 1px solid;
@@ -41,7 +41,7 @@ const SGoals = styled.section`
     width: 100vw;
   }
   .rightGoals {
-    margin-left: 63vw;
+    margin-left: 50vw;
     width: 30vw;
   }
   .textGoal {
@@ -57,7 +57,7 @@ const SGoals = styled.section`
   }
   .peleMele {
     position: absolute;
-    margin: 15vh 15vw;
+    margin: 15vh 10vw;
   }
 
   .photo5 {

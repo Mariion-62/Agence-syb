@@ -16,23 +16,23 @@ export default function Footer() {
       <section className="allFooter">
         <section className="blocLeftFooter">
           <section className="funFooter">
-            <section className="titleFooter">
-              <h1>On se rencontre ?</h1>
-            </section>
-            <p className="textFunFooter">
-              Appelle nous, rencontre nous,
-              <p>viens nous serrer la pince !</p>
+            <h1 className="titleContact">Contact</h1>
+            <p className="textFunFooterOne">
+              Appelle nous, rencontre nous, viens nous serrer la pince !
             </p>
           </section>
-          <p className="textFooter">
-            On adore papoter et encore plus quand c’est pour parler performance
-            et business.
-            <p> Viens nous tester, nous briefer, nous challenger.</p>
-          </p>
         </section>
         <section className="blocRightFooter">
+          <div className="footerLineText">
+            <div className="lineWhiteFooterText" />
+            <p className="textFooterOne">
+              On adore papoter et encore plus quand c’est pour parler
+              performance et business.
+              <p> Viens nous tester, nous briefer, nous challenger.</p>
+            </p>
+          </div>
           <div className="social">
-            <div id="animSlideToUp" className="containerSocialLogo">
+            <div className="containerSocialLogo">
               <div className="socialLogo">
                 <a
                   href="https://fr.linkedin.com/company/syb-group/"
@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
               <h3 className="titleFollow">Suivez-nous</h3>
             </div>
-            <div id="slideRight" className="iconArrow">
+            <div className="iconArrow">
               <IoArrowForwardCircleOutline />
             </div>
           </div>
@@ -65,13 +65,13 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <div id="animSlideToUp" className="containerPhone">
+            <div className="containerPhone">
               <div className="iconPhone">
                 <IoCallOutline size={20} />
               </div>
               <h3 className="titlePhone">Appelle-nous</h3>
             </div>
-            <div id="slideRight" className="iconArrow">
+            <div className="iconArrow">
               <IoArrowForwardCircleOutline />
             </div>
           </a>
@@ -81,7 +81,7 @@ export default function Footer() {
             rel="noreferrer"
             className="adresse"
           >
-            <div id="animSlideToUp" className="containerAdresse">
+            <div className="containerAdresse">
               <div className="iconAdresse">
                 <IoLocationSharp size={20} />
               </div>
@@ -90,19 +90,19 @@ export default function Footer() {
               <p className="street">99 A Bd Constantin Descat,</p>
               <p className="city">59200 Tourcoing</p>
             </div>
-            <div id="slideRight" className="iconArrow">
+            <div className="iconArrow">
               <IoArrowForwardCircleOutline />
             </div>
           </a>
           <a href="mailto:hello@syb-group.fr" className="mail">
-            <div id="animSlideToUp" className="containerMail">
+            <div className="containerMail">
               <div className="iconMail">
                 <IoMail size={20} />
               </div>
               <h3 className="titleMail">Envoies nous un mail</h3>
               <p className="email">hello@syb-group.fr</p>
             </div>
-            <div id="slideRight" className="iconArrow">
+            <div className="iconArrow">
               <IoArrowForwardCircleOutline />
             </div>
           </a>

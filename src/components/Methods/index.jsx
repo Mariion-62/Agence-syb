@@ -7,6 +7,7 @@ export default function Methods() {
     <>
       <TitleMethods>
         <section id="methods">
+          <div className="lineWhiteMethods" />
           <p className="titleMethods">Nos méthodes</p>
           <h2 className="subTitleMethods">Notre mécanique bien huilé</h2>
         </section>
