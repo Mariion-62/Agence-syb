@@ -4,6 +4,7 @@ const SExpertise = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
   height: 145vh;
+  font-family: var(--primary-font-family);
   .expertise {
     color: var(--fourth-font-color);
     display: flex;

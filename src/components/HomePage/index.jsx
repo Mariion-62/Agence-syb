@@ -1,7 +1,7 @@
-// import BtnUp from 'components/BtnUp';
+import BtnUp from 'components/BtnUp';
 import Client from 'components/Clients';
 import Expertise from 'components/Expertise';
-// import Footer from 'components/Footer';
+import Footer from 'components/Footer';
 import Goals from 'components/Goals';
 import Header from 'components/Header';
 import Hook from 'components/Hook';
@@ -18,8 +18,8 @@ export default function HomePage() {
       <Goals />
       <Methods />
       <Client />
-      {/* <Footer /> */}
-      {/* <BtnUp /> */}
+      <Footer />
+      <BtnUp />
     </>
   );
 }

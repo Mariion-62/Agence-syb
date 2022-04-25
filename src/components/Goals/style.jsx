@@ -5,6 +5,7 @@ const SGoals = styled.section`
   height: 90vh;
   color: var(--fourth-bg-color);
   padding-top: 10vh;
+  font-family: var(--primary-font-family);
   .parafGoal {
     display: flex;
     flex-direction: column;
