@@ -15,8 +15,7 @@ const TitleMethods = styled.h2`
   }
   .titleMethods {
     font-size: 13px;
-    margin-left: 20vw;
-    padding-top: 0.6vh;
+    margin-left: 16vw;
     font-family: var(--title-font-family);
   }
   .subTitleMethods {

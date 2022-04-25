@@ -6,41 +6,48 @@ const SSliderSentence = styled.section`
     font-family: var(--title-font-family);
     font-size: 5vh;
     position: absolute;
-    margin: 60vh 0vw 0vh 5vw;
+    margin: 65vh 0vw 0vh 5.5vw;
   }
   .funSentence {
-    width: 50vw;
-    padding-left: 12vh;
+    width: 35vw;
+    padding-left: 12vw;
   }
   .contentSentence {
-    display: flex;
+    width: 40vw;
+    margin-left: -3vw;
   }
   h2 {
-    width: 15.5vw;
+    width: 20vw;
     font-size: 35px;
-    text-align: right;
+    padding-bottom: 2vh;
   }
-  .textFunSentence {
+  .lineBlackDownSlider {
+    border-top: var(--fourth-font-color) 1px solid;
+    width: 30vw;
+    padding-bottom: 4vh;
+  }
+  .textFunSentenceOne {
+    text-align: right;
+    font-size: 35px;
+    font-family: var(--fourth-font-family);
+    width: 12vw;
+    margin-left: 4vw;
+    margin-top: 5vh;
+  }
+  .rightBlocSentence {
+    display: flex;
+  }
+  .textSentenceDownSlider {
+    font-size: 20px;
+    width: 25vw;
     text-align: left;
-    font-size: 12px;
     font-family: var(--fourth-font-family);
-    width: 15vw;
-    padding: 5% 0 0 3%;
-    line-height: 11px;
-  }
-  .textSentence {
-    font-size: 12px;
-    width: 15.5vw;
-    text-align: right;
-    font-family: var(--fourth-font-family);
-    padding-top: 6vh;
-    padding-left: 5.6vw;
-    line-height: 11px;
+    line-height: 2.5vh;
   }
   .textSentenceTwo {
     width: 30vw;
-    padding-top: 5vh;
-    margin-left: -24vh;
+    font-size: 25px;
+    padding-left: 2vw;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
