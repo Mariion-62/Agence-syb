@@ -1,5 +1,5 @@
 // import BtnUp from 'components/BtnUp';
-// import Client from 'components/Clients';
+import Client from 'components/Clients';
 import Expertise from 'components/Expertise';
 // import Footer from 'components/Footer';
 import Goals from 'components/Goals';
@@ -17,7 +17,7 @@ export default function HomePage() {
       <Expertise />
       <Goals />
       <Methods />
-      {/* <Client /> */}
+      <Client />
       {/* <Footer /> */}
       {/* <BtnUp /> */}
     </>
