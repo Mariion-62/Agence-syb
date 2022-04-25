@@ -1,6 +1,6 @@
 // import BtnUp from 'components/BtnUp';
 // import Client from 'components/Clients';
-// import Expertise from 'components/Expertise';
+import Expertise from 'components/Expertise';
 // import Footer from 'components/Footer';
 // import Goals from 'components/Goals';
 import Header from 'components/Header';
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header />
       <Mouse />
       <Hook />
-      {/* <Expertise /> */}
+      <Expertise />
       {/* <Goals /> */}
       {/* <Methods /> */}
       {/* <Client /> */}
