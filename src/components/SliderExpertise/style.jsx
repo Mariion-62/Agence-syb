@@ -7,16 +7,18 @@ const SSlideExpert = styled.div`
     position: absolute;
     color: black;
     padding: 1vh;
-    width: 15vw;
+    width: 20vw;
     text-align: center;
     padding-top: 5vh;
   }
   .firstTextExpert,
   .secondTextExpert,
   .thirdTextExpert {
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 2vh;
+    padding-left: 2vh;
     font-weight: bolder;
+    opacity: 0;
     z-index: 1;
   }
   .contentStrat,
@@ -27,11 +29,12 @@ const SSlideExpert = styled.div`
   .contentSocial,
   .contentClient,
   .contentMore {
+    width: 22vw;
     position: absolute;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin: 80% 5% 0 5%;
+    text-align: center;
+    margin: 12vw 0vh;
   }
   .slideStrat,
   .slideCrea,
@@ -61,6 +64,9 @@ const SSlideExpert = styled.div`
       h1 {
         width: 20vw;
         padding: 5vh 0;
+      }
+      img {
+        opacity: 0.2;
       }
       .firstTextExpert {
         opacity: 1;
@@ -159,7 +165,6 @@ const SSlideExpert = styled.div`
     .contentMore {
       margin: 20vh;
       width: 80vw;
-      padding-left: 15vw;
     }
     .firstTextExpert,
     .secondTextExpert,
