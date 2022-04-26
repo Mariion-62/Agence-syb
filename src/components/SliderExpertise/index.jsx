@@ -24,20 +24,22 @@ export default function SliderExpertise() {
                 <img src={photo7} alt="photo1" />
                 <h1>Créativité</h1>
                 <div className="contentCrea">
-                  <p className="firstTextExpert">
+                  <p className="firstTextExpert">Support digitaux et print</p>
+                  <p className="secondTextExpert">
+                    Photo, vidéo, motion design
+                  </p>
+                  <p className="thirdTextExpert">
                     Territoire et identité de marque
                   </p>
-                  <p className="secondTextExpert">Support digitaux et print</p>
-                  <p className="thirdTextExpert">Photo, vidéo, motion design</p>
                 </div>
               </div>
               <div className="slideWeb">
                 <img src={photo5} alt="photo1" />
                 <h1>Site Web</h1>
                 <div className="contentWeb">
-                  <p className="firstTextExpert">Création et refonte de site</p>
+                  <p className="firstTextExpert">UX/UI</p>
                   <p className="secondTextExpert">Webdesign</p>
-                  <p className="thirdTextExpert">UX/UI</p>
+                  <p className="thirdTextExpert">Création et refonte de site</p>
                 </div>
               </div>
               <div className="slideSeo">
@@ -55,20 +57,20 @@ export default function SliderExpertise() {
                 <img src={photo5} alt="photo1" />
                 <h1>SEA</h1>
                 <div className="contentSea">
-                  <p className="firstTextExpert">Google Ads et Social Ads</p>
+                  <p className="firstTextExpert">Affiliation</p>
                   <p className="secondTextExpert">Retargeting</p>
-                  <p className="thirdTextExpert">Affiliation</p>
+                  <p className="thirdTextExpert"> Google Ads et Social Ads</p>
                 </div>
               </div>
               <div className="slideSocial">
                 <img src={photo7} alt="photo1" />
                 <h1>Réseaux sociaux</h1>
                 <div className="contentSocial">
-                  <p className="firstTextExpert">
-                    Ligne éditoriale et publication
-                  </p>
+                  <p className="firstTextExpert">Automation</p>
                   <p className="secondTextExpert">Community management</p>
-                  <p className="thirdTextExpert">Automation</p>
+                  <p className="thirdTextExpert">
+                    Ligne éditoriale et publication{' '}
+                  </p>
                 </div>
               </div>
               <div className="slideClient">
