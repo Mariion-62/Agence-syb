@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 const TitleMethods = styled.h2`
-  color: var(--primary-font-color);
+  color: var(--fourth-font-color);
+  background-color: var(--fourth-bg-color);
   margin-top: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   .methods {
     display: flex;
     flex-direction: column;
@@ -12,10 +15,10 @@ const TitleMethods = styled.h2`
     margin-bottom: 2vh;
   }
   .lineWhiteMethods {
-    border-top: var(--primary-font-color) 1px solid;
-    width: 60vw;
+    border-top: var(--fourth-font-color) 1px solid;
+    width: 65vw;
     padding-top: 5vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
   .titleMethods {
     font-size: 13px;
@@ -32,11 +35,11 @@ const TitleMethods = styled.h2`
   @media screen and (min-width: 360px) and (max-width: 768px) {
     padding-top: 15%;
     .lineWhiteMethods {
-    border-top: var(--primary-font-color) 1px solid;
-    width: 70vw;
-    padding-top: 5vh;
-    margin-left: 5vw;
-  }
+      border-top: red1px solid;
+      width: 70vw;
+      padding-top: 5vh;
+      margin-left: 5vw;
+    }
     .titleMethods {
       font-size: 13px;
       margin-left: 5vw;
@@ -49,51 +52,104 @@ const TitleMethods = styled.h2`
       margin-left: 21vw;
     }
   }
-  /*MODE MAC*/
-  @media screen and (min-width: 1440px) {
-  padding-top: 0;
-    }
-  }
 `;
 
 const SSlideMethods = styled.div`
-  h1 {
-    font-size: 60px;
+  .containerBox {
+    display: flex;
+    background: var(--fourth-bg-color);
+  }
+  .boxMethods {
+    width: 42.9vw;
+    height: 80vh;
+    cursor: pointer;
+    background-color: white;
+    transition: 700ms;
+    z-index: 1;
+    pointer-events: none;
+    box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .titleBox {
+    width: 10vw;
+    margin: 3vh 6vw;
+    font-size: 20px;
+    text-align: left;
     font-family: var(--title-font-family);
-    position: relative;
-    color: white;
-    margin: auto;
-    width: 50vw;
-    text-align: center;
-    padding-top: 40vh;
   }
-  .contentMethodCrea {
-    font-size: 60px;
-    font-family: var(--title-font-family);
-    position: relative;
-    color: white;
-    margin: auto;
-    width: 50vw;
-    text-align: center;
-    padding-top: 60vh;
+  .contentMethods {
+    font-size: 20px;
+    text-align: left;
+    margin: 3vh 6vw;
+    width: 35vw;
+    transition: 700ms;
+    font-family: var(--primary-font-family);
   }
-  .box {
-    height: 105vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  .imgBox {
+    width: 30vw;
+    height: 28vh;
+    object-fit: cover;
   }
-  img {
-    width: 100vw;
-    height: 105vh;
-    top: 0;
-    position: fixed;
+  .hiddenBox {
+    width: 19vw;
+    height: 80vh;
+    cursor: pointer;
+    border: none;
+    transition: 700ms;
+    overflow: hidden;
+    box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: #eaecee;
+    }
+    .contentMethods {
+      opacity: 0;
+    }
+    .titleBox {
+      margin: 3vh 4vw;
+      text-align: center;
+    }
   }
 
   /* MODE MOBILE*/
-  @media screen and (min-width: 360px) and (max-width: 768px) {
-    h1 {
-      padding-top: 45vh;
-      width: 70vw;
-      text-align: center;
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    .boxMethods {
+      width: 80vw;
+      height: 50vh;
+    }
+    .titleBox {
+      font-size: 15px;
+      width: 15vw;
+    }
+    .contentMethods {
+      font-size: 10px;
+      width: 60vw;
+      height: 10vh;
+    }
+    .imgBox {
+      width: 60vw;
+      height: 20vh;
+    }
+    .hiddenBox {
+      width: 10vw;
+      height: 50vh;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+      transition: 700ms;
+      overflow: hidden;
+      box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
+      &:hover {
+        background-color: #eaecee;
+      }
+      .titleBox {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin: 0vw;
+        width: 5vw;
+      }
+      .imgBox {
+        display: none;
+      }
     }
   }
   /*MODE TABLET*/

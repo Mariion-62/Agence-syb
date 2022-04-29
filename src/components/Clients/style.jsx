@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const AllClient = styled.section`
   background-color: var(--fourth-bg-color);
+  margin-top: 100vh;
 `;
 const HeaderClient = styled.section`
   background-color: var(--fourth-bg-color);

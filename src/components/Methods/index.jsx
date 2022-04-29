@@ -1,8 +1,55 @@
-import photo7 from '../../assets/photo7.jpg';
-import photo5 from '../../assets/photo5.jpg';
+import { useState } from 'react';
 import { SSlideMethods, TitleMethods } from './style';
 
+const dataMethods = [
+  {
+    id: 1,
+    title: 'Co-créer',
+    contentOne: 'On se rencontre, on discute et on prend un peu de recul.',
+    contentTwo: 'Tu donnes ta vision et tes objectifs, on t’oriente vers  ',
+    contentThree: 'les bons leviers et la stratégie à mettre sur pied.',
+    picture:
+      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+  },
+  {
+    id: 2,
+    title: 'Optimiser',
+    contentOne:
+      'Tu donnes ton go et on se lance. On part de l’existant et on déroule ',
+    contentTwo:
+      'un plan d’action béton pour relever le défi que tu nous as lancé. ',
+    contentThree: 'Oui, on est un peu compétiteur chez SYB. ',
+    picture:
+      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+  },
+  {
+    id: 3,
+    title: 'Déployer',
+    contentOne:
+      'On construit, on déploie, on duplique. Fais confiance à nos Shakers.  ',
+    contentTwo:
+      'On te dédie le spécialiste de chaque sujet pour t’accompagner !',
+    contentThree:
+      'On apprend et on ajuste au quotidien pour challenger tes performances.',
+    picture:
+      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+  },
+  {
+    id: 4,
+    title: 'Analyser',
+    contentOne:
+      'Notre vision ROIste oblige : on récolte la data, on analyse et tu reçois les reporting. On mesure précisément les résultats obtenus sur ',
+    contentTwo: 'chaque levier actionné. Alors, défi relevé ?? ',
+    picture:
+      'https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg',
+  },
+];
 export default function Methods() {
+  const [showBox, setShowBox] = useState(1);
+  function viewBox(index) {
+    setShowBox(index);
+  }
+
   return (
     <>
       <TitleMethods>
@@ -10,56 +57,32 @@ export default function Methods() {
           <div className="lineWhiteMethods" />
           <div className="allTitleMethods">
             <p className="titleMethods">Nos méthodes</p>
-            <h2 className="subTitleMethods">Notre mécanique bien huilé</h2>
+            <h2 className="subTitleMethods">Notre mécanique bien huilée</h2>
           </div>
         </section>
       </TitleMethods>
       <SSlideMethods>
-        <div className="box">
-          <img src={photo5} alt="photo1" />
-          <h1>Co-créer </h1>
-          <p className="contentMethodCrea">
-            <p>On se rencontre, on discute </p>
-            <p>et on prend un peu de recul.</p>
-            <p>Tu donnes ta vision et tes objectifs,</p>
-            <p>on t’oriente vers les bons leviers</p>
-            <p>et la stratégie à mettre sur pied.</p>
-          </p>
-        </div>
-        <div className="box">
-          <img src={photo7} alt="photo1" />
-          <h1>Optimiser</h1>
-          <p className="contentMethodOptimise">
-            <p>Tu donnes to go et on se lance.</p>
-            <p>On part de l’existant eton déroule </p>
-            <p>un plan d’action béton pour relever </p>le défi que tu nous as
-            lancé.
-            <p>Oui, on est un peu compétiteur</p> <p>chez SYB.</p>
-          </p>
-        </div>
-        <div className="box">
-          <img src={photo5} alt="photo1" />
-          <h1>Déployer </h1>
-          <p className="contentMethodDeploy">
-            <p> On construit, on déploie,</p>
-            <p>on duplique. Fais confiance</p>
-            <p>à nos Shakers. On te dédie </p>
-            <p>le spécialiste de chaque sujet</p>
-            <p>pour t’accompagner ! On apprend</p>
-            <p>et on ajuste au quotidien</p>
-            <p>pour challenger tes performances.</p>
-          </p>
-        </div>
-        <div className="box">
-          <img src={photo7} alt="photo1" />
-          <h1>Analyser</h1>
-          <p className="contentMethodAnalyze">
-            <p> Notre vision ROIste oblige :</p> on récolte la data, on analyse{' '}
-            <p>et tu reçois les reporting.</p> On mesure précisément résultats{' '}
-            <p>obtenus sur chaque levier actionné.</p>
-            <p>Alors, défi relevé ??</p>
-          </p>
-        </div>
+        <section className="containerBox">
+          {dataMethods.map((method) => (
+            <button
+              type="button"
+              key={method.id}
+              className={showBox === method.id ? 'boxMethods' : 'hiddenBox'}
+              onClick={() => viewBox(method.id)}
+            >
+              <h1 className="titleBox">{method.title}</h1>
+              <p className="contentMethods">
+                {method.contentOne} <p>{method.contentTwo}</p>{' '}
+                <p>{method.contentThree}</p>
+              </p>
+              <img
+                className="imgBox"
+                src={method.picture}
+                alt={`${method.picture}`}
+              />
+            </button>
+          ))}
+        </section>
       </SSlideMethods>
     </>
   );
