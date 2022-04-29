@@ -95,6 +95,7 @@ const SSlideMethods = styled.div`
     height: 80vh;
     cursor: pointer;
     border: none;
+    background-color: white;
     transition: 700ms;
     overflow: hidden;
     box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
