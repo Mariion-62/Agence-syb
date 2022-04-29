@@ -1,4 +1,3 @@
-import ReactPlayer from 'react-player';
 import SHook from './style';
 import internalVideo from '../../assets/SYB_Motion_Web.mp4';
 
@@ -15,16 +14,16 @@ export default function Hook() {
             <p>Ces objectifs vous parlent ?</p>
             <p>SYB vous permet de les atteindre.</p>
           </p>
-          <ReactPlayer
-            url={internalVideo}
-            constrols
-            playing
+          <video
+            className="video"
             muted
+            loop
+            autoPlay
             width="100%"
             height="75%"
-            loop="true"
-            className="video"
-          />
+          >
+            <source src={internalVideo} />
+          </video>
         </section>
       </SHook>
     </>
