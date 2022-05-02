@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SMouse = styled.div`
   position: absolute;
-  padding-top: 24vh;
+  padding-top: 40vh;
   height: 150px;
   width: 150px;
   .containerMouse {

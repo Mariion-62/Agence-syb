@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import {
   IoLogoInstagram,
   IoLogoLinkedin,
@@ -10,21 +13,43 @@ import SFooter from './style';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out-sine',
+      delay: 200,
+      mirror: true,
+    });
+    Aos.refresh();
+  }, []);
 
   return (
     <SFooter>
       <section className="allFooter">
         <section className="blocLeftFooter">
           <div className="lineWhiteFooter" />
-          <section className="funFooter">
+          <section
+            className="funFooter"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top"
+          >
             <h1 className="titleContact">Contact</h1>
             <p className="textFunFooterOne">
               Appelle nous, rencontre nous, viens nous serrer la pince !
             </p>
-          </section>{' '}
+          </section>
           <div className="footerLineText">
             <div className="lineWhiteFooterText" />
-            <p className="textFooterOne">
+            <p
+              className="textFooterOne"
+              data-aos="fade-up"
+              data-aos-offset="500"
+              data-aos-duration="800"
+              data-aos-anchor-placement="top"
+            >
               On adore papoter et encore plus quand c’est pour parler
               performance et business.
               <p> Viens nous tester, nous briefer, nous challenger.</p>
@@ -41,8 +66,14 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="iconInsta">
-                      <IoLogoInstagram size={20} />
+                    <div
+                      className="iconInsta"
+                      data-aos="fade-up"
+                      data-aos-offset="500"
+                      data-aos-duration="800"
+                      data-aos-anchor-placement="top"
+                    >
+                      <IoLogoInstagram size={40} />
                     </div>
                   </a>
                   <a
@@ -50,15 +81,27 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="iconLinkedIn">
-                      <IoLogoLinkedin size={20} />
+                    <div
+                      className="iconLinkedIn"
+                      data-aos="fade-up"
+                      data-aos-offset="500"
+                      data-aos-duration="800"
+                      data-aos-anchor-placement="top"
+                    >
+                      <IoLogoLinkedin size={40} />
                     </div>
                   </a>
                 </div>
                 <h3 className="titleFollow">Suivez-nous</h3>
               </div>
-              <div className="iconArrow">
-                <IoArrowForwardCircleOutline />
+              <div
+                className="iconArrow"
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top"
+              >
+                <IoArrowForwardCircleOutline size={25} />
               </div>
             </div>
             <a
@@ -68,13 +111,25 @@ export default function Footer() {
               rel="noreferrer"
             >
               <div className="containerPhone">
-                <div className="iconPhone">
-                  <IoCallOutline size={20} />
+                <div
+                  className="iconPhone"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                  data-aos-anchor-placement="top"
+                >
+                  <IoCallOutline size={40} />
                 </div>
                 <h3 className="titlePhone">Appelle-nous</h3>
               </div>
-              <div className="iconArrow">
-                <IoArrowForwardCircleOutline />
+              <div
+                data-aos="fade-left"
+                className="iconArrow"
+                data-aos-offset="500"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top"
+              >
+                <IoArrowForwardCircleOutline size={25} />
               </div>
             </a>
             <a
@@ -84,28 +139,48 @@ export default function Footer() {
               className="adresse"
             >
               <div className="containerAdresse">
-                <div className="iconAdresse">
-                  <IoLocationSharp size={20} />
+                <div
+                  className="iconAdresse"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
+                  <IoLocationSharp size={40} />
                 </div>
                 <h3 className="titleAdresse">On est ici !</h3>
                 <p className="place">Plaine Image,</p>
                 <p className="street">99 A Bd Constantin Descat,</p>
                 <p className="city">59200 Tourcoing</p>
               </div>
-              <div className="iconArrow">
-                <IoArrowForwardCircleOutline />
+              <div
+                className="iconArrow"
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="800"
+              >
+                <IoArrowForwardCircleOutline size={25} />
               </div>
             </a>
             <a href="mailto:hello@syb-group.fr" className="mail">
               <div className="containerMail">
-                <div className="iconMail">
-                  <IoMail size={20} />
+                <div
+                  className="iconMail"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
+                  <IoMail size={40} />
                 </div>
                 <h3 className="titleMail">Envoies nous un mail</h3>
                 <p className="email">hello@syb-group.fr</p>
               </div>
-              <div className="iconArrow">
-                <IoArrowForwardCircleOutline />
+              <div
+                className="iconArrow"
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="800"
+              >
+                <IoArrowForwardCircleOutline size={25} />
               </div>
             </a>
           </div>

@@ -8,7 +8,8 @@ const SExpertise = styled.section`
   .expertise {
     color: var(--fourth-font-color);
     display: flex;
-    padding-top: 2vh;
+    margin-top: 2vh;
+    padding-top: 3vh;
     line-height: 4vh;
   }
   .rightExpertise {
