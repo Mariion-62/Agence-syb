@@ -2,28 +2,28 @@ import styled from 'styled-components';
 
 const AllClient = styled.section`
   background-color: var(--fourth-bg-color);
-  margin-top: 100vh;
 `;
 const HeaderClient = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
   .titleClient {
     text-align: right;
-    padding: 7% 27%;
+    width: 42vw;
+    margin-left: 30vw;
   }
   .itsThem {
-    margin-left: 20%;
+    margin-left: 20vw;
+    width: 20vw;
   }
 
   .titleClient,
   .itsThem {
     padding-bottom: 20px;
     font-size: 35px;
-    width: 40%;
     font-family: var(--title-font-family);
   }
   /* MODE MOBIL */
-  @media screen and (min-width: 360px) and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
     margin-top: 50vh;
     .titleClient {
       font-size: 20px;
@@ -37,7 +37,7 @@ const HeaderClient = styled.section`
     }
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     margin-top: 50vh;
     .itsThem {
       display: none;

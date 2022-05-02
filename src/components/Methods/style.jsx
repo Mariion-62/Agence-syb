@@ -27,9 +27,9 @@ const TitleMethods = styled.h2`
   }
   .subTitleMethods {
     font-size: 25px;
-    width: 15vw;
+    width: 20vw;
     font-family: var(--primary-font-family);
-    margin-left: 25vw;
+    margin-left: 5vw;
   }
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 768px) {
@@ -58,6 +58,7 @@ const SSlideMethods = styled.div`
   .containerBox {
     display: flex;
     background: var(--fourth-bg-color);
+    height: 90vh;
   }
   .boxMethods {
     width: 42.9vw;

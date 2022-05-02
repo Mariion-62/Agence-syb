@@ -1,6 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import './fonts/NeueHaasDisplay-Mediu.woff';
-import './fonts/NeueHaasDisplay-Mediu.woff2';
 
 const GlobalStyle = createGlobalStyle`
   }
@@ -13,8 +11,8 @@ const GlobalStyle = createGlobalStyle`
     --secondary-font-color: #fcd629;
     --thirdy-font-color: #33392d;
     --fourth-font-color: #000000;
-    --primary-font-family: 'Dosis', sans-serif;
-    --title-font-family: 'Dosis', sans-serif;
+    --primary-font-family: 'Radio Canada', sans-serif;
+    --title-font-family: 'Radio Canada', sans-serif;
     scroll-behavior: smooth;
   }
   body {

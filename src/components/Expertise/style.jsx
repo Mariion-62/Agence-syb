@@ -29,6 +29,7 @@ const SExpertise = styled.section`
     width: 20vw;
     margin-top: 2vh;
     margin-left: -14vw;
+    z-index: 1;
   }
   .titleExpertise {
     font-size: 40px;
@@ -52,7 +53,7 @@ const SExpertise = styled.section`
   }
   .textOneExpertise {
     width: 20vw;
-    font-size: 20px;
+    font-size: 15px;
   }
   .textTwoExpertise {
     width: 13vw;

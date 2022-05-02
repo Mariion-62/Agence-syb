@@ -38,7 +38,7 @@ const SSliderSentence = styled.section`
     display: flex;
   }
   .textSentenceDownSlider {
-    font-size: 20px;
+    font-size: 15px;
     width: 25vw;
     text-align: left;
     font-family: var(--fourth-font-family);

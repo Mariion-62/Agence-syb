@@ -188,7 +188,6 @@ const SFooter = styled.section`
     padding-left: 3.7vw;
   }
   .copyright {
-    padding-top: 5vh;
     font-size: 20px;
     text-align: center;
   }

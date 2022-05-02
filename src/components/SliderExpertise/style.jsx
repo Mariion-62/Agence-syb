@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SSlideExpert = styled.div`
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: var(--title-font-family);
     position: absolute;
     color: black;
@@ -14,7 +14,7 @@ const SSlideExpert = styled.div`
   .firstTextExpert,
   .secondTextExpert,
   .thirdTextExpert {
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 2vh;
     padding-left: 2vh;
     font-weight: bolder;
