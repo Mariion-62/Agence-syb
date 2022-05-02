@@ -53,6 +53,7 @@ const SGoals = styled.section`
   .textGoalTwo {
     width: 40vw;
     font-size: 25px;
+    padding-top: 5vh;
     text-align: left;
   }
   .peleMele {

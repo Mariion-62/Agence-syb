@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { SSlideMethods, TitleMethods } from './style';
 
 const dataMethods = [
@@ -45,17 +47,32 @@ const dataMethods = [
   },
 ];
 export default function Methods() {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out-sine',
+      delay: 200,
+      mirror: true,
+    });
+    Aos.refresh();
+  }, []);
   const [showBox, setShowBox] = useState(1);
   function viewBox(index) {
     setShowBox(index);
   }
-
   return (
     <>
       <TitleMethods>
         <section className="methods">
           <div className="lineWhiteMethods" />
-          <div className="allTitleMethods">
+          <div
+            className="allTitleMethods"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top"
+          >
             <p className="titleMethods">Nos méthodes</p>
             <h2 className="subTitleMethods">Notre mécanique bien huilée</h2>
           </div>

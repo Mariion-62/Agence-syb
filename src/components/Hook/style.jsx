@@ -5,11 +5,12 @@ const SHook = styled.div`
   color: var(--primary-font-color);
   display: flex;
   justify-content: center;
-  height: 125vh;
+  height: 140vh;
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
     width: 30vw;
     padding-bottom: 5vh;
+    margin-left: 40vw;
   }
   .textHook {
     width: 30vw;

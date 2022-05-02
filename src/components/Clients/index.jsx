@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import soixanteDouzeH from '../../assets/logoClients/soixanteDouzeH.png';
 import Axa from '../../assets/logoClients/Axa.png';
 import Boulanger from '../../assets/logoClients/Boulanger.png';
@@ -14,16 +17,38 @@ import Yper from '../../assets/logoClients/Yper.png';
 import { HeaderClient, AllClient, STrustFolio, SLogo } from './style';
 
 export default function Client() {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out-sine',
+      delay: 200,
+      mirror: true,
+    });
+    Aos.refresh();
+  }, []);
   return (
     <>
       <AllClient id="client">
         <HeaderClient className="headerClient">
-          <h2 className="titleClient">
-            Si eux nous on fait confiance, pourquoi pas toi ?{' '}
+          <h2
+            className="titleClient"
+            data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top"
+          >
+            Si eux nous on fait confiance, pourquoi pas toi ?
           </h2>
           <SLogo>
             <div className="allContainerLogo">
-              <div className="containerLogoFirst">
+              <div
+                className="containerLogoFirst"
+                data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div>
                   <img src={soixanteDouzeH} alt="img" />
                 </div>
@@ -46,7 +71,13 @@ export default function Client() {
                   <img src={Edilians} alt="img" />
                 </div>{' '}
               </div>
-              <div className="containerLogoSecond">
+              <div
+                className="containerLogoSecond"
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div>
                   <img src={Ineo} alt="img" />
                 </div>
@@ -68,8 +99,21 @@ export default function Client() {
               </div>
             </div>
           </SLogo>
-          <h2 className="itsThem">C’est eux qui le disent… </h2>
-          <STrustFolio>
+          <h2
+            className="itsThem"
+            data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top"
+          >
+            C’est eux qui le disent…{' '}
+          </h2>
+          <STrustFolio
+            data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top-bottom"
+          >
             <a
               className="trustfolio-iframe-widget"
               data-name="endorsements-infinite-slider"

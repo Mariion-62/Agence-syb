@@ -6,8 +6,9 @@ const AllClient = styled.section`
 const HeaderClient = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
+  font-family: var(--primary-font-family);
+  font-size: 35px;
   .titleClient {
-    text-align: right;
     width: 42vw;
     margin-left: 30vw;
   }
@@ -16,12 +17,6 @@ const HeaderClient = styled.section`
     width: 20vw;
   }
 
-  .titleClient,
-  .itsThem {
-    padding-bottom: 20px;
-    font-size: 35px;
-    font-family: var(--title-font-family);
-  }
   /* MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
     margin-top: 50vh;
@@ -46,6 +41,7 @@ const HeaderClient = styled.section`
 `;
 
 const STrustFolio = styled.section`
+  margin: 10vh 0vw 15vh 0vw;
   @media screen and (max-width: 768px) {
   }
 `;
@@ -56,7 +52,7 @@ const SLogo = styled.div`
     display: flex;
     flex-direction: column;
     width: 70vw;
-    margin-left: 18vw;
+    margin: 15vh 0 15vh 18vw;
   }
   .containerLogoFirst {
     display: flex;
