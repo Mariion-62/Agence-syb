@@ -25,7 +25,7 @@ export default function SentenceDownSlider() {
               data-aos-offset="200"
               data-aos-duration="800"
             >
-              <p>Promis,</p> <p>on ne va pas te farcir le ciboulot</p>
+              <p>Promis,</p> <p>l’équipe est cool !</p>
             </p>
           </div>
           <div className="contentSentence">
@@ -49,8 +49,9 @@ export default function SentenceDownSlider() {
                 <p>Chez SYB,</p>
                 <p>on a plus d’un tour dans notre sac.</p>
                 <p>
-                  Mais comme on a pas assez de place sur un site web pour étaler
-                  notre science, on aimerait mieux en discuter de vive voix.
+                  Mais comme on a pas assez de place
+                  <p>sur un site web pour étaler notre science,</p> on aimerait
+                  mieux en discuter de vive voix.
                 </p>
               </p>
               <p

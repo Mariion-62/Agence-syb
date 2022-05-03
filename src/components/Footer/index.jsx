@@ -28,7 +28,6 @@ export default function Footer() {
     <SFooter>
       <section className="allFooter">
         <section className="blocLeftFooter">
-          <div className="lineWhiteFooter" />
           <section
             className="funFooter"
             data-aos="fade-up"
@@ -36,12 +35,12 @@ export default function Footer() {
             data-aos-duration="800"
             data-aos-anchor-placement="top"
           >
-            <h1 className="titleContact">Contact</h1>
             <p className="textFunFooterOne">
-              Appelle nous, rencontre nous, viens nous serrer la pince !
+              Appelle-nous, <p>rencontre-nous,</p> viens nous serrer la pince !
             </p>
           </section>
           <div className="footerLineText">
+            <h1 className="titleContact">Contact</h1>
             <div className="lineWhiteFooterText" />
             <p
               className="textFooterOne"
@@ -92,7 +91,7 @@ export default function Footer() {
                     </div>
                   </a>
                 </div>
-                <h3 className="titleFollow">Suivez-nous</h3>
+                <h3 className="titleFollow">Suis-nous</h3>
               </div>
               <div
                 className="iconArrow"
@@ -148,7 +147,7 @@ export default function Footer() {
                   <IoLocationSharp size={40} />
                 </div>
                 <h3 className="titleAdresse">On est ici !</h3>
-                <p className="place">Plaine Image,</p>
+                <p className="place">Plaine Images,</p>
                 <p className="street">99 A Bd Constantin Descat,</p>
                 <p className="city">59200 Tourcoing</p>
               </div>
@@ -171,7 +170,7 @@ export default function Footer() {
                 >
                   <IoMail size={40} />
                 </div>
-                <h3 className="titleMail">Envoies nous un mail</h3>
+                <h3 className="titleMail">Envoie-nous un mail</h3>
                 <p className="email">hello@syb-group.fr</p>
               </div>
               <div
@@ -187,7 +186,24 @@ export default function Footer() {
         </section>
       </section>
       <section>
-        <p className="copyright"> Syb Group © {currentYear}</p>
+        <p className="textFunFooterTwo">
+          Bon d’ailleurs, purement pour notre référencement
+        </p>
+        <p className="textFooterTwo">
+          <p>Shake Your Business, votre agence de marketing à Lille.</p>
+          <p>SYB, agence SEO Lilloise.</p>
+          <p>Shake Your Business, votre agence de communication à Lille.</p>
+          <p>SYB, agence de prospection BtoB. SYB, agence SEA dans le nord.</p>
+          <p>Agence de création de site web à Lille.</p>
+        </p>
+        <p className="textFooterThree">
+          Curieux de savoir si cette phrase sert notre référencement naturel ?
+          Appelle-nous.
+        </p>
+        <div className="lastLine">
+          <p className="mentionLegal">mentions légales</p>
+          <p className="copyright"> Syb Group © {currentYear}</p>
+        </div>
       </section>
     </SFooter>
   );

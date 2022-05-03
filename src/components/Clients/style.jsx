@@ -10,10 +10,18 @@ const HeaderClient = styled.section`
   font-size: 35px;
   .titleClient {
     width: 42vw;
-    margin-left: 30vw;
+    margin-left: 50vw;
+    padding-bottom: 5vh;
+  }
+  .lineBlackClients {
+    border-top: var(--fourth-font-color) 1px solid;
+    width: 35vw;
+    padding-top: 5vh;
+    margin-left: 50vw;
   }
   .itsThem {
-    margin-left: 20vw;
+    margin-left: 50vw;
+    padding-bottom: 5vh;
     width: 20vw;
   }
 

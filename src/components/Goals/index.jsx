@@ -6,7 +6,6 @@ import photo5 from '../../assets/photo5.jpg';
 import photo6 from '../../assets/photo6.jpg';
 import photo7 from '../../assets/photo7.jpg';
 import photo9 from '../../assets/photo9.jpg';
-// import arrowWhite from '../../assets/arrowWhite.svg';
 
 export default function Goals() {
   useEffect(() => {
@@ -23,48 +22,59 @@ export default function Goals() {
     <SGoals>
       <section className="blocGoal">
         <section className="parafGoal">
-          <div className="lineWhiteGoals" />
           <section
             className="containerTitleGoal"
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top-bottom"
+            data-aos-anchor-placement="top"
           >
-            <h2 className="titleGoal">Tes objectifs</h2>
-            <p className="textFun">
-              <p>Promis,</p> l&apos;équipe est super cool !
-            </p>
+            <p className="textFun">Tu veux passer à la vitesse supérieure ?</p>
           </section>
           <section className="rightGoals">
+            <h2
+              className="titleGoal"
+              data-aos="fade-up"
+              data-aos-offset="500"
+              data-aos-duration="800"
+              data-aos-anchor-placement="top"
+            >
+              Tes objectifs
+            </h2>
             <div className="lineWhiteGoalsText" />
             <p
               className="textGoal"
               data-aos="fade-left"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top-bottom"
+              data-aos-anchor-placement="top"
             >
-              <p>Shake Your Business,</p>
-              <p>c&apos;est une équipe de petits malins du marketing</p>
-              <p>et du commerce, au service de ton business.</p>
+              Bâtir une marque forte, attirer plus de trafic on et offline,
+              <p>
+                générer plus de leads,engager les clients et les communautés,
+              </p>
+              augmenter la conversion pour vendre plus et mieux.{' '}
+              <p>Ces objectifs te parlent ?</p> SYB te permet de les atteindre.
             </p>
             <p
               className="textGoalTwo"
               data-aos="fade-right"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top-bottom"
+              data-aos-anchor-placement="top"
             >
-              <p>Tu veux passer à la vitesse supérieure ?</p>
-              <p>Et si on commençait par discuter chiffre </p>
-              <p>et ROI ? Viens nous rencontrer</p>
-              <p>pour discuter de tes objectifs</p>
-              <p>
-                autour d&apos;un café bien serré, d’un thé ou d&apos;une bière,
-              </p>
-              <p>on aime ça aussi.</p>
+              Et si on commençait par discuter de tes objectifs et de ROI ?
             </p>
+            <button
+              className="btnMeet"
+              type="button"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-duration="800"
+              data-aos-anchor-placement="top"
+            >
+              Viens nous rencontrer
+            </button>
           </section>
         </section>
         <section
@@ -72,7 +82,7 @@ export default function Goals() {
           data-aos="fade-down"
           data-aos-offset="500"
           data-aos-duration="800"
-          data-aos-anchor-placement="top-bottom"
+          data-aos-anchor-placement="top"
         >
           <img className="photo5" src={photo5} alt="photo5" />
           <img className="photo6" src={photo6} alt="photo6" />

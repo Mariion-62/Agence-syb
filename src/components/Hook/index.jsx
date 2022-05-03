@@ -26,11 +26,10 @@ export default function Hook() {
             data-aos-offset="500"
             data-aos-duration="800"
           >
-            Bâtir des marques fortes, attirer plus de trafic on et offline,
-            générer plus de leads, engager les clients et les communautés,
-            augmenter la conversion pour vendre plus et mieux.
-            <p>Ces objectifs vous parlent ?</p>
-            <p>SYB vous permet de les atteindre.</p>
+            Shake Your Business,{' '}
+            <p>c’est une équipe de petits malins du marketing,</p>
+            de la communication et du commerce,{' '}
+            <p>au service de la croissance de ton business.</p>
           </p>
           <video
             className="video"

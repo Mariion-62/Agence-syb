@@ -8,14 +8,14 @@ const SHook = styled.div`
   height: 140vh;
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
-    width: 30vw;
+    width: 35vw;
     padding-bottom: 5vh;
     margin-left: 40vw;
   }
   .textHook {
     width: 30vw;
     font-family: var(--primary-font-family);
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-left: 40vw;
   }
   .video {

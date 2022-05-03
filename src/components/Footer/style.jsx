@@ -4,7 +4,6 @@ const SFooter = styled.section`
   color: var(--primary-font-color);
   font-family: var(--primary-font-family);
   height: 100vh;
-  padding-top: 10vh;
   .allFooter {
     display: flex;
     flex-direction: column;
@@ -12,41 +11,35 @@ const SFooter = styled.section`
   .blocLeftFooter {
     width: 50vw;
   }
-  .lineWhiteFooter {
-    border-top: var(--primary-font-color) 1px solid;
-    width: 65vw;
-    padding-top: 5vh;
-    margin-left: 15vw;
-  }
   .titleContact {
     display: flex;
     width: 10vw;
-    justify-content: center;
     font-family: var(--title-font-family);
-    font-size: 13px;
-    text-align: right;
+    font-size: 2.2rem;
+    padding-bottom: 2vh;
   }
   .funFooter {
     display: flex;
     margin-left: 12vw;
   }
   .textFunFooterOne {
-    font-size: 25px;
+    font-size: 2.2rem;
     height: 15vh;
     margin-left: 2.5vw;
-    width: 20vw;
+    width: 23vw;
   }
   .footerLineText {
     margin-left: 50vw;
+    margin-top: -20vh;
   }
   .lineWhiteFooterText {
     border-top: var(--primary-font-color) 1px solid;
-    width: 30vw;
+    width: 35vw;
     padding-top: 5vh;
   }
   .textFooterOne {
     width: 30vw;
-    font-size: 25px;
+    font-size: 1rem;
     text-align: left;
     line-height: 2.5vh;
     padding-bottom: 5vh;
@@ -55,7 +48,7 @@ const SFooter = styled.section`
     display: flex;
     width: 50vw;
     flex-wrap: wrap;
-    margin-left: 36vw;
+    margin-left: 50vw;
   }
   a {
     text-decoration: none;
@@ -76,10 +69,6 @@ const SFooter = styled.section`
     flex-direction: column;
     width: 100vw;
   }
-  h3 {
-    display: flex;
-    padding-left: 3.6vw;
-  }
   .socialLogo {
     display: flex;
   }
@@ -89,7 +78,7 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 1px solid var(--fourth-bg-color);
-    width: 22vw;
+    width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
@@ -99,7 +88,7 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 1px solid var(--fourth-bg-color);
-    width: 22vw;
+    width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
@@ -109,7 +98,7 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 0;
-    width: 22vw;
+    width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
@@ -119,7 +108,7 @@ const SFooter = styled.section`
     border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 0;
-    width: 22vw;
+    width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
@@ -134,7 +123,7 @@ const SFooter = styled.section`
   .iconMail {
     padding-top: 18vh;
     padding-bottom: 2vh;
-    padding-left: 4vw;
+    padding-left: 1.5vw;
     &:hover {
       color: var(--secondary-bg-color);
     }
@@ -142,7 +131,7 @@ const SFooter = styled.section`
   .iconInsta,
   .iconPhone {
     padding-top: 20vh;
-    padding-left: 4vw;
+    padding-left: 1.5vw;
     color: var(--primary-font-color);
     &:hover {
       color: var(--secondary-bg-color);
@@ -150,7 +139,7 @@ const SFooter = styled.section`
   }
   .iconAdresse {
     padding-top: 17vh;
-    padding-left: 3.5vw;
+    padding-left: 1.5vw;
     &:hover {
       color: var(--secondary-bg-color);
     }
@@ -161,22 +150,22 @@ const SFooter = styled.section`
     }
   }
   .titleMail {
-    margin-left: 2vw;
-    font-size: 25px;
-  }
-  .titlePhone {
-    width: 100%;
+    font-size: 1.2rem;
+    padding-top: 1vh;
   }
   .titleFollow,
   .titleAdresse,
   .titlePhone {
     padding-top: 2.5vh;
-    font-size: 25px;
+    font-size: 1.2rem;
+    width: 10vw;
+    display: flex;
+    padding-left: 1.8vw;
   }
   .email {
     padding-top: 2vh;
-    padding-left: 4vw;
-    font-size: 20px;
+    padding-left: 1.7vw;
+    font-size: 1rem;
   }
   .place {
     padding-top: 1.5vh;
@@ -184,12 +173,37 @@ const SFooter = styled.section`
   .place,
   .street,
   .city {
-    font-size: 20px;
-    padding-left: 3.7vw;
+    font-size: 1rem;
+    padding-left: 2vw;
   }
-  .copyright {
-    font-size: 20px;
-    text-align: center;
+  .textFunFooterTwo {
+    font-size: 2.2rem;
+    width: 25vw;
+    margin-left: 15vw;
+    margin-top: -5vh;
+  }
+  .textFooterTwo {
+    width: 35vw;
+    margin-left: 50vw;
+    font-size: 1.1rem;
+    margin-top: -6.5vh;
+    line-height: 2.5vh;
+    border-top: 1px solid var(--primary-font-color);
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+  }
+  .textFooterThree {
+    width: 35vw;
+    margin-left: 50vw;
+    line-height: 2.5vh;
+    font-size: 1.2rem;
+  }
+  .lastLine {
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-bottom: 1vh;
   }
   /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {

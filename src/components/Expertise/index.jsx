@@ -58,10 +58,16 @@ export default function Expertise() {
                 <p>de blabla, plus de résultats.</p>
                 <p>Notre équipe de Shakers t’écoute,</p>
                 <p> t’accompagne et actionne</p>
-                les bons leviers marketing et commerciaux.
-                <p>Notre mode de fonctionnement ?</p>
-                <p>Chacun d’entre nous a son petit dada.</p> Toi tu gères ton
-                business, <p>nous on s’occupe de le faire décoller.</p>
+                les bons leviers de la communication,
+                <p>du marketing et du commerce.</p>
+                <p>Chacun d’entre nous a son petit dada.</p>
+                <p>
+                  De la stratégie à l’opérationnel, nous intervenons sur tes
+                  problématiques de prospection, fidélisation, activation,
+                  transformation
+                  <p>et d’autres trucs qui se finissent en “ion”.</p>
+                </p>
+                <p>Toi tu gères ton business, nous on s’occupe du reste.</p>
                 <p>
                   On bosse ensemble et on crée un cercle vertueux pour
                   démultiplier l’effet de nos actions.
@@ -75,6 +81,9 @@ export default function Expertise() {
                 data-aos-anchor-placement="top"
               >
                 Et si SYB devenait le nouveau partenaire de ta réussite ?
+                <p className="textThreeExpertise">
+                  Viens voir de quoi on est capable.
+                </p>
               </p>
             </div>
           </section>

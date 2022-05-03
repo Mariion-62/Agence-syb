@@ -38,8 +38,9 @@ export default function Client() {
             data-aos-duration="800"
             data-aos-anchor-placement="top"
           >
-            Si eux nous on fait confiance, pourquoi pas toi ?
+            B2B / B2C, s’ils nous font confiance, <h2>pourquoi pas toi ?</h2>
           </h2>
+          <div className="lineBlackClients" />
           <SLogo>
             <div className="allContainerLogo">
               <div
@@ -108,6 +109,8 @@ export default function Client() {
           >
             C’est eux qui le disent…{' '}
           </h2>
+          <div className="lineBlackClients" />
+
           <STrustFolio
             data-aos="fade-left"
             data-aos-offset="500"
