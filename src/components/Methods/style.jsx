@@ -13,29 +13,31 @@ const TitleMethods = styled.h2`
   .allTitleMethods {
     display: flex;
     margin-bottom: 2vh;
+    margin-top: -13vh;
   }
   .lineWhiteMethods {
     border-top: var(--fourth-font-color) 1px solid;
-    width: 65vw;
+    width: 35vw;
     padding-top: 5vh;
-    margin-left: 15vw;
+    margin-left: 50vw;
   }
   .titleMethods {
-    font-size: 13px;
-    margin-left: 16vw;
+    font-size: 2.2rem;
+    margin-left: 50vw;
     font-family: var(--title-font-family);
   }
   .subTitleMethods {
-    font-size: 25px;
-    width: 20vw;
+    font-size: 2.2rem;
+    width: 15vw;
     font-family: var(--primary-font-family);
-    margin-left: 5vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
   }
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 768px) {
     padding-top: 15%;
     .lineWhiteMethods {
-      border-top: red1px solid;
+      border-top: var(--fourth-font-color) 1px solid;
       width: 70vw;
       padding-top: 5vh;
       margin-left: 5vw;
@@ -61,35 +63,52 @@ const SSlideMethods = styled.div`
     height: 90vh;
   }
   .boxMethods {
+    display: flex;
+    flex-direction: column;
     width: 42.9vw;
     height: 80vh;
-    cursor: pointer;
     background-color: white;
     transition: 700ms;
     z-index: 1;
-    pointer-events: none;
     box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
     border: none;
   }
   .titleBox {
     width: 10vw;
     margin: 3vh 6vw;
-    font-size: 20px;
+    font-size: 2.2rem;
     text-align: left;
     font-family: var(--title-font-family);
   }
   .contentMethods {
-    font-size: 20px;
+    font-size: 1rem;
     text-align: left;
     margin: 3vh 6vw;
-    width: 35vw;
+    width: 25vw;
+    height: 20vh;
     transition: 700ms;
     font-family: var(--primary-font-family);
+    overflow: hidden;
   }
   .imgBox {
     width: 30vw;
     height: 28vh;
+    margin-left: 6vw;
     object-fit: cover;
+  }
+  .btnMethod {
+    font-family: var(--primary-font-family);
+    border: none;
+    font-size: 1rem;
+    width: 6vw;
+    margin: 3vh 6vw;
+    cursor: pointer;
+    background-color: var(--secondary-bg-color);
+    color: var(--fourth-font-color);
+    &:hover {
+      background-color: var(--primary-bg-color);
+      color: var(--primary-font-color);
+    }
   }
   .hiddenBox {
     width: 19vw;
@@ -103,12 +122,21 @@ const SSlideMethods = styled.div`
     &:hover {
       background-color: #eaecee;
     }
+    .boxMethods {
+      cursor: pointer;
+    }
     .contentMethods {
       opacity: 0;
     }
     .titleBox {
       margin: 3vh 4vw;
       text-align: center;
+    }
+    .btnMethod {
+      display: none;
+    }
+    .imgBox {
+      margin-top: -13vh;
     }
   }
 

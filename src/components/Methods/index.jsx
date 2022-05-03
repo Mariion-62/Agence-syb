@@ -7,43 +7,53 @@ const dataMethods = [
   {
     id: 1,
     title: 'Co-créer',
-    contentOne: 'On se rencontre, on discute et on prend un peu de recul.',
-    contentTwo: 'Tu donnes ta vision et tes objectifs, on t’oriente vers  ',
-    contentThree: 'les bons leviers et la stratégie à mettre sur pied.',
+    contentOne: 'On se rencontre, on discute. ',
+    contentTwo: 'Tu nous partage ta vision et tes objectifs.   ',
+    contentThree:
+      'On prend un peu de recul pour choisir ensemble les bons leviers et stratégie à mettre sur pied.  ',
+    contentFour:
+      'Tu donnes ta vision et tes objectifs, on t’oriente vers les bons leviers et la stratégie à mettre sur pied.',
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+    button: 'Je crée',
   },
   {
     id: 2,
     title: 'Optimiser',
-    contentOne:
-      'Tu donnes ton go et on se lance. On part de l’existant et on déroule ',
-    contentTwo:
-      'un plan d’action béton pour relever le défi que tu nous as lancé. ',
-    contentThree: 'Oui, on est un peu compétiteur chez SYB. ',
+    contentOne: 'On part de l’existant,',
+    contentTwo: 'on le challenge et on l’améliore.',
+    contentThree:
+      'A partir de là, on déroule un plan d’action béton pour relever le défi que tu nous as lancé. ',
+    contentFour:
+      'On peut même former tes équipes à devenir meilleures que nous sur le sujet !  ',
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+    button: "J'optimise",
   },
   {
     id: 3,
     title: 'Déployer',
-    contentOne:
-      'On construit, on déploie, on duplique. Fais confiance à nos Shakers.  ',
-    contentTwo:
-      'On te dédie le spécialiste de chaque sujet pour t’accompagner !',
+    contentOne: 'On construit, on déploie, on duplique.',
+    contentTwo: 'Fais confiance à nos Shakers.  ',
     contentThree:
+      'On te dédie le spécialiste de chaque sujet pour t’accompagner !',
+    contentFour:
       'On apprend et on ajuste au quotidien pour challenger tes performances.',
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
+    button: 'Je déploie',
   },
   {
     id: 4,
     title: 'Analyser',
-    contentOne:
-      'Notre vision ROIste oblige : on récolte la data, on analyse et tu reçois les reporting. On mesure précisément les résultats obtenus sur ',
-    contentTwo: 'chaque levier actionné. Alors, défi relevé ?? ',
+    contentOne: 'Notre vision ROIste oblige :',
+    contentTwo: 'on traque, on triture et on analyse la data. ',
+    contentThree:
+      'On échange régulièrement pour t’expliquer les résultats de chacune de nos actions. ',
+    contentFour: 'Alors, défi relevé ?? ',
     picture:
       'https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg',
+    button: "J'analyse",
   },
 ];
 export default function Methods() {
@@ -65,7 +75,15 @@ export default function Methods() {
     <>
       <TitleMethods>
         <section className="methods">
-          <div className="lineWhiteMethods" />
+          <h2
+            className="subTitleMethods"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top"
+          >
+            Une mécanique bien huilée
+          </h2>
           <div
             className="allTitleMethods"
             data-aos="fade-up"
@@ -73,9 +91,9 @@ export default function Methods() {
             data-aos-duration="800"
             data-aos-anchor-placement="top"
           >
-            <p className="titleMethods">Nos méthodes</p>
-            <h2 className="subTitleMethods">Notre mécanique bien huilée</h2>
+            <p className="titleMethods">Notre méthode</p>
           </div>
+          <div className="lineWhiteMethods" />
         </section>
       </TitleMethods>
       <SSlideMethods>
@@ -89,14 +107,18 @@ export default function Methods() {
             >
               <h1 className="titleBox">{method.title}</h1>
               <p className="contentMethods">
-                {method.contentOne} <p>{method.contentTwo}</p>{' '}
+                {method.contentOne} <p>{method.contentTwo}</p>
                 <p>{method.contentThree}</p>
+                <p>{method.contentFour}</p>
               </p>
               <img
                 className="imgBox"
                 src={method.picture}
                 alt={`${method.picture}`}
               />
+              <button type="button" className="btnMethod">
+                {method.button}
+              </button>
             </button>
           ))}
         </section>

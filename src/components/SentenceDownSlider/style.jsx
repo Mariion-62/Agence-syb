@@ -18,17 +18,17 @@ const SSliderSentence = styled.section`
   }
   h2 {
     width: 20vw;
-    font-size: 35px;
+    font-size: 2.2rem;
     padding-bottom: 2vh;
   }
   .lineBlackDownSlider {
     border-top: var(--fourth-font-color) 1px solid;
-    width: 30vw;
+    width: 35vw;
     padding-bottom: 4vh;
   }
   .textFunSentenceOne {
     text-align: right;
-    font-size: 35px;
+    font-size: 2.2rem;
     font-family: var(--fourth-font-family);
     width: 12vw;
     margin-left: 4vw;
@@ -38,16 +38,16 @@ const SSliderSentence = styled.section`
     display: flex;
   }
   .textSentenceDownSlider {
-    font-size: 15px;
-    width: 25vw;
+    font-size: 1.1rem;
+    width: 20vw;
     text-align: left;
     font-family: var(--fourth-font-family);
     line-height: 2.5vh;
   }
   .textSentenceTwo {
-    width: 30vw;
-    font-size: 25px;
-    padding-left: 2vw;
+    width: 20vw;
+    font-size: 1.5rem;
+    padding-left: 0.5vw;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {

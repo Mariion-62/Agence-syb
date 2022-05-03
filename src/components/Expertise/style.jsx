@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const SExpertise = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
-  height: 145vh;
+  height: 155vh;
   font-family: var(--primary-font-family);
   .expertise {
     color: var(--fourth-font-color);
@@ -23,7 +23,7 @@ const SExpertise = styled.section`
   .firstTitleExpertise {
     width: 15vw;
     height: 5vh;
-    font-size: 35px;
+    font-size: 2.2rem;
     margin-left: 36vw;
   }
   .allTitle {
@@ -33,17 +33,17 @@ const SExpertise = styled.section`
     z-index: 1;
   }
   .titleExpertise {
-    font-size: 40px;
+    font-size: 2.2em;
     text-align: right;
   }
   .lineBlackExpertise {
     border-top: var(--fourth-font-color) 1px solid;
-    width: 30vw;
+    width: 37vw;
     padding-bottom: 4vh;
   }
   .leftExpertise {
     color: black;
-    width: 30vw;
+    width: 37vw;
     margin-left: 16vw;
     margin-top: 8vh;
   }
@@ -53,12 +53,16 @@ const SExpertise = styled.section`
     line-height: 2.5vh;
   }
   .textOneExpertise {
-    width: 20vw;
-    font-size: 15px;
+    width: 27vw;
+    font-size: 1.1rem;
   }
   .textTwoExpertise {
-    width: 13vw;
-    font-size: 25px;
+    width: 15vw;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+  }
+  .textThreeExpertise {
+    padding-top: 3vh;
   }
   .ctaExpertise {
     height: 20%;

@@ -13,27 +13,22 @@ const SGoals = styled.section`
   .containerTitleGoal {
     display: flex;
     width: 25vw;
-    height: 10vh;
+    height: 6vh;
     font-family: var(--title-font-family);
     margin-left: 32vh;
-  }
-  .lineWhiteGoals {
-    border-top: var(--primary-font-color) 1px solid;
-    width: 65vw;
-    padding-top: 5vh;
-    margin-left: 15vw;
+    margin-top: 5vh;
   }
   .lineWhiteGoalsText {
     border-top: var(--primary-font-color) 1px solid;
-    width: 30vw;
+    width: 35vw;
     padding-top: 5vh;
   }
   .titleGoal {
-    font-size: 13px;
-    padding-top: 0.6vh;
+    font-size: 2.2rem;
+    padding-bottom: 2vh;
   }
   .textFun {
-    font-size: 25px;
+    font-size: 2.2rem;
     margin-left: 5vw;
   }
   .blocGoal {
@@ -43,24 +38,41 @@ const SGoals = styled.section`
   .rightGoals {
     margin-left: 50vw;
     width: 30vw;
+    margin-top: -10vh;
   }
   .textGoal {
-    width: 40vw;
+    width: 42vw;
     font-family: var(--title-font-family);
-    font-size: 25px;
+    font-size: 1.1rem;
     text-align: left;
+    line-height: 2.5vh;
   }
   .textGoalTwo {
     width: 40vw;
-    font-size: 25px;
+    font-size: 1.1rem;
     padding-top: 5vh;
     text-align: left;
+    line-height: 2.5vh;
   }
   .peleMele {
     position: absolute;
     margin: 15vh 10vw;
   }
-
+  .btnMeet {
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    width: 10vw;
+    height: 3vh;
+    margin-top: 7vh;
+    background-color: var(--secondary-bg-color);
+    color: var(--fourth-font-color);
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--fourth-bg-color);
+      color: var(--fourth-font-color);
+    }
+  }
   .photo5 {
     width: 15vw;
     position: absolute;
