@@ -16,10 +16,12 @@ const SFooter = styled.section`
     width: 10vw;
     font-family: var(--title-font-family);
     font-size: 2.2rem;
-    padding-bottom: 2vh;
+    padding-bottom: 7vh;
+    margin-left: 38vw;
   }
   .funFooter {
     display: flex;
+    flex-direction: column;
     margin-left: 12vw;
   }
   .textFunFooterOne {
@@ -199,11 +201,12 @@ const SFooter = styled.section`
     font-size: 1.2rem;
   }
   .lastLine {
-    display: flex;
     width: 30vw;
-    justify-content: space-around;
+    height: 1.5vh;
     font-size: 1rem;
-    padding-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
   }
   /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -212,45 +215,48 @@ const SFooter = styled.section`
       flex-direction: column;
     }
     .blocLeftFooter {
-      width: 100vw;
+      width: 90vw;
+      margin-top: 1vh;
     }
     .footerLineText {
       margin-left: 5vw;
     }
-    .lineWhiteFooter {
-      width: 60vw;
-      margin-left: 5vw;
-    }
     .funFooter {
       margin-left: 1vw;
+      margin-top: 2vh;
     }
     .textFunFooterOne {
-      width: 40vw;
-      font-size: 20px;
+      width: 62vw;
+      font-size: 1.2rem;
       text-align: left;
+      margin-left: 5vw;
     }
     .gridFooter {
-      width: 100vw;
+      width: 95vw;
       margin-left: 5vw;
     }
     .titleContact {
-      width: 20vw;
-      margin-right: 8vw;
+      width: 32vw;
+      height: 3vh;
+      font-size: 1.5rem;
+      margin-left: 5vw;
     }
     .textFooterOne {
-      width: 60vw;
-      font-size: 20px;
+      width: 55vw;
+      font-size: 0.9rem;
+      margin-top: 10vh;
+      margin-left: 1vw;
     }
     .blocRightFooter {
       width: 100vw;
       height: 65vh;
       margin-bottom: 0vh;
-      border: 1px solid red;
     }
     .lineWhiteFooterText {
       border-top: var(--primary-font-color) 1px solid;
       width: 60vw;
       padding-top: 5vh;
+      margin-left: 2vw;
     }
     .containerSocialLogo,
     .containerPhone,
@@ -265,18 +271,14 @@ const SFooter = styled.section`
       padding-left: 2vw;
       padding-right: 0;
       width: 35vw;
-      font-size: 18px;
+      font-size: 0.9rem;
     }
     .titleFollow,
     .titleAdresse,
     .titlePhone {
       padding-top: 2.5vh;
-      font-size: 18px;
-    }
-    h3 {
-      width: 20vw;
-      font-size: 10px;
-      padding-left: 10%;
+      font-size: 0.9rem;
+      width: 35vw;
     }
     .socialLogo {
       display: flex;
@@ -308,7 +310,7 @@ const SFooter = styled.section`
     .place,
     .street,
     .city {
-      padding-left: 12%;
+      padding-left: 1vh;
       font-size: 10px;
       line-height: 15px;
     }
@@ -320,6 +322,31 @@ const SFooter = styled.section`
     .copyright {
       padding-top: 1vh;
       text-align: center;
+    }
+    .textFunFooterTwo {
+      width: 90vw;
+      font-size: 1.5rem;
+      margin-top: 2vh;
+      margin-left: 5vw;
+    }
+    .textFooterTwo {
+      width: 70vw;
+      font-size: 0.9rem;
+      margin-left: 5vw;
+      margin-top: 4vh;
+    }
+    .textFooterThree {
+      width: 80vw;
+      font-size: 1.2rem;
+      margin-left: 5vw;
+      margin-top: 2vh;
+    }
+    .lastLine {
+      width: 90vw;
+      margin-top: 5vh;
+    }
+    .mentionLegal {
+      margin-top: 1vh;
     }
   }
   /*MODE TABLET*/
@@ -414,13 +441,9 @@ const SFooter = styled.section`
     .place,
     .street,
     .city {
-      padding-left: 12%;
+      padding-left: 1vw;
       font-size: 12px;
       line-height: 15px;
-    }
-    .copyright {
-      padding-top: 25%;
-      text-align: center;
     }
   }
   /*MODE MAC*/

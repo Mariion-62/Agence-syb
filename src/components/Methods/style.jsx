@@ -43,15 +43,15 @@ const TitleMethods = styled.h2`
       margin-left: 5vw;
     }
     .titleMethods {
-      font-size: 13px;
+      font-size: 1.5rem;
       margin-left: 5vw;
       padding-bottom: 20px;
-      width: 18vw;
+      width: 45vw;
     }
     .subTitleMethods {
-      font-size: 20px;
-      width: 35vw;
-      margin-left: 21vw;
+      font-size: 1.2rem;
+      width: 40vw;
+      margin-left: 5vw;
     }
   }
 `;
@@ -142,40 +142,66 @@ const SSlideMethods = styled.div`
 
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
+    .containerBox {
+      display: flex;
+      background: var(--fourth-bg-color);
+      height: 90vh;
+    }
     .boxMethods {
-      width: 80vw;
-      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      width: 70vw;
+      height: 65vh;
     }
     .titleBox {
-      font-size: 15px;
-      width: 15vw;
+      width: 40vw;
+      margin: 1vh 3vw;
+      font-size: 2rem;
     }
     .contentMethods {
-      font-size: 10px;
+      font-size: 0.9rem;
+      text-align: left;
+      margin: 0 3vw;
       width: 60vw;
-      height: 10vh;
+      height: 30vh;
     }
     .imgBox {
       width: 60vw;
-      height: 20vh;
+      height: 28vh;
+    }
+    .btnMethod {
+      font-size: 1rem;
+      width: 25vw;
+      margin: 3vh 6vw;
     }
     .hiddenBox {
       width: 10vw;
-      height: 50vh;
-      background-color: white;
+      height: 65vh;
       cursor: pointer;
       border: none;
+      background-color: white;
       transition: 700ms;
       overflow: hidden;
       box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
       &:hover {
         background-color: #eaecee;
       }
+      .boxMethods {
+        cursor: pointer;
+        width: 2vw;
+      }
+      .contentMethods {
+        opacity: 0;
+      }
       .titleBox {
+        width: 5vw;
+        font-size: 1.5rem;
+        text-align: center;
         writing-mode: vertical-rl;
         text-orientation: upright;
-        margin: 0vw;
-        width: 5vw;
+      }
+      .btnMethod {
+        display: none;
       }
       .imgBox {
         display: none;

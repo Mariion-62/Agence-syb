@@ -33,21 +33,19 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
+            <h1 className="titleContact">Contact</h1>
             <p className="textFunFooterOne">
               Appelle-nous, <p>rencontre-nous,</p> viens nous serrer la pince !
             </p>
           </section>
           <div className="footerLineText">
-            <h1 className="titleContact">Contact</h1>
             <div className="lineWhiteFooterText" />
             <p
               className="textFooterOne"
               data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               On adore papoter et encore plus quand c’est pour parler
               performance et business.
@@ -70,7 +68,6 @@ export default function Footer() {
                       data-aos="fade-up"
                       data-aos-offset="500"
                       data-aos-duration="800"
-                      data-aos-anchor-placement="top"
                     >
                       <IoLogoInstagram size={40} />
                     </div>
@@ -85,7 +82,6 @@ export default function Footer() {
                       data-aos="fade-up"
                       data-aos-offset="500"
                       data-aos-duration="800"
-                      data-aos-anchor-placement="top"
                     >
                       <IoLogoLinkedin size={40} />
                     </div>
@@ -95,10 +91,9 @@ export default function Footer() {
               </div>
               <div
                 className="iconArrow"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top"
               >
                 <IoArrowForwardCircleOutline size={25} />
               </div>
@@ -115,18 +110,16 @@ export default function Footer() {
                   data-aos="fade-up"
                   data-aos-offset="500"
                   data-aos-duration="800"
-                  data-aos-anchor-placement="top"
                 >
                   <IoCallOutline size={40} />
                 </div>
                 <h3 className="titlePhone">Appelle-nous</h3>
               </div>
               <div
-                data-aos="fade-left"
+                data-aos="fade-up"
                 className="iconArrow"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top"
               >
                 <IoArrowForwardCircleOutline size={25} />
               </div>
@@ -175,7 +168,7 @@ export default function Footer() {
               </div>
               <div
                 className="iconArrow"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
               >

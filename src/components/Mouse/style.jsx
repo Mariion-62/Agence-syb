@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const SMouse = styled.div`
   position: absolute;
-  padding-top: 40vh;
+  margin-top: 130vh;
+  margin-left: 45vw;
   height: 150px;
   width: 150px;
   .containerMouse {
@@ -38,19 +39,13 @@ const SMouse = styled.div`
     }
   }
   /* MODE MOBIL*/
-  @media screen and (max-width: 768px) {
-    margin-top: 68vh;
-    margin-left: 35vw;
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    display: none;
   }
   /*MODE TABLET*/
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     margin-top: 75vh;
     margin-left: 42vw;
-  }
-  /*MODE MAC*/
-  @media screen and (min-width: 1440px) {
-    margin-top: 90vh;
-    margin-left: 46.5vw;
   }
 `;
 
