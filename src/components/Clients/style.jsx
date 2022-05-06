@@ -7,7 +7,7 @@ const HeaderClient = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
   font-family: var(--primary-font-family);
-  font-size: 35px;
+  font-size: 2.2rem;
   .titleClient {
     width: 42vw;
     margin-left: 50vw;
@@ -47,16 +47,35 @@ const HeaderClient = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    margin-top: 50vh;
+    .titleClient {
+      width: 60vw;
+      font-size: 1.9rem;
+      margin-left: 40vw;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+    }
+    .lineBlackClients {
+      border-top: var(--fourth-font-color) 1px solid;
+      width: 35vw;
+      padding-top: 5vh;
+      margin-left: 40vw;
+    }
     .itsThem {
-      display: none;
+      margin-left: 40vw;
+      padding-bottom: 5vh;
+      width: 50vw;
     }
   }
 `;
 
 const STrustFolio = styled.section`
   margin: 10vh 0vw 15vh 0vw;
+  /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
+    margin: 2vh 0vw 5vh 0vw;
+  }
+  /*MODE TABLET*/
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     margin: 2vh 0vw 5vh 0vw;
   }
 `;
@@ -97,7 +116,26 @@ const SLogo = styled.div`
     }
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .allContainerLogo {
+      display: flex;
+      flex-direction: column;
+      width: 90vw;
+      margin: 5vh 0 10vh 2vw;
+    }
+    .containerLogoFirst {
+      display: flex;
+    }
+    .containerLogoSecond {
+      display: flex;
+      margin-left: 5vw;
+    }
+    img {
+      width: 75px;
+      height: 75px;
+      padding: 2vh 2vw;
+      object-fit: contain;
+    }
   }
 `;
 

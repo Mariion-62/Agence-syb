@@ -34,7 +34,7 @@ const TitleMethods = styled.h2`
     margin-top: 10vh;
   }
   /*MODE MOBIL */
-  @media screen and (min-width: 360px) and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 15%;
     .lineWhiteMethods {
       border-top: var(--fourth-font-color) 1px solid;
@@ -50,6 +50,25 @@ const TitleMethods = styled.h2`
     }
     .subTitleMethods {
       font-size: 1.2rem;
+      width: 40vw;
+      margin-left: 5vw;
+    }
+  }
+  /*MODE TABLET*/
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lineWhiteMethods {
+      border-top: var(--fourth-font-color) 1px solid;
+      width: 70vw;
+      padding-top: 5vh;
+      margin-left: 5vw;
+    }
+    .titleMethods {
+      font-size: 2rem;
+      margin-left: 5vw;
+      width: 45vw;
+    }
+    .subTitleMethods {
+      font-size: 1.5rem;
       width: 40vw;
       margin-left: 5vw;
     }
@@ -200,19 +219,76 @@ const SSlideMethods = styled.div`
         writing-mode: vertical-rl;
         text-orientation: upright;
       }
-      .btnMethod {
-        display: none;
-      }
       .imgBox {
         display: none;
       }
     }
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-  }
-  /*MODE MAC*/
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .containerBox {
+      display: flex;
+      background: var(--fourth-bg-color);
+      height: 65vh;
+    }
+    .boxMethods {
+      display: flex;
+      flex-direction: column;
+      width: 70vw;
+      height: 65vh;
+    }
+    .titleBox {
+      width: 40vw;
+      margin: 5vh 3vw;
+      font-size: 2rem;
+    }
+    .contentMethods {
+      font-size: 1rem;
+      text-align: left;
+      margin: 0 3vw;
+      width: 50vw;
+      height: 30vh;
+    }
+    .imgBox {
+      width: 60vw;
+      height: 28vh;
+    }
+    .btnMethod {
+      font-size: 1rem;
+      width: 25vw;
+      margin: 3vh 6vw;
+    }
+    .hiddenBox {
+      width: 10vw;
+      height: 65vh;
+      cursor: pointer;
+      border: none;
+      background-color: white;
+      transition: 700ms;
+      overflow: hidden;
+      box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
+      &:hover {
+        background-color: #eaecee;
+      }
+      .boxMethods {
+        cursor: pointer;
+        width: 2vw;
+      }
+      .contentMethods {
+        opacity: 0;
+      }
+      .titleBox {
+        width: 5vw;
+        margin: 0 1vw;
+        font-size: 1.5rem;
+        text-align: center;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+      }
+      .imgBox {
+        display: none;
+      }
+    }
   }
 `;
 

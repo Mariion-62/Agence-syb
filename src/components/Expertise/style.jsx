@@ -132,8 +132,9 @@ const SExpertise = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    height: 300vh;
-    padding-top: 10vh;
+    height: 125vh;
+    width: 100vw;
+    padding-top: 0vh;
     .photo7 {
       height: 300px;
       margin-left: 5vw;
@@ -147,32 +148,33 @@ const SExpertise = styled.section`
       width: 24vw;
       height: 24vh;
       margin-top: 1vh;
-      margin-left: -18vw;
+      margin-left: -10vw;
     }
     .titleExpertise {
       font-size: 20px;
       line-height: 2vh;
     }
     .leftExpertise {
-      width: 50vw;
-      margin-left: 5vw;
+      width: 58vw;
+      margin-left: -8vw;
     }
     .lineBlackExpertise {
       border-top: var(--fourth-font-color) 1px solid;
-      width: 20vw;
+      width: 40vw;
     }
     .content {
       padding-top: 0vh;
       width: 50vw;
     }
     .textOneExpertise {
-      width: 25vw;
-      font-size: 10px;
+      width: 30vw;
+      font-size: 0.7rem;
       line-height: 1.5vh;
     }
     .textTwoExpertise {
-      width: 20vw;
-      font-size: 15px;
+      width: 25vw;
+      font-size: 1rem;
+      line-height: 1.5vh;
     }
     .ctaExpertise {
       padding-top: 39vw;
@@ -185,19 +187,12 @@ const SExpertise = styled.section`
     .textFunSentence {
       width: 40vw;
       font-size: 20px;
-      margin-left: 15vw;
     }
     .textSentence {
       width: 70vw;
       margin-left: 4vh;
       font-size: 20px;
     }
-  }
-  /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-  }
-  /*MODE DESKTOP MAC*/
-  @media screen and (min-width: 1440px) {
   }
 `;
 

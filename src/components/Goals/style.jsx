@@ -100,7 +100,7 @@ const SGoals = styled.section`
     margin-left: -3vw;
   }
   /* MODE MOBILE*/
-  @media screen and (min-width: 360px) and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
     height: 100vh;
     .blocGoal {
       display: flex;
@@ -185,36 +185,51 @@ const SGoals = styled.section`
     }
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .textFun {
-      padding: 3%;
-      width: 18%;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    height: 100vh;
+    .containerTitleGoal {
+      margin-left: 0;
+      font-size: 1.5rem;
+      width: 50vw;
+    }
+    .textGoal {
+      font-size: 0.9rem;
+      width: 30vw;
+    }
+    .textGoalTwo {
+      width: 35vw;
+      font-size: 1.5rem;
+    }
+    .btnMeet {
+      width: 25vw;
+      margin-top: 3vh;
     }
     .peleMele {
-      margin-top: 20%;
-      margin-left: 50%;
+      width: 80vw;
+      margin-top: 53vh;
+      height: 50vh;
     }
-    .graphique {
-      margin: 50% 0 0 70%;
-      height: 180px;
+    .photo5 {
+      width: 38vw;
+      margin-left: 41vw;
+      margin-top: 0vh;
     }
-    .workDev {
-      width: 150px;
-      height: 110px;
-      margin: 30% 0 0 35%;
-      object-fit: cover;
+    .photo6 {
+      width: 40vw;
+      height: 12vh;
+      margin-top: 4vh;
     }
-    .workOrga {
-      margin: 90% 0 0 60%;
-      height: 130px;
+    .photo7 {
+      width: 20vw;
+      height: 20vh;
+      margin-top: 27vh;
+      margin-left: 25vw;
     }
-    .colorPc {
-      margin-top: 60%;
-      height: 200px;
+    .photo9 {
+      width: 50vw;
+      height: 15vh;
+      margin-top: 19vh;
     }
-  }
-  /*MODE MAC*/
-  @media screen and (min-width: 1440px) {
   }
 `;
 

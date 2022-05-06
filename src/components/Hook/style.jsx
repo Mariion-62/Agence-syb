@@ -49,14 +49,17 @@ const SHook = styled.div`
 
     .lineWhiteHook {
       border-top: var(--primary-font-color) 1px solid;
-      width: 60vw;
+      width: 70vw;
+      margin-top: 4vh;
+      margin-left: 5vw;
     }
     .textHook {
-      width: 60vw;
-      margin: 5vh 0 0 12vw;
+      font-size: 18px;
+      width: 70vw;
+      margin: 0vh 0 0 5vw;
     }
     .video {
-      padding-top: 6vh;
+      padding-top: 2vh;
       padding-bottom: 5vh;
     }
   }

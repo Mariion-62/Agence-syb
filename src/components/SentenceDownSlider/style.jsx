@@ -102,40 +102,36 @@ const SSliderSentence = styled.section`
     }
     .funSentence {
       padding: 0;
+      width: 20vw;
+    }
+    .textFunSentenceOne {
+      width: 30vw;
+      margin-left: -10vw;
     }
     h2 {
-      width: 20vw;
-      font-size: 25px;
+      width: 30vw;
+      margin-left: 20vw;
+      font-size: 1.5rem;
     }
-    .textSentence {
-      font-size: 15px;
-      padding-left: 2vw;
-      width: 40vw;
+    .textSentenceDownSlider {
+      font-size: 0.7rem;
+      width: 35vw;
       line-height: 1.8vh;
     }
     .textSentenceTwo {
-      width: 60vw;
+      width: 25vw;
       height: 10vh;
-      font-size: 25px;
-      margin-left: 10vw;
-      margin-top: 10vh;
+      font-size: 1rem;
+      margin-top: 0vh;
       padding: 0;
       text-align: left;
     }
-  }
-  /*MODE DESKTOP MAC*/
-  @media screen and (min-width: 1440px) {
-    .textFunSentence {
-      text-align: left;
-      font-size: 12px;
-      font-family: var(--primary-font-family);
-      width: 20%;
-      padding: 5% 0 0 3%;
-      line-height: 14px;
+    .lineBlackDownSlider {
+      margin-left: 20vw;
     }
-    .textSentence {
-      line-height: 14px;
-      width: 30%;
+    .rightBlocSentence {
+      width: 55vw;
+      margin-left: 20vw;
     }
   }
 `;
