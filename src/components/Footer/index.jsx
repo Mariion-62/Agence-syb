@@ -99,7 +99,7 @@ export default function Footer() {
               </div>
             </div>
             <a
-              href="tel:+0674421793"
+              href="tel:+0622174495"
               className="phone"
               target="_blank"
               rel="noreferrer"
