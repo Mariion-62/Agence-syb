@@ -50,7 +50,7 @@ export default function Goals() {
               <p>
                 générer plus de leads,engager les clients et les communautés,
               </p>
-              augmenter la conversion pour vendre plus et mieux.{' '}
+              augmenter la conversion pour vendre plus et mieux.
               <p>Ces objectifs te parlent ?</p> SYB te permet de les atteindre.
             </p>
             <p

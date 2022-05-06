@@ -43,9 +43,8 @@ const SMouse = styled.div`
     display: none;
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    margin-top: 75vh;
-    margin-left: 42vw;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    display: none;
   }
 `;
 

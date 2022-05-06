@@ -230,15 +230,15 @@ const SSlideExpert = styled.div`
     .contentClient,
     .contentMore {
       margin: 20vh;
-      width: 80vw;
-      padding-left: 20vw;
+      width: 50vw;
+      padding-left: 0vw;
     }
     .firstTextExpert,
     .secondTextExpert,
     .thirdTextExpert {
       font-size: 20px;
       font-weight: bolder;
-      width: 60vw;
+      width: 50vw;
       opacity: 1;
     }
     .slideStrat,
