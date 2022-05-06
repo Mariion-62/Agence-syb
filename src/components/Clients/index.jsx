@@ -33,10 +33,9 @@ export default function Client() {
         <HeaderClient className="headerClient">
           <h2
             className="titleClient"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
             B2B / B2C, s’ils nous font confiance, <h2>pourquoi pas toi ?</h2>
           </h2>
@@ -45,10 +44,9 @@ export default function Client() {
             <div className="allContainerLogo">
               <div
                 className="containerLogoFirst"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top-bottom"
               >
                 <div>
                   <img src={soixanteDouzeH} alt="img" />
@@ -74,10 +72,9 @@ export default function Client() {
               </div>
               <div
                 className="containerLogoSecond"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top-bottom"
               >
                 <div>
                   <img src={Ineo} alt="img" />
@@ -102,20 +99,18 @@ export default function Client() {
           </SLogo>
           <h2
             className="itsThem"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
             C’est eux qui le disent…{' '}
           </h2>
           <div className="lineBlackClients" />
 
           <STrustFolio
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top-bottom"
           >
             <a
               className="trustfolio-iframe-widget"

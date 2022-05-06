@@ -42,7 +42,7 @@ export default function SentenceDownSlider() {
             <section className="rightBlocSentence">
               <p
                 className="textSentenceDownSlider"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="800"
               >
@@ -56,7 +56,7 @@ export default function SentenceDownSlider() {
               </p>
               <p
                 className="textSentenceTwo"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-offset="200"
                 data-aos-duration="800"
               >

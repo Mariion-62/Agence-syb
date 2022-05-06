@@ -69,10 +69,10 @@ const SBtnUp = styled.div`
     }
   }
   /*MODE MOBIL*/
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
   }
   /*MODE TABLET*/
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
   }
 `;
 

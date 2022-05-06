@@ -27,16 +27,22 @@ const HeaderClient = styled.section`
 
   /* MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
-    margin-top: 50vh;
+    margin-top: -8vh;
     .titleClient {
-      font-size: 20px;
-      width: 52vw;
-      text-align: left;
-      padding-left: 3vw;
-      padding-bottom: 3vh;
+      font-size: 1.3rem;
+      width: 90vw;
+      margin-left: 5vw;
+    }
+    .lineBlackClients {
+      border-top: var(--fourth-font-color) 1px solid;
+      width: 70vw;
+      padding-top: 5vh;
+      margin-left: 5vw;
     }
     .itsThem {
-      display: none;
+      font-size: 1.3rem;
+      width: 90vw;
+      margin-left: 5vw;
     }
   }
   /*MODE TABLET*/
@@ -50,7 +56,8 @@ const HeaderClient = styled.section`
 
 const STrustFolio = styled.section`
   margin: 10vh 0vw 15vh 0vw;
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    margin: 2vh 0vw 5vh 0vw;
   }
 `;
 
@@ -79,6 +86,7 @@ const SLogo = styled.div`
     .allContainerLogo {
       display: flex;
       flex-direction: row;
+      margin: 0 0 5vh 15vw;
     }
     .containerLogoFirst {
       flex-direction: column;

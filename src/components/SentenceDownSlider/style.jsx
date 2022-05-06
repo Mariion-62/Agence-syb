@@ -59,7 +59,7 @@ const SSliderSentence = styled.section`
     }
     h2 {
       width: 80vw;
-      font-size: 20px;
+      font-size: 1.5rem;
     }
     .contentSentence {
       width: 40vw;
@@ -73,25 +73,23 @@ const SSliderSentence = styled.section`
       display: flex;
       flex-direction: column;
     }
-    .funSentence {
-    }
     .textFunSentenceOne {
-      width: 45vw;
-      font-size: 25px;
+      width: 48vw;
+      font-size: 1.5rem;
       text-align: left;
       margin-top: 2vh;
       margin-left: -6.5vw;
       margin-bottom: 2vh;
     }
     .textSentenceDownSlider {
-      width: 60vw;
-      font-size: 14px;
+      width: 70vw;
+      font-size: 0.9rem;
       padding-top: 1vh;
     }
     .textSentenceTwo {
       width: 60vw;
       padding-top: 4vh;
-      font-size: 20px;
+      font-size: 1.3rem;
       margin-left: -1.5vw;
     }
   }

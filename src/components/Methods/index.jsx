@@ -80,7 +80,6 @@ export default function Methods() {
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
             Une mécanique bien huilée
           </h2>
@@ -89,7 +88,6 @@ export default function Methods() {
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
             <p className="titleMethods">Notre méthode</p>
           </div>
@@ -97,7 +95,12 @@ export default function Methods() {
         </section>
       </TitleMethods>
       <SSlideMethods>
-        <section className="containerBox">
+        <section
+          className="containerBox"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="800"
+        >
           {dataMethods.map((method) => (
             <button
               type="button"

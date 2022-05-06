@@ -10,13 +10,13 @@ const SHook = styled.div`
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
     padding-bottom: 5vh;
-    margin-left: 40vw;
+    margin-left: 50vw;
   }
   .textHook {
     width: 30vw;
     font-family: var(--primary-font-family);
     font-size: 1.5rem;
-    margin-left: 40vw;
+    margin-left: 50vw;
   }
   .video {
     padding-top: 10vh;
@@ -29,11 +29,13 @@ const SHook = styled.div`
     .lineWhiteHook {
       border-top: var(--primary-font-color) 1px solid;
       width: 70vw;
+      margin-top: 4vh;
+      margin-left: 5vw;
     }
     .textHook {
       font-size: 18px;
       width: 70vw;
-      margin: 5vh 0 0 12vw;
+      margin: 0vh 0 0 5vw;
     }
     .video {
       padding-top: 2vh;

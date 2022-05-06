@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import photo7 from '../../assets/photo7.jpg';
-// import arrowBlack from '../../assets/arrowBlack.svg';
 
 import SExpertise from './style';
 
@@ -34,7 +33,6 @@ export default function Expertise() {
               data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               <h2 className="firstTitleExpertise">Nos expertises</h2>
               <div className="allTitleExpertise">
@@ -49,10 +47,9 @@ export default function Expertise() {
             <div className="content">
               <p
                 className="textOneExpertise"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top"
               >
                 <p>Tu es au bon endroit. Ici c’est moins</p>
                 <p>de blabla, plus de résultats.</p>
@@ -75,10 +72,9 @@ export default function Expertise() {
               </p>
               <p
                 className="textTwoExpertise"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
-                data-aos-anchor-placement="top"
               >
                 Et si SYB devenait le nouveau partenaire de ta réussite ?
                 <p className="textThreeExpertise">

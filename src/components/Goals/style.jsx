@@ -101,13 +101,15 @@ const SGoals = styled.section`
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 768px) {
+    height: 100vh;
     .blocGoal {
       display: flex;
       flex-direction: column;
-      width: 100vw;
+      width: 90vw;
     }
     .titleGoal {
-      width: 45.5vw;
+      width: 60vw;
+      margin-top: -3vh;
     }
     .parafGoal {
       display: flex;
@@ -134,21 +136,31 @@ const SGoals = styled.section`
       width: 70vw;
     }
     .textGoal {
-      width: 70vw;
+      width: 80vw;
       font-size: 5vw;
-      font-size: 14px;
+      font-size: 0.9rem;
+      margin-top: 5vh;
     }
     .textGoalTwo {
       width: 70vw;
-      font-size: 14px;
+      font-size: 1.2rem;
     }
     .textFun {
-      width: 30vw;
+      width: 50vw;
+      margin-left: 0vw;
+      margin-top: 1vh;
       font-size: 20px;
+    }
+    .btnMeet {
+      width: 40vw;
+      height: 3vh;
+      font-size: 0.9rem;
+      margin-left: 11vh;
+      margin-top: 3vh;
     }
     .peleMele {
       width: 80vw;
-      margin-top: 40vh;
+      margin-top: 55vh;
     }
     .photo5 {
       width: 38vw;

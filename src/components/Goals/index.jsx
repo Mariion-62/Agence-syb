@@ -27,7 +27,6 @@ export default function Goals() {
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-duration="800"
-            data-aos-anchor-placement="top"
           >
             <p className="textFun">Tu veux passer à la vitesse supérieure ?</p>
           </section>
@@ -37,17 +36,15 @@ export default function Goals() {
               data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               Tes objectifs
             </h2>
             <div className="lineWhiteGoalsText" />
             <p
               className="textGoal"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               Bâtir une marque forte, attirer plus de trafic on et offline,
               <p>
@@ -58,20 +55,18 @@ export default function Goals() {
             </p>
             <p
               className="textGoalTwo"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               Et si on commençait par discuter de tes objectifs et de ROI ?
             </p>
             <button
               className="btnMeet"
               type="button"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
-              data-aos-anchor-placement="top"
             >
               Viens nous rencontrer
             </button>
@@ -82,7 +77,6 @@ export default function Goals() {
           data-aos="fade-down"
           data-aos-offset="500"
           data-aos-duration="800"
-          data-aos-anchor-placement="top"
         >
           <img className="photo5" src={photo5} alt="photo5" />
           <img className="photo6" src={photo6} alt="photo6" />
