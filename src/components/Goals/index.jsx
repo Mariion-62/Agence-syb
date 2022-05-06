@@ -61,15 +61,21 @@ export default function Goals() {
             >
               Et si on commençait par discuter de tes objectifs et de ROI ?
             </p>
-            <button
-              className="btnMeet"
-              type="button"
-              data-aos="fade-up"
-              data-aos-offset="500"
-              data-aos-duration="800"
+            <a
+              href="mailto:hello@syb-group.fr?subject=Première rencontre"
+              target="_blank"
+              rel="noreferrer"
             >
-              Viens nous rencontrer
-            </button>
+              <button
+                className="btnMeet"
+                type="button"
+                data-aos="fade-up"
+                data-aos-offset="500"
+                data-aos-duration="800"
+              >
+                Viens nous rencontrer
+              </button>
+            </a>
           </section>
         </section>
         <section
