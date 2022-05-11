@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {
@@ -9,6 +10,7 @@ import {
   IoLocationSharp,
   IoArrowForwardCircleOutline,
 } from 'react-icons/io5';
+// import MentionLegals from '../MentionLegals';
 import SFooter from './style';
 
 export default function Footer() {
@@ -194,7 +196,9 @@ export default function Footer() {
           Appelle-nous.
         </p>
         <div className="lastLine">
-          <p className="mentionLegal">mentions légales</p>
+          <Link id="mention" className="mentionLegal" to="/mentionlegales">
+            mention légales
+          </Link>
           <p className="copyright"> Syb Group © {currentYear}</p>
         </div>
       </section>
