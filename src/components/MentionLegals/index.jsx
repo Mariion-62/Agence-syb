@@ -1,26 +1,34 @@
+import Header from 'components/Header';
+import SMentionLegals from './style';
+
 export default function Mention() {
   return (
-    <>
-      <h2>MENTIONS LÉGALES ET POLITIQUE DE CONFIDENTIALITÉ</h2>
+    <SMentionLegals>
+      <Header />
+      <h2 className="titleMentionPage">
+        MENTIONS LÉGALES ET POLITIQUE DE CONFIDENTIALITÉ
+      </h2>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Éditeur du Site</h3>
-        <p>
-          SYB GROUP – Shake Your Business 59 rue de l’union 59200 Tourcoing
-          France Capital social de 3 000 Euros Immatriculation RCS de Lille : B
-          811 346 188 Directeur de la publication : Maxime Porte
+        <p className="contentMentionArticle">
+          SYB GROUP – Shake Your Business
+          <p>59 rue de l’union 59200 Tourcoing France</p>
+          <p>Capital social de 3 000 Euros</p> Immatriculation RCS de Lille : B
+          811 346 188 <p>Directeur de la publication : Maxime Porte</p>
         </p>
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Hébergeur du Site</h3>
-        <p>
-          OVH SAS au capital de 10 069 020 € RCS Lille Métropole 424 761 419
-          00045 N° TVA : FR 22 424 761 419 Code APE 2620Z Siège social : 2 rue
-          Kellermann – 59100 Roubaix – France
+        <p className="contentMentionArticle">
+          OVH <p>SAS au capital de 10 069 020 €</p>{' '}
+          <p>RCS Lille Métropole 424 761 419 00045 </p>N° TVA : FR 22 424 761
+          419 Code <p>APE 2620Z</p>
+          <p>Siège social : 2 rue Kellermann – 59100 Roubaix – France</p>
         </p>
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Conditions d’utilisation</h3>
-        <p>
+        <p className="contentMentionArticle">
           Le site accessible par l’url suivante : www.syb-group.fr est exploité
           dans le respect de la législation française. L’utilisation de ce site
           est régie par les présentes conditions générales. En utilisant le
@@ -33,7 +41,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Limitation de responsabilité</h3>
-        <p>
+        <p className="contentMentionArticle">
           Les informations contenues sur ce site sont aussi précises que
           possibles et le site est périodiquement remis à jour, mais peut
           toutefois contenir des inexactitudes, des omissions ou des lacunes. Si
@@ -54,7 +62,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Litiges</h3>
-        <p>
+        <p className="contentMentionArticle">
           Les présentes conditions sont régies par les lois françaises et toute
           contestation ou litiges qui pourraient naître de l’interprétation ou
           de l’exécution de celles-ci seront de la compétence exclusive des
@@ -65,7 +73,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Droits d’accès / RGPD</h3>
-        <p>
+        <p className="contentMentionArticle">
           En application de cette loi, les internautes disposent d’un droit
           d’accès, de rectification, de modification et de suppression
           concernant les données qui les concernent personnellement ainsi qu’un
@@ -80,7 +88,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Propriété intellectuelle</h3>
-        <p>
+        <p className="contentMentionArticle">
           Le site internet accessible à l’adresse https://www.syb-group.fr est
           couvert par des droits de propriété intellectuelle. Aussi, toute
           représentation, reproduction et/ou exploitation, totale ou partielle,
@@ -95,11 +103,13 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Crédits photos, icônes</h3>
-        <p>Shake Your Business Shutterstock</p>
+        <p className="contentMentionArticle">
+          Shake Your Business Shutterstock
+        </p>
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Conditions de services</h3>
-        <p>
+        <p className="contentMentionArticle">
           Ce site est proposé en langages HTML5 et CSS3, pour un meilleur
           confort d’utilisation et un graphisme plus agréable, nous vous
           recommandons de recourir à des navigateurs modernes comme Safari,
@@ -108,7 +118,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Informations et exclusions</h3>
-        <p>
+        <p className="contentMentionArticle">
           La société Shake Your Business met en œuvre tous les moyens dont il
           dispose, pour assurer une information fiable et une mise à jour fiable
           de ses sites internet. Toutefois, des erreurs ou omissions peuvent
@@ -122,7 +132,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Cookies / RGPD</h3>
-        <p>
+        <p className="contentMentionArticle">
           Pour des besoins de statistiques et d’affichage, le présent site
           utilise des cookies. Il s’agit de petits fichiers textes stockés sur
           votre disque dur afin d’enregistrer des données techniques sur votre
@@ -145,7 +155,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Liens hypertextes</h3>
-        <p>
+        <p className="contentMentionArticle">
           Le site internet de la société Shake Your Business peut offrir des
           liens vers d’autres sites internet ou d’autres ressources disponibles
           sur Internet. La société Shake Your Business ne dispose d’aucun moyen
@@ -180,7 +190,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Précautions d’usage</h3>
-        <p>
+        <p className="contentMentionArticle">
           Il vous incombe par conséquent de prendre les précautions d’usage
           nécessaires pour vous assurer que ce que vous choisissez d’utiliser ne
           soit pas entaché d’erreurs voire d’éléments de nature destructrice
@@ -189,7 +199,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Responsabilité</h3>
-        <p>
+        <p className="contentMentionArticle">
           Aucune autre garantie n’est accordée au client, auquel incombe
           l’obligation de formuler clairement ses besoins et le devoir de
           s’informer. Si des informations fournies par la société Shake Your
@@ -203,13 +213,13 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Contactez-nous</h3>
-        <p>
+        <p className="contentMentionArticle">
           La société Shake Your Business est à votre disposition pour tous vos
           commentaires ou suggestions. Vous pouvez nous écrire en français par
           courrier électronique à hello@syb-group.fr et utiliser notre
           formulaire de contact du notre site web.
         </p>
       </div>
-    </>
+    </SMentionLegals>
   );
 }
