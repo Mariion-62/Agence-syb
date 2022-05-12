@@ -181,7 +181,7 @@ export default function Mention() {
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Recherche</h3>
-        <p>
+        <p className="contentMentionArticle">
           En outre, le renvoi sur un site internet pour compléter une
           information recherchée ne signifie en aucune façon que la société
           Shake Your Business reconnaît ou accepte quelque responsabilité quant

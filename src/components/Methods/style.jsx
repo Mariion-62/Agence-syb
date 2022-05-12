@@ -76,9 +76,9 @@ const TitleMethods = styled.h2`
 `;
 
 const SSlideMethods = styled.div`
+  background: var(--fourth-bg-color);
   .containerBox {
     display: flex;
-    background: var(--fourth-bg-color);
     height: 90vh;
   }
   .boxMethods {

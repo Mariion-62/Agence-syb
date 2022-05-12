@@ -2,10 +2,14 @@ import styled from 'styled-components';
 
 const SGoals = styled.section`
   background-color: var(--primary-bg-color);
-  height: 90vh;
   color: var(--fourth-bg-color);
-  padding-top: 10vh;
   font-family: var(--primary-font-family);
+  ${'' /* margin-top: 5vh; */}
+  .blocGoal {
+    display: flex;
+    height: 90vh;
+    padding-top: 5vh;
+  }
   .parafGoal {
     display: flex;
     flex-direction: column;
@@ -30,10 +34,6 @@ const SGoals = styled.section`
   .textFun {
     font-size: 2.2rem;
     margin-left: 5vw;
-  }
-  .blocGoal {
-    display: flex;
-    width: 100vw;
   }
   .rightGoals {
     margin-left: 50vw;

@@ -10,7 +10,6 @@ import {
   IoLocationSharp,
   IoArrowForwardCircleOutline,
 } from 'react-icons/io5';
-// import MentionLegals from '../MentionLegals';
 import SFooter from './style';
 
 export default function Footer() {
@@ -148,7 +147,7 @@ export default function Footer() {
               </div>
               <div
                 className="iconArrow"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
