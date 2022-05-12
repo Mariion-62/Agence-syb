@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 
 const SExpertise = styled.section`
-  background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
-  height: 155vh;
   font-family: var(--primary-font-family);
   .expertise {
+    background-color: var(--fourth-bg-color);
     color: var(--fourth-font-color);
     display: flex;
+    flex-direction: column;
     margin-top: 2vh;
     padding-top: 3vh;
     line-height: 4vh;
-    width: 100%;
+    width: 100vw;
+    height: 140vh;
+  }
+  .blocExpertise {
+    display: flex;
   }
   .rightExpertise {
     display: flex;
@@ -20,6 +24,11 @@ const SExpertise = styled.section`
     height: 400px;
     margin: 5vh 10vw;
     opacity: 0.4;
+  }
+  .ctaExpertise {
+    height: 20%;
+    padding-top: 40vh;
+    margin-left: -13vw;
   }
   .firstTitleExpertise {
     width: 15vw;
@@ -37,16 +46,16 @@ const SExpertise = styled.section`
     font-size: 2.2em;
     text-align: right;
   }
+  .leftExpertise {
+    color: black;
+    width: 39vw;
+    margin-left: -15vw;
+    margin-top: 8vh;
+  }
   .lineBlackExpertise {
     border-top: var(--fourth-font-color) 1px solid;
     width: 37vw;
     padding-bottom: 4vh;
-  }
-  .leftExpertise {
-    color: black;
-    width: 37vw;
-    margin-left: -15vw;
-    margin-top: 8vh;
   }
   .content {
     display: flex;
@@ -54,7 +63,7 @@ const SExpertise = styled.section`
     line-height: 2.5vh;
   }
   .textOneExpertise {
-    width: 27vw;
+    width: 23vw;
     font-size: 1.1rem;
   }
   .textTwoExpertise {
@@ -64,16 +73,19 @@ const SExpertise = styled.section`
   .textThreeExpertise {
     padding-top: 3vh;
   }
-  .ctaExpertise {
-    height: 20%;
-    padding-top: 40vh;
-    margin-left: -13vw;
+  .slider {
+    height: 60vh;
+  }
+  .downExpertise {
+    height: 30vh;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
-    height: 240vh;
     padding-top: 3vh;
     .expertise {
+      height: 240vh;
+    }
+    .blocExpertise {
       flex-direction: column;
     }
     .photo7 {
@@ -100,12 +112,12 @@ const SExpertise = styled.section`
       line-height: 2.5vh;
       width: 50vw;
     }
-    .lineBlackExpertise {
-      width: 70vw;
-    }
     .leftExpertise {
       width: 80vw;
       margin-left: 5vw;
+    }
+    .lineBlackExpertise {
+      width: 70vw;
     }
     .content {
       padding-top: 0vh;
@@ -128,6 +140,12 @@ const SExpertise = styled.section`
     .ctaExpertise {
       padding-top: 42vh;
       margin-left: -25vw;
+    }
+    .slider {
+      height: 0vh;
+    }
+    .downExpertise {
+      height: 20vh;
     }
   }
   /*MODE TABLET*/

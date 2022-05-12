@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import photo7 from '../../assets/photo7.jpg';
-
 import SExpertise from './style';
 
 export default function Expertise() {
@@ -23,69 +22,76 @@ export default function Expertise() {
     <>
       <SExpertise>
         <section className="expertise">
-          <section className="rightExpertise">
-            <img className="photo7" src={photo7} alt="photo7" />
-            <div className="ctaExpertise">
-              <Cta />
-            </div>
-            <div
-              className="allTitle"
-              data-aos="fade-up"
-              data-aos-offset="500"
-              data-aos-duration="800"
-            >
-              <h2 className="firstTitleExpertise">Nos expertises</h2>
-              <div className="allTitleExpertise">
-                <h2 className="titleExpertise">Co-créons enfin</h2>
-                <h2 className="titleExpertise">la bonne stratégie</h2>
-                <h2 className="titleExpertise">de croissance</h2>
+          <div className="blocExpertise">
+            <section className="rightExpertise">
+              <img className="photo7" src={photo7} alt="photo7" />
+              <div className="ctaExpertise">
+                <Cta />
               </div>
-            </div>
-          </section>
-          <section className="leftExpertise">
-            <div className="lineBlackExpertise" />
-            <div className="content">
-              <p
-                className="textOneExpertise"
+              <div
+                className="allTitle"
                 data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
-                <p>Tu es au bon endroit. Ici c’est moins</p>
-                <p>de blabla, plus de résultats.</p>
-                <p>Notre équipe de Shakers t’écoute,</p>
-                <p> t’accompagne et actionne</p>
-                les bons leviers de la communication,
-                <p>du marketing et du commerce.</p>
-                <p>Chacun d’entre nous a son petit dada.</p>
-                <p>
-                  De la stratégie à l’opérationnel, nous intervenons sur tes
-                  problématiques de prospection, fidélisation, activation,
-                  transformation
-                  <p>et d’autres trucs qui se finissent en “ion”.</p>
+                <h2 className="firstTitleExpertise">Nos expertises</h2>
+                <div className="allTitleExpertise">
+                  <h2 className="titleExpertise">Co-créons enfin</h2>
+                  <h2 className="titleExpertise">la bonne stratégie</h2>
+                  <h2 className="titleExpertise">de croissance</h2>
+                </div>
+              </div>
+            </section>
+            <section className="leftExpertise">
+              <div className="lineBlackExpertise" />
+              <div className="content">
+                <p
+                  className="textOneExpertise"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
+                  <p>Tu es au bon endroit. Ici c’est moins</p>
+                  <p>de blabla, plus de résultats.</p>
+                  <p>Notre équipe de Shakers t’écoute,</p>
+                  <p> t’accompagne et actionne</p>
+                  les bons leviers de la communication,
+                  <p>du marketing et du commerce.</p>
+                  <p>Chacun d’entre nous a son petit dada.</p>
+                  <p>
+                    De la stratégie à l’opérationnel, nous intervenons sur tes
+                    problématiques de prospection, fidélisation, activation,
+                    transformation
+                    <p>et d’autres trucs qui se finissent en “ion”.</p>
+                  </p>
+                  <p>Toi tu gères ton business, nous on s’occupe du reste.</p>
+                  <p>
+                    On bosse ensemble et on crée un cercle vertueux pour
+                    démultiplier l’effet de nos actions.
+                  </p>
                 </p>
-                <p>Toi tu gères ton business, nous on s’occupe du reste.</p>
-                <p>
-                  On bosse ensemble et on crée un cercle vertueux pour
-                  démultiplier l’effet de nos actions.
+                <p
+                  className="textTwoExpertise"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
+                  Et si SYB devenait le nouveau partenaire de ta réussite ?
+                  <p className="textThreeExpertise">
+                    Viens voir de quoi on est capable.
+                  </p>
                 </p>
-              </p>
-              <p
-                className="textTwoExpertise"
-                data-aos="fade-up"
-                data-aos-offset="500"
-                data-aos-duration="800"
-              >
-                Et si SYB devenait le nouveau partenaire de ta réussite ?
-                <p className="textThreeExpertise">
-                  Viens voir de quoi on est capable.
-                </p>
-              </p>
-            </div>
-          </section>
+              </div>
+            </section>
+          </div>
+          <div className="slider">
+            <SliderExpertise />
+          </div>
+
+          <div className="downExpertise">
+            <SentenceDownSlider />
+          </div>
         </section>
-        <SentenceDownSlider />
-        <SliderExpertise />
       </SExpertise>
     </>
   );

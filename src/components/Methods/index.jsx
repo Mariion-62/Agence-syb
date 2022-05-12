@@ -16,7 +16,6 @@ const dataMethods = [
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
     button: 'Je crée',
-    textButton: 'Créons ensemble !',
   },
   {
     id: 2,
@@ -30,7 +29,6 @@ const dataMethods = [
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
     button: "J'optimise",
-    textButton: 'Optimisons ensemble !',
   },
   {
     id: 3,
@@ -44,7 +42,6 @@ const dataMethods = [
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
     button: 'Je déploie',
-    textButton: 'Deployons ensemble !',
   },
   {
     id: 4,
@@ -57,7 +54,6 @@ const dataMethods = [
     picture:
       'https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg',
     button: "J'analyse",
-    textButton: 'Analysons ensemble !',
   },
 ];
 export default function Methods() {

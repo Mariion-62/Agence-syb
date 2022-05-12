@@ -179,19 +179,25 @@ const SSlideExpert = styled.div`
     .slideSeo,
     .slideSea,
     .slideSocial,
-    .slideClient,
-    .slideMore {
+    .slideClient {
       height: 40vh;
       width: 100vw;
       margin-bottom: 2.5vh;
       &:hover {
         animation: none;
+        h1 {
+          width: 45vw;
+          padding: 5vh 0;
+        }
+        img {
+          opacity: 0.2;
+        }
         .firstTextExpert,
         .secondTextExpert,
         .thirdTextExpert {
-          animation: none;
-        }
-        h1 {
+          opacity: 1;
+          width: 75vw;
+          height: 2vh;
           animation: none;
         }
       }

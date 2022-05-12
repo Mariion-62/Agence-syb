@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const SSliderSentence = styled.section`
+  background-color: var(--fourth-bg-color);
   .allSentence {
     display: flex;
     font-family: var(--title-font-family);
     font-size: 5vh;
-    position: absolute;
-    margin: 65vh 0vw 0vh 5.5vw;
+    width: 100vw;
   }
   .funSentence {
     width: 35vw;
