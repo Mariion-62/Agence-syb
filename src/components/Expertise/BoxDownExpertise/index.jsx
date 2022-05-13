@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
-import SSliderSentence from './style';
+import SBoxDownExpertise from './style';
 import 'aos/dist/aos.css';
 
-export default function SentenceDownSlider() {
+export default function BoxDownExpertise() {
   useEffect(() => {
     Aos.init({
       offset: 200,
@@ -16,7 +16,7 @@ export default function SentenceDownSlider() {
   }, []);
   return (
     <>
-      <SSliderSentence>
+      <SBoxDownExpertise>
         <section className="allSentence">
           <div className="funSentence">
             <p
@@ -25,7 +25,7 @@ export default function SentenceDownSlider() {
               data-aos-offset="200"
               data-aos-duration="800"
             >
-              <p>Promis,</p> <p>l’équipe est cool !</p>
+              Promis, l’équipe est cool !
             </p>
           </div>
           <div className="contentSentence">
@@ -46,13 +46,9 @@ export default function SentenceDownSlider() {
                 data-aos-offset="200"
                 data-aos-duration="800"
               >
-                <p>Chez SYB,</p>
-                <p>on a plus d’un tour dans notre sac.</p>
-                <p>
-                  Mais comme on a pas assez de place
-                  <p>sur un site web pour étaler notre science,</p> on aimerait
-                  mieux en discuter de vive voix.
-                </p>
+                Chez SYB, on a plus d’un tour dans notre sac. Mais comme on a
+                pas assez de place sur un site web pour étaler notre science, on
+                aimerait mieux en discuter de vive voix.
               </p>
               <p
                 className="textSentenceTwo"
@@ -60,13 +56,12 @@ export default function SentenceDownSlider() {
                 data-aos-offset="200"
                 data-aos-duration="800"
               >
-                <p>Alors, on s’appelle</p> <p>pour voir jusqu’où</p>
-                <p>on peut aller ensemble ?</p>
+                Alors, on s’appelle pour voir jusqu’où on peut aller ensemble ?
               </p>
-            </section>{' '}
+            </section>
           </div>
         </section>
-      </SSliderSentence>
+      </SBoxDownExpertise>
     </>
   );
 }

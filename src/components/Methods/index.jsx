@@ -11,8 +11,7 @@ const dataMethods = [
     contentTwo: 'Tu nous partage ta vision et tes objectifs.   ',
     contentThree:
       'On prend un peu de recul pour choisir ensemble les bons leviers et stratégie à mettre sur pied.  ',
-    contentFour:
-      'Tu donnes ta vision et tes objectifs, on t’oriente vers les bons leviers et la stratégie à mettre sur pied.',
+
     picture:
       'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
     button: 'Je crée',
@@ -57,6 +56,7 @@ const dataMethods = [
   },
 ];
 export default function Methods() {
+  // animation for to do appear text
   useEffect(() => {
     Aos.init({
       offset: 200,
@@ -67,6 +67,7 @@ export default function Methods() {
     });
     Aos.refresh();
   }, []);
+  // useState to change state of boxes at onClick
   const [showBox, setShowBox] = useState(1);
   function viewBox(index) {
     setShowBox(index);

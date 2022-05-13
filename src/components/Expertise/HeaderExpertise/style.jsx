@@ -12,7 +12,6 @@ const SExpertise = styled.section`
     padding-top: 3vh;
     line-height: 4vh;
     width: 100vw;
-    height: 140vh;
   }
   .blocExpertise {
     display: flex;
@@ -36,15 +35,14 @@ const SExpertise = styled.section`
     font-size: 2.2rem;
     margin-left: 25vw;
   }
-  .allTitleExpertise {
-    width: 20vw;
+  .titleExpertise {
+    width: 18vw;
     margin-top: 2vh;
     margin-left: -14vw;
     z-index: 1;
-  }
-  .titleExpertise {
-    font-size: 2.2em;
+    font-size: 2.5em;
     text-align: right;
+    word-break: normal;
   }
   .leftExpertise {
     color: black;
@@ -94,6 +92,10 @@ const SExpertise = styled.section`
       margin-left: 10vw;
       margin-bottom: 0vh;
     }
+    .ctaExpertise {
+      padding-top: 42vh;
+      margin-left: -25vw;
+    }
     .firstTitleExpertise {
       width: 45vw;
       margin-left: -30vw;
@@ -101,16 +103,13 @@ const SExpertise = styled.section`
       margin-top: 3vh;
       font-size: 1.5rem;
     }
-    .allTitleExpertise {
-      width: 50vw;
-      height: 10vh;
-      margin-top: 5vh;
-      margin-left: -40vw;
-    }
     .titleExpertise {
       font-size: 1.5rem;
       line-height: 2.5vh;
       width: 50vw;
+      height: 10vh;
+      margin-top: 5vh;
+      margin-left: -40vw;
     }
     .leftExpertise {
       width: 80vw;
@@ -137,10 +136,6 @@ const SExpertise = styled.section`
       padding-top: 3vh;
       width: 80vw;
     }
-    .ctaExpertise {
-      padding-top: 42vh;
-      margin-left: -25vw;
-    }
     .slider {
       height: 0vh;
     }
@@ -150,66 +145,63 @@ const SExpertise = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    height: 125vh;
-    width: 100vw;
-    padding-top: 0vh;
+    padding-top: 3vh;
+    .expertise {
+      height: 240vh;
+    }
+    .blocExpertise {
+      flex-direction: column;
+    }
     .photo7 {
-      height: 300px;
-      margin-left: 5vw;
+      padding-top: 8vh;
+      height: 600px;
+      margin-left: 20vw;
+      margin-bottom: 0vh;
+    }
+    .ctaExpertise {
+      padding-top: 42vh;
+      margin-left: -25vw;
     }
     .firstTitleExpertise {
-      width: 30vw;
-      margin-left: 29vw;
-      font-size: 25px;
-    }
-    .allTitle {
-      width: 24vw;
-      height: 24vh;
-      margin-top: 1vh;
-      margin-left: -10vw;
+      width: 45vw;
+      margin-left: -20vw;
+      margin-bottom: 0;
+      margin-top: 3vh;
     }
     .titleExpertise {
-      font-size: 20px;
-      line-height: 2vh;
+      width: 50vw;
+      height: 10vh;
+      margin-top: 5vh;
+      margin-left: -40vw;
     }
     .leftExpertise {
-      width: 58vw;
-      margin-left: -8vw;
+      width: 80vw;
+      margin-left: 5vw;
     }
     .lineBlackExpertise {
-      border-top: var(--fourth-font-color) 1px solid;
-      width: 40vw;
+      width: 60vw;
     }
     .content {
       padding-top: 0vh;
-      width: 50vw;
+      width: 10vw;
+      flex-direction: column;
     }
     .textOneExpertise {
-      width: 30vw;
-      font-size: 0.7rem;
-      line-height: 1.5vh;
+      width: 55vw;
     }
     .textTwoExpertise {
-      width: 25vw;
-      font-size: 1rem;
-      line-height: 1.5vh;
+      width: 50vw;
+      padding-top: 2vh;
     }
-    .ctaExpertise {
-      padding-top: 39vw;
-      margin-left: -18vw;
+    .textThreeExpertise {
+      padding-top: 3vh;
+      width: 80vw;
     }
-    h2 {
-      margin-left: 0vw;
-      width: 26vw;
+    .slider {
+      height: 0vh;
     }
-    .textFunSentence {
-      width: 40vw;
-      font-size: 20px;
-    }
-    .textSentence {
-      width: 70vw;
-      margin-left: 4vh;
-      font-size: 20px;
+    .downExpertise {
+      height: 20vh;
     }
   }
 `;

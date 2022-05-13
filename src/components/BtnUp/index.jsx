@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SBtnUp from './style';
 
 export default function BtnUp() {
+  // Change state at onClick and scroll up at header
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {

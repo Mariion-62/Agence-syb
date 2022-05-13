@@ -1,5 +1,5 @@
 import HomePage from 'components/HomePage';
-import MentionLegals from 'components/MentionLegals';
+import MentionLegals from 'pages/MentionLegals';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {

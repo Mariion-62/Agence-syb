@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SCta from './style';
 
 export default function Cta() {
+  // Change state at onClick and scroll down at footer
   const [showDown, setShowDown] = useState(false);
 
   const toggleShow = () => {
