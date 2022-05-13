@@ -9,7 +9,7 @@ const HeaderClient = styled.section`
   font-family: var(--primary-font-family);
   font-size: 2.2rem;
   .titleClient {
-    width: 42vw;
+    width: 37vw;
     margin-left: 50vw;
     padding-bottom: 5vh;
   }
@@ -48,95 +48,21 @@ const HeaderClient = styled.section`
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .titleClient {
-      width: 60vw;
-      font-size: 1.9rem;
-      margin-left: 40vw;
+      width: 90vw;
       padding-top: 5vh;
-      padding-bottom: 5vh;
+      margin-left: 5vw;
     }
     .lineBlackClients {
       border-top: var(--fourth-font-color) 1px solid;
-      width: 35vw;
+      width: 70vw;
       padding-top: 5vh;
-      margin-left: 40vw;
-    }
-    .itsThem {
-      margin-left: 40vw;
-      padding-bottom: 5vh;
-      width: 50vw;
-    }
-  }
-`;
-
-const STrustFolio = styled.section`
-  margin: 10vh 0vw 15vh 0vw;
-  /*MODE MOBIL*/
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    margin: 2vh 0vw 5vh 0vw;
-  }
-  /*MODE TABLET*/
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    margin: 2vh 0vw 5vh 0vw;
-  }
-`;
-
-const SLogo = styled.div`
-  background-color: var(--fourth-bg-color);
-  .allContainerLogo {
-    display: flex;
-    flex-direction: column;
-    width: 70vw;
-    margin: 15vh 0 15vh 18vw;
-  }
-  .containerLogoFirst {
-    display: flex;
-  }
-  .containerLogoSecond {
-    display: flex;
-    margin-left: 5vw;
-  }
-  img {
-    width: 100px;
-    height: 100px;
-    padding: 2vh 2vw;
-    object-fit: contain;
-  }
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    .allContainerLogo {
-      display: flex;
-      flex-direction: row;
-      margin: 0 0 5vh 15vw;
-    }
-    .containerLogoFirst {
-      flex-direction: column;
-    }
-    .containerLogoSecond {
-      flex-direction: column;
-      margin-top: 8vh;
-    }
-  }
-  /*MODE TABLET*/
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .allContainerLogo {
-      display: flex;
-      flex-direction: column;
-      width: 90vw;
-      margin: 5vh 0 10vh 2vw;
-    }
-    .containerLogoFirst {
-      display: flex;
-    }
-    .containerLogoSecond {
-      display: flex;
       margin-left: 5vw;
     }
-    img {
-      width: 75px;
-      height: 75px;
-      padding: 2vh 2vw;
-      object-fit: contain;
+    .itsThem {
+      width: 90vw;
+      margin-left: 5vw;
     }
   }
 `;
 
-export { HeaderClient, AllClient, STrustFolio, SLogo };
+export { HeaderClient, AllClient };

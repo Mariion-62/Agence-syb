@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-const SSliderSentence = styled.section`
+const SBoxDownExpertise = styled.section`
   background-color: var(--fourth-bg-color);
   .allSentence {
     display: flex;
     font-family: var(--title-font-family);
     font-size: 5vh;
     width: 100vw;
+    height: 25vh;
   }
   .funSentence {
     width: 35vw;
@@ -30,7 +31,7 @@ const SSliderSentence = styled.section`
     text-align: right;
     font-size: 2.2rem;
     font-family: var(--fourth-font-family);
-    width: 12vw;
+    width: 13vw;
     margin-left: 4vw;
     margin-top: 5vh;
   }
@@ -45,9 +46,11 @@ const SSliderSentence = styled.section`
     line-height: 2.5vh;
   }
   .textSentenceTwo {
-    width: 20vw;
+    width: 13vw;
     font-size: 1.5rem;
-    padding-left: 0.5vw;
+    padding-left: 3vw;
+    line-height: 2.5vh;
+    word-break: normal;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -82,12 +85,12 @@ const SSliderSentence = styled.section`
       margin-bottom: 2vh;
     }
     .textSentenceDownSlider {
-      width: 70vw;
+      width: 72vw;
       font-size: 0.9rem;
       padding-top: 1vh;
     }
     .textSentenceTwo {
-      width: 60vw;
+      width: 80vw;
       padding-top: 4vh;
       font-size: 1.3rem;
       margin-left: -1.5vw;
@@ -96,44 +99,43 @@ const SSliderSentence = styled.section`
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .allSentence {
-      padding-top: 53vh;
-      margin: 0 5vw;
-      width: 80vw;
-    }
-    .funSentence {
-      padding: 0;
-      width: 20vw;
-    }
-    .textFunSentenceOne {
-      width: 30vw;
-      margin-left: -10vw;
+      flex-direction: column;
+      padding-top: 55vh;
+      margin: 0;
+      width: 100vw;
     }
     h2 {
-      width: 30vw;
-      margin-left: 20vw;
-      font-size: 1.5rem;
+      width: 80vw;
     }
-    .textSentenceDownSlider {
-      font-size: 0.7rem;
-      width: 35vw;
-      line-height: 1.8vh;
-    }
-    .textSentenceTwo {
-      width: 25vw;
-      height: 10vh;
-      font-size: 1rem;
-      margin-top: 0vh;
-      padding: 0;
-      text-align: left;
+    .contentSentence {
+      width: 40vw;
+      margin-left: 5vw;
     }
     .lineBlackDownSlider {
-      margin-left: 20vw;
+      width: 70vw;
+      padding-bottom: 2vh;
     }
     .rightBlocSentence {
-      width: 55vw;
-      margin-left: 20vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .textFunSentenceOne {
+      width: 48vw;
+      text-align: left;
+      margin-top: 2vh;
+      margin-left: -6.5vw;
+      margin-bottom: 2vh;
+    }
+    .textSentenceDownSlider {
+      width: 70vw;
+      padding-top: 1vh;
+    }
+    .textSentenceTwo {
+      width: 50vw;
+      padding-top: 4vh;
+      margin-left: -1.5vw;
     }
   }
 `;
 
-export default SSliderSentence;
+export default SBoxDownExpertise;

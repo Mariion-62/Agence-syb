@@ -1,3 +1,4 @@
+import BtnUp from 'components/BtnUp';
 import Header from 'components/Header';
 import SMentionLegals from './style';
 
@@ -216,10 +217,14 @@ export default function Mention() {
         <p className="contentMentionArticle">
           La société Shake Your Business est à votre disposition pour tous vos
           commentaires ou suggestions. Vous pouvez nous écrire en français par
-          courrier électronique à hello@syb-group.fr et utiliser notre
-          formulaire de contact du notre site web.
+          courrier électronique à{' '}
+          <a className="mailMention" href="mailto:hello@syb-group.fr">
+            hello@syb-group.fr
+          </a>{' '}
+          et utiliser notre formulaire de contact du notre site web.
         </p>
       </div>
+      <BtnUp />
     </SMentionLegals>
   );
 }

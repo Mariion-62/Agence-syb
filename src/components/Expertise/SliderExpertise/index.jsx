@@ -1,6 +1,6 @@
-import photo5 from '../../assets/photo5.jpg';
-import photo7 from '../../assets/photo7.jpg';
-import photo11 from '../../assets/photo11.jpg';
+import photo5 from '../../../assets/photo5.jpg';
+import photo7 from '../../../assets/photo7.jpg';
+import photo11 from '../../../assets/photo11.jpg';
 
 import SSlideExpert from './style';
 

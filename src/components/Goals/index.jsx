@@ -2,12 +2,10 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import SGoals from './style';
-import photo5 from '../../assets/photo5.jpg';
-import photo6 from '../../assets/photo6.jpg';
-import photo7 from '../../assets/photo7.jpg';
-import photo9 from '../../assets/photo9.jpg';
+import PellMell from './PellMell';
 
 export default function Goals() {
+  // animation for to do appear text
   useEffect(() => {
     Aos.init({
       offset: 200,
@@ -47,14 +45,19 @@ export default function Goals() {
               data-aos-duration="800"
             >
               Bâtir une marque forte, attirer plus de trafic on et offline,
-              <p>
-                générer plus de leads,engager les clients et les communautés,
-              </p>
+              générer plus de leads, engager les clients et les communautés,
               augmenter la conversion pour vendre plus et mieux.
-              <p>Ces objectifs te parlent ?</p> SYB te permet de les atteindre.
             </p>
             <p
               className="textGoalTwo"
+              data-aos="fade-up"
+              data-aos-offset="500"
+              data-aos-duration="800"
+            >
+              Ces objectifs te parlent ? SYB te permet de les atteindre.
+            </p>
+            <p
+              className="textGoalThree"
               data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
@@ -78,17 +81,7 @@ export default function Goals() {
             </a>
           </section>
         </section>
-        <section
-          className="peleMele"
-          data-aos="fade-down"
-          data-aos-offset="500"
-          data-aos-duration="800"
-        >
-          <img className="photo5" src={photo5} alt="photo5" />
-          <img className="photo6" src={photo6} alt="photo6" />
-          <img className="photo7" src={photo7} alt="photo7" />
-          <img className="photo9" src={photo9} alt="photo9" />
-        </section>
+        <PellMell />
       </section>
     </SGoals>
   );

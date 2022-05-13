@@ -23,6 +23,11 @@ const SMentionLegals = styled.section`
     font-size: 1.3rem;
     line-height: 3vh;
   }
+  .mailMention {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-font-color);
+  }
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 15%;
@@ -44,6 +49,18 @@ const SMentionLegals = styled.section`
       text-align: justify;
       font-size: 1rem;
       line-height: 3vh;
+    }
+  }
+  /*MODE TABLET */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .titleMentionPage {
+      width: 80vw;
+      margin: 5vh 5vw;
+      font-size: 2.2rem;
+    }
+    .mentionArticle {
+      width: 90vw;
+      margin: 8vh 5vw 5vh 5vw;
     }
   }
 `;

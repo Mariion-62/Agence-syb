@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 const SSlideExpert = styled.div`
+  background-color: var(--fourth-bg-color);
+  padding-top: 8vh;
+  height: 58vh;
   h1 {
     font-size: 3.1rem;
     font-family: var(--title-font-family);
@@ -139,7 +142,6 @@ const SSlideExpert = styled.div`
     transform: rotate(-90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-x: hidden;
-    margin-top: 4%;
   }
 
   /* MODE MOBILE*/
@@ -260,12 +262,19 @@ const SSlideExpert = styled.div`
       margin-bottom: 2vh;
       &:hover {
         animation: none;
+        h1 {
+          width: 45vw;
+          padding: 5vh 0;
+        }
+        img {
+          opacity: 0.2;
+        }
         .firstTextExpert,
         .secondTextExpert,
         .thirdTextExpert {
-          animation: none;
-        }
-        h1 {
+          opacity: 1;
+          width: 75vw;
+          height: 2vh;
           animation: none;
         }
       }

@@ -10,22 +10,6 @@ const TitleMethods = styled.h2`
     display: flex;
     flex-direction: column;
   }
-  .allTitleMethods {
-    display: flex;
-    margin-bottom: 2vh;
-    margin-top: -13vh;
-  }
-  .lineWhiteMethods {
-    border-top: var(--fourth-font-color) 1px solid;
-    width: 35vw;
-    padding-top: 5vh;
-    margin-left: 50vw;
-  }
-  .titleMethods {
-    font-size: 2.2rem;
-    margin-left: 50vw;
-    font-family: var(--title-font-family);
-  }
   .subTitleMethods {
     font-size: 2.2rem;
     width: 15vw;
@@ -33,35 +17,44 @@ const TitleMethods = styled.h2`
     margin-left: 20vw;
     margin-top: 10vh;
   }
+  .allTitleMethods {
+    display: flex;
+    margin-bottom: 2vh;
+    margin-top: -13vh;
+  }
+  .titleMethods {
+    font-size: 2.2rem;
+    margin-left: 50vw;
+    font-family: var(--title-font-family);
+  }
+  .lineWhiteMethods {
+    border-top: var(--fourth-font-color) 1px solid;
+    width: 35vw;
+    padding-top: 5vh;
+    margin-left: 50vw;
+  }
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 15%;
-    .lineWhiteMethods {
-      border-top: var(--fourth-font-color) 1px solid;
-      width: 70vw;
-      padding-top: 5vh;
+    .subTitleMethods {
+      font-size: 1.2rem;
+      width: 60vw;
       margin-left: 5vw;
     }
     .titleMethods {
       font-size: 1.5rem;
       margin-left: 5vw;
-      padding-bottom: 20px;
       width: 45vw;
     }
-    .subTitleMethods {
-      font-size: 1.2rem;
-      width: 40vw;
-      margin-left: 5vw;
-    }
-  }
-  /*MODE TABLET*/
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
     .lineWhiteMethods {
       border-top: var(--fourth-font-color) 1px solid;
       width: 70vw;
       padding-top: 5vh;
       margin-left: 5vw;
     }
+  }
+  /*MODE TABLET*/
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     .titleMethods {
       font-size: 2rem;
       margin-left: 5vw;
@@ -70,6 +63,12 @@ const TitleMethods = styled.h2`
     .subTitleMethods {
       font-size: 1.5rem;
       width: 40vw;
+      margin-left: 5vw;
+    }
+    .lineWhiteMethods {
+      border-top: var(--fourth-font-color) 1px solid;
+      width: 70vw;
+      padding-top: 5vh;
       margin-left: 5vw;
     }
   }
@@ -100,13 +99,14 @@ const SSlideMethods = styled.div`
     font-family: var(--title-font-family);
   }
   .contentMethods {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     margin: 3vh 6vw;
     width: 25vw;
     height: 20vh;
     transition: 700ms;
     font-family: var(--primary-font-family);
+    word-break: normal;
     overflow: hidden;
   }
   .imgBox {
@@ -144,18 +144,18 @@ const SSlideMethods = styled.div`
     .boxMethods {
       cursor: pointer;
     }
-    .contentMethods {
-      opacity: 0;
-    }
     .titleBox {
       margin: 3vh 4vw;
       text-align: center;
     }
-    .btnMethod {
-      display: none;
+    .contentMethods {
+      opacity: 0;
     }
     .imgBox {
       margin-top: -13vh;
+    }
+    .btnMethod {
+      display: none;
     }
   }
 
@@ -209,15 +209,15 @@ const SSlideMethods = styled.div`
         cursor: pointer;
         width: 2vw;
       }
-      .contentMethods {
-        opacity: 0;
-      }
       .titleBox {
         width: 5vw;
         font-size: 1.5rem;
         text-align: center;
         writing-mode: vertical-rl;
         text-orientation: upright;
+      }
+      .contentMethods {
+        opacity: 0;
       }
       .imgBox {
         display: none;
@@ -274,9 +274,6 @@ const SSlideMethods = styled.div`
         cursor: pointer;
         width: 2vw;
       }
-      .contentMethods {
-        opacity: 0;
-      }
       .titleBox {
         width: 5vw;
         margin: 0 1vw;
@@ -284,6 +281,9 @@ const SSlideMethods = styled.div`
         text-align: center;
         writing-mode: vertical-rl;
         text-orientation: upright;
+      }
+      .contentMethods {
+        opacity: 0;
       }
       .imgBox {
         display: none;
