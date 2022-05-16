@@ -13,7 +13,7 @@ const SHook = styled.div`
     margin-left: 50vw;
   }
   .textHook {
-    width: 30vw;
+    width: 35vw;
     font-family: var(--primary-font-family);
     font-size: 1.5rem;
     margin-left: 50vw;
@@ -21,6 +21,10 @@ const SHook = styled.div`
   .video {
     padding-top: 10vh;
     padding-bottom: 20vh;
+  }
+  span.bolder {
+    color: var(--secondary-font-color);
+    font-weight: bolder;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {

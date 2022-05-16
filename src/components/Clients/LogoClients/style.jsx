@@ -6,7 +6,7 @@ const SLogo = styled.div`
     display: flex;
     flex-direction: column;
     width: 70vw;
-    margin: 15vh 0 15vh 18vw;
+    margin: 5vh 0 5vh 18vw;
   }
   .containerLogoFirst {
     display: flex;

@@ -24,7 +24,7 @@ export default function ContactUs() {
                   <div
                     className="iconInsta"
                     data-aos="fade-up"
-                    data-aos-offset="500"
+                    data-aos-offset="200"
                     data-aos-duration="800"
                   >
                     <IoLogoInstagram size={40} />
@@ -38,7 +38,7 @@ export default function ContactUs() {
                   <div
                     className="iconLinkedIn"
                     data-aos="fade-up"
-                    data-aos-offset="500"
+                    data-aos-offset="200"
                     data-aos-duration="800"
                   >
                     <IoLogoLinkedin size={40} />
@@ -50,7 +50,7 @@ export default function ContactUs() {
             <div
               className="iconArrow"
               data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="200"
               data-aos-duration="800"
             >
               <IoArrowForwardCircleOutline size={25} />
@@ -66,7 +66,7 @@ export default function ContactUs() {
               <div
                 className="iconPhone"
                 data-aos="fade-up"
-                data-aos-offset="500"
+                data-aos-offset="200"
                 data-aos-duration="800"
               >
                 <IoCallOutline size={40} />
@@ -76,7 +76,7 @@ export default function ContactUs() {
             <div
               data-aos="fade-up"
               className="iconArrow"
-              data-aos-offset="500"
+              data-aos-offset="200"
               data-aos-duration="800"
             >
               <IoArrowForwardCircleOutline size={25} />
@@ -92,7 +92,7 @@ export default function ContactUs() {
               <div
                 className="iconAdresse"
                 data-aos="fade-up"
-                data-aos-offset="500"
+                data-aos-offset="200"
                 data-aos-duration="800"
               >
                 <IoLocationSharp size={40} />
@@ -105,7 +105,7 @@ export default function ContactUs() {
             <div
               className="iconArrow"
               data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="200"
               data-aos-duration="800"
             >
               <IoArrowForwardCircleOutline size={25} />
@@ -116,7 +116,7 @@ export default function ContactUs() {
               <div
                 className="iconMail"
                 data-aos="fade-up"
-                data-aos-offset="500"
+                data-aos-offset="200"
                 data-aos-duration="800"
               >
                 <IoMail size={40} />
@@ -127,7 +127,7 @@ export default function ContactUs() {
             <div
               className="iconArrow"
               data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="200"
               data-aos-duration="800"
             >
               <IoArrowForwardCircleOutline size={25} />

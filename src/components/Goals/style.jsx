@@ -18,12 +18,14 @@ const SGoals = styled.section`
     width: 25vw;
     height: 6vh;
     font-family: var(--title-font-family);
-    margin-left: 32vh;
+    margin-left: 11vh;
     margin-top: 5vh;
   }
   .textFun {
     font-size: 2.2rem;
+    margin-top: 1.6vh;
     margin-left: 5vw;
+    text-align: right;
   }
   .rightGoals {
     margin-left: 50vw;
@@ -47,17 +49,24 @@ const SGoals = styled.section`
     line-height: 2.5vh;
     word-break: normal;
   }
-  .textGoalTwo {
+  .listGoal {
+    padding: 2vh 0;
+    height: 3vh;
     width: 27vw;
+    border-bottom: 1px solid white;
+  }
+  .textGoalTwo {
+    width: 30vw;
     font-family: var(--title-font-family);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: left;
     line-height: 2.5vh;
+    padding-top: 5vh;
     word-break: normal;
   }
   .textGoalThree {
     width: 40vw;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding-top: 5vh;
     text-align: left;
     line-height: 2.5vh;

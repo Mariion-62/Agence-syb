@@ -79,7 +79,7 @@ export default function Methods() {
           <h2
             className="subTitleMethods"
             data-aos="fade-up"
-            data-aos-offset="500"
+            data-aos-offset="200"
             data-aos-duration="800"
           >
             Une mécanique bien huilée
@@ -87,7 +87,7 @@ export default function Methods() {
           <div
             className="allTitleMethods"
             data-aos="fade-up"
-            data-aos-offset="500"
+            data-aos-offset="200"
             data-aos-duration="800"
           >
             <p className="titleMethods">Notre méthode</p>
@@ -99,7 +99,7 @@ export default function Methods() {
         <section
           className="containerBox"
           data-aos="fade-up"
-          data-aos-offset="500"
+          data-aos-offset="200"
           data-aos-duration="800"
         >
           {dataMethods.map((method) => (

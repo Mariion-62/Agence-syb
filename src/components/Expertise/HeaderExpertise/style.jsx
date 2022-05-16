@@ -46,7 +46,7 @@ const SExpertise = styled.section`
   }
   .leftExpertise {
     color: black;
-    width: 39vw;
+    width: 45vw;
     margin-left: -15vw;
     margin-top: 8vh;
   }
@@ -61,11 +61,12 @@ const SExpertise = styled.section`
     line-height: 2.5vh;
   }
   .textOneExpertise {
-    width: 23vw;
+    width: 20vw;
+    margin-right: 5vw;
     font-size: 1.1rem;
   }
   .textTwoExpertise {
-    width: 15vw;
+    width: 16vw;
     font-size: 1.5rem;
   }
   .textThreeExpertise {

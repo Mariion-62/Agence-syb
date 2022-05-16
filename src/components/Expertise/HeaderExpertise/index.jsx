@@ -35,24 +35,16 @@ export default function HeaderExpertise() {
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
-                <p>Tu es au bon endroit. Ici c’est moins</p>
-                <p>de blabla, plus de résultats.</p>
-                <p>Notre équipe de Shakers t’écoute,</p>
-                <p> t’accompagne et actionne</p>
-                les bons leviers de la communication,
-                <p>du marketing et du commerce.</p>
-                <p>Chacun d’entre nous a son petit dada.</p>
-                <p>
-                  De la stratégie à l’opérationnel, nous intervenons sur tes
-                  problématiques de prospection, fidélisation, activation,
-                  transformation
-                  <p>et d’autres trucs qui se finissent en “ion”.</p>
-                </p>
-                <p>Toi tu gères ton business, nous on s’occupe du reste.</p>
-                <p>
-                  On bosse ensemble et on crée un cercle vertueux pour
-                  démultiplier l’effet de nos actions.
-                </p>
+                Tu es au bon endroit. Ici c’est moins de blabla, plus de
+                résultats. Notre équipe de Shakers t’écoute, t’accompagne et
+                actionne les bons leviers de la communication, du marketing et
+                du commerce. Chacun d’entre nous a son petit dada. De la
+                stratégie à l’opérationnel, nous intervenons sur tes
+                problématiques de prospection, fidélisation, activation,
+                transformation et d’autres trucs qui se finissent en “ion”. Toi
+                tu gères ton business, nous on s’occupe du reste. On bosse
+                ensemble et on crée un cercle vertueux pour démultiplier l’effet
+                de nos actions.
               </p>
               <p
                 className="textTwoExpertise"
@@ -60,7 +52,7 @@ export default function HeaderExpertise() {
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
-                Et si SYB devenait le nouveau partenaire de ta réussite ?
+                Et si SYB devenait le partenaire de ta réussite ?
                 <p className="textThreeExpertise">
                   Viens voir de quoi on est capable.
                 </p>
