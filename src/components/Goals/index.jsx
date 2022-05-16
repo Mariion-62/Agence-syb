@@ -38,20 +38,25 @@ export default function Goals() {
               Tes objectifs
             </h2>
             <div className="lineWhiteGoalsText" />
-            <p
+            <ul
               className="textGoal"
               data-aos="fade-up"
               data-aos-offset="500"
               data-aos-duration="800"
             >
-              Bâtir une marque forte, attirer plus de trafic on et offline,
-              générer plus de leads, engager les clients et les communautés,
-              augmenter la conversion pour vendre plus et mieux.
-            </p>
+              <li className="listGoal">Bâtir une marque forte</li>
+              <li className="listGoal">Attirer plus de trafic on et offline</li>
+              <li className="listGoal">Générer plus de leads</li>
+              <li className="listGoal">Engager les clients</li>
+              <li className="listGoal">Construire les communautés</li>
+              <li className="listGoal">
+                Augmenter la conversion pour vendre plus et mieux.
+              </li>
+            </ul>
             <p
               className="textGoalTwo"
               data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="800"
             >
               Ces objectifs te parlent ? SYB te permet de les atteindre.
@@ -59,7 +64,7 @@ export default function Goals() {
             <p
               className="textGoalThree"
               data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="800"
             >
               Et si on commençait par discuter de tes objectifs et de ROI ?
@@ -73,7 +78,7 @@ export default function Goals() {
                 className="btnMeet"
                 type="button"
                 data-aos="fade-up"
-                data-aos-offset="500"
+                data-aos-offset="100"
                 data-aos-duration="800"
               >
                 Viens nous rencontrer

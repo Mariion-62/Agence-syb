@@ -15,7 +15,7 @@ const SBoxDownExpertise = styled.section`
   }
   .contentSentence {
     width: 40vw;
-    margin-left: -3vw;
+    margin-left: 3vw;
   }
   h2 {
     width: 20vw;
@@ -31,9 +31,9 @@ const SBoxDownExpertise = styled.section`
     text-align: right;
     font-size: 2.2rem;
     font-family: var(--fourth-font-family);
-    width: 13vw;
+    width: 15vw;
     margin-left: 4vw;
-    margin-top: 5vh;
+    margin-top: 5.6vh;
   }
   .rightBlocSentence {
     display: flex;

@@ -20,7 +20,7 @@ export default function LogoClients() {
         <div
           className="containerLogoFirst"
           data-aos="fade-up"
-          data-aos-offset="500"
+          data-aos-offset="50"
           data-aos-duration="800"
         >
           <div>
@@ -48,7 +48,7 @@ export default function LogoClients() {
         <div
           className="containerLogoSecond"
           data-aos="fade-up"
-          data-aos-offset="500"
+          data-aos-offset="50"
           data-aos-duration="800"
         >
           <div>

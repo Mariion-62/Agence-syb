@@ -22,6 +22,7 @@ const SSlideExpert = styled.div`
     padding-left: 2vh;
     opacity: 0;
     z-index: 1;
+    font-family: var(--title-font-family);
   }
   .contentStrat,
   .contentCrea,
@@ -290,9 +291,6 @@ const SSlideExpert = styled.div`
       height: 40vh;
       transform: rotate(0deg) translateX(0vh);
     }
-  }
-  /*MODE MAC*/
-  @media screen and (min-width: 1440px) {
   }
 `;
 

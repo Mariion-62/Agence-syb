@@ -24,7 +24,7 @@ export default function Client() {
           <h2
             className="titleClient"
             data-aos="fade-up"
-            data-aos-offset="500"
+            data-aos-offset="200"
             data-aos-duration="800"
           >
             B2B / B2C, s’ils nous font confiance, pourquoi pas toi ?
@@ -34,7 +34,7 @@ export default function Client() {
           <h2
             className="itsThem"
             data-aos="fade-up"
-            data-aos-offset="500"
+            data-aos-offset="200"
             data-aos-duration="800"
           >
             C’est eux qui le disent…

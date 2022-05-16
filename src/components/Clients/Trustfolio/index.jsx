@@ -5,7 +5,7 @@ export default function Trustfolio() {
   return (
     <STrustFolio
       data-aos="fade-up"
-      data-aos-offset="500"
+      data-aos-offset="50"
       data-aos-duration="800"
     >
       <a
