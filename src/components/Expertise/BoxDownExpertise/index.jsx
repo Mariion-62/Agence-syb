@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
-import SBoxDownExpertise from './style';
 import 'aos/dist/aos.css';
+import SBoxDownExpertise from './style';
 
 export default function BoxDownExpertise() {
   useEffect(() => {
@@ -30,7 +30,6 @@ export default function BoxDownExpertise() {
           </div>
           <div className="contentSentence">
             <h2
-              id="titleSentenceFirst"
               classeName="firstTitleSentence"
               data-aos="fade-up"
               data-aos-offset="200"

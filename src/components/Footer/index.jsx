@@ -32,7 +32,8 @@ export default function Footer() {
           >
             <h1 className="titleContact">Contact</h1>
             <p className="textFunFooterOne">
-              Appelle-nous, rencontre-nous, viens nous serrer la pince !
+              Appelle-nous, <br />
+              rencontre-nous, <br /> viens nous serrer la pince !
             </p>
           </section>
           <div className="footerLineText">
@@ -44,8 +45,8 @@ export default function Footer() {
               data-aos-duration="800"
             >
               On adore papoter et encore plus quand c’est pour parler
-              performance et business. Viens nous tester, nous briefer, nous
-              challenger.
+              performance et business. <br />
+              Viens nous tester, nous briefer, nous challenger.
             </p>
           </div>
         </section>

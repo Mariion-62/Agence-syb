@@ -52,10 +52,8 @@ export default function HeaderExpertise() {
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
-                Et si SYB devenait le partenaire de ta réussite ?
-                <p className="textThreeExpertise">
-                  Viens voir de quoi on est capable.
-                </p>
+                Et si SYB devenait le partenaire de ta réussite ? <br />
+                Viens voir de quoi on est capable.
               </p>
             </div>
           </section>

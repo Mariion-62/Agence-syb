@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SSlideExpert = styled.div`
+const SSlideExpert = styled.section`
   background-color: var(--fourth-bg-color);
   padding-top: 8vh;
   height: 58vh;
