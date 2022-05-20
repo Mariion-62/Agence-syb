@@ -44,16 +44,19 @@ const SGoals = styled.section`
   .textGoal {
     width: 27vw;
     font-family: var(--title-font-family);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: left;
     line-height: 2.5vh;
-    word-break: normal;
   }
   .listGoal {
-    padding: 2vh 0;
+    padding: 2vh 2vw;
     height: 3vh;
     width: 27vw;
-    border-bottom: 1px solid white;
+    display: flex;
+  }
+  .target {
+    padding-right: 2vw;
+    padding-top: 0.1vh;
   }
   .textGoalTwo {
     width: 30vw;
@@ -80,12 +83,26 @@ const SGoals = styled.section`
     background-color: var(--secondary-bg-color);
     color: var(--fourth-font-color);
     border: none;
+    border-radius: 100px 0px 100px 0px;
     cursor: pointer;
+    transition: 200ms;
+    opacity: 1;
     &:hover {
       background-color: var(--fourth-bg-color);
       color: var(--fourth-font-color);
+      border-radius: 0px 100px 0px 100px;
+      transition: 300ms;
+      opacity: 0;
+      .ctaGoals {
+        opacity: 1;
+      }
     }
   }
+  .ctaGoals {
+    background-color: white;
+    opacity: 0;
+  }
+
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
     height: 110vh;

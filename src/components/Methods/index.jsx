@@ -111,23 +111,25 @@ export default function Methods() {
             >
               <h1 className="titleBox">{method.title}</h1>
               <p className="contentMethods">
-                {method.contentOne} <p>{method.contentTwo}</p>
-                <p>{method.contentThree}</p>
-                <p>{method.contentFour}</p>
+                {method.contentOne} <br />
+                {method.contentTwo}
+                <br />
+                {method.contentThree} <br />
+                {method.contentFour}
               </p>
               <img
                 className="imgBox"
                 src={method.picture}
                 alt={`${method.picture}`}
               />
+
               <a
+                className="btnMethod"
                 href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
                 target="_blank"
                 rel="noreferrer"
               >
-                <button type="button" className="btnMethod">
-                  {method.button}
-                </button>
+                {method.button}{' '}
               </a>
             </button>
           ))}
