@@ -28,7 +28,7 @@ const SFooter = styled.section`
     font-size: 2.2rem;
     height: 15vh;
     margin-left: 2.5vw;
-    width: 18.4vw;
+    width: 22vw;
     word-break: normal;
   }
   .footerLineText {
@@ -41,7 +41,7 @@ const SFooter = styled.section`
     padding-top: 5vh;
   }
   .textFooterOne {
-    width: 22vw;
+    width: 35vw;
     font-size: 1rem;
     text-align: left;
     line-height: 2.5vh;

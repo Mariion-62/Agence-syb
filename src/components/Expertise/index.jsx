@@ -1,8 +1,8 @@
 import SliderExpertise from 'components/Expertise/SliderExpertise';
 import BoxDownExpertise from 'components/Expertise/BoxDownExpertise';
+import HeaderExpertise from 'components/Expertise/HeaderExpertise';
 import { useEffect } from 'react';
 import Aos from 'aos';
-import HeaderExpertise from './HeaderExpertise';
 import 'aos/dist/aos.css';
 
 export default function Expertise() {

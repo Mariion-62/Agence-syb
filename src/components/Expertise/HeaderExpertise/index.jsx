@@ -55,6 +55,7 @@ export default function HeaderExpertise() {
                 On bosse ensemble et on crée un cercle vertueux pour
                 démultiplier l’effet de nos actions.
               </p>
+
               <div>
                 <p
                   className="textTwoExpertise"
@@ -73,6 +74,7 @@ export default function HeaderExpertise() {
                   Viens voir de quoi on est capable.
                 </p>
               </div>
+
             </div>
           </section>
         </div>

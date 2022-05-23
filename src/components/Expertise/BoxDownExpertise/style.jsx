@@ -17,9 +17,11 @@ const SBoxDownExpertise = styled.section`
     width: 40vw;
     margin-left: 3vw;
   }
-  h2 {
-    width: 22vw;
-    font-size: 2rem;
+
+  .firstTitleSentence {
+    width: 20vw;
+    font-size: 2.2rem;
+
     padding-bottom: 2vh;
   }
   .lineBlackDownSlider {

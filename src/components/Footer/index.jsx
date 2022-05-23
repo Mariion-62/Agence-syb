@@ -20,8 +20,10 @@ export default function Footer() {
   }, []);
 
   return (
+
     <>
       <HeaderFooter />
+
       <ContactUs />
       <Seo />
       <DownFooter />

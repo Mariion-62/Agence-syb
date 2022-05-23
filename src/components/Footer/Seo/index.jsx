@@ -18,7 +18,9 @@ export default function Seo() {
           <span className="bolder">création de site web</span> à Lille.
         </p>
         <p className="textFooterThree">
+
           Curieux de savoir si cette phrase sert notre référencement naturel ?
+
           <br />
           <a href="tel:+0622174495" target="_blank" rel="noreferrer">
             Appelle-nous.

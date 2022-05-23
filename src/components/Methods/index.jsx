@@ -112,11 +112,13 @@ export default function Methods() {
             >
               <h1 className="titleBox">{method.title}</h1>
               <p className="contentMethods">
+
                 {method.contentOne}
                 <br /> {method.contentTwo}
                 <br />
                 {method.contentThree}
                 <br />
+
                 {method.contentFour}
               </p>
               <img
@@ -124,6 +126,7 @@ export default function Methods() {
                 src={method.picture}
                 alt={`${method.picture}`}
               />
+
               <button type="button" className="btnMethod">
                 <a
                   href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
@@ -133,6 +136,7 @@ export default function Methods() {
                   {method.button}
                 </a>
               </button>
+
             </button>
           ))}
         </section>

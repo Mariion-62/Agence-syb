@@ -46,19 +46,20 @@ const SGoals = styled.section`
   .textGoal {
     width: 27vw;
     font-family: var(--title-font-family);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: left;
     line-height: 2.5vh;
-    word-break: normal;
   }
   .listGoal {
     padding: 2vh 2vw;
     height: 3vh;
+
     width: 35vw;
     display: flex;
   }
   .iconTarget {
     padding-right: 1vw;
+
   }
   .textGoalTwo {
     width: 38vw;
@@ -84,13 +85,17 @@ const SGoals = styled.section`
     margin: 5vh 0;
     background-color: var(--secondary-bg-color);
     border: none;
+    border-radius: 100px 0px 100px 0px;
     cursor: pointer;
+
     border-radius: 100px 0px 100px 0px;
     transition: 200ms;
+
     &:hover {
       background-color: var(--fourth-bg-color);
       color: var(--fourth-font-color);
       border-radius: 0px 100px 0px 100px;
+
       transition: 200ms;
     }
     a {
@@ -102,6 +107,7 @@ const SGoals = styled.section`
     color: var(--secondary-font-color);
     font-weight: bolder;
   }
+
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
     height: 150vh;
