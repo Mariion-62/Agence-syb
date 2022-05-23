@@ -26,13 +26,13 @@ const SExpertise = styled.section`
   }
   .ctaExpertise {
     height: 20%;
-    padding-top: 40vh;
-    margin-left: -13vw;
+    padding-top: 42vh;
+    margin-left: -14vw;
   }
   .firstTitleExpertise {
     width: 15vw;
     height: 5vh;
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: 25vw;
   }
   .titleExpertise {
@@ -40,7 +40,7 @@ const SExpertise = styled.section`
     margin-top: 2vh;
     margin-left: -14vw;
     z-index: 1;
-    font-size: 2.5em;
+    font-size: 2rem;
     text-align: right;
     word-break: normal;
   }
@@ -61,16 +61,18 @@ const SExpertise = styled.section`
     line-height: 2.5vh;
   }
   .textOneExpertise {
-    width: 20vw;
-    margin-right: 5vw;
-    font-size: 1.1rem;
+    width: 19vw;
+    margin-right: 2.5vw;
+    font-size: 1rem;
+  }
+  .bolder {
+    color: var(--secondary-font-color);
+    font-weight: bolder;
   }
   .textTwoExpertise {
-    width: 16vw;
-    font-size: 1.5rem;
-  }
-  .textThreeExpertise {
-    padding-top: 3vh;
+    width: 18vw;
+    font-size: 1.3rem;
+    padding-bottom: 3vh;
   }
   .slider {
     height: 60vh;
@@ -82,7 +84,7 @@ const SExpertise = styled.section`
   @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 3vh;
     .expertise {
-      height: 240vh;
+      height: 115vh;
     }
     .blocExpertise {
       flex-direction: column;
@@ -125,7 +127,7 @@ const SExpertise = styled.section`
       flex-direction: column;
     }
     .textOneExpertise {
-      width: 90vw;
+      width: 95vw;
       font-size: 0.9rem;
     }
     .textTwoExpertise {
@@ -148,7 +150,7 @@ const SExpertise = styled.section`
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     padding-top: 3vh;
     .expertise {
-      height: 240vh;
+      height: 135vh;
     }
     .blocExpertise {
       flex-direction: column;

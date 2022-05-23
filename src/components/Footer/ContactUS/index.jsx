@@ -100,9 +100,9 @@ export default function ContactUs() {
               <h3 className="titleAdresse">On est ici !</h3>
               <p className="place">
                 Plaine Images,
-                <br />
-                99 A Bd Constantin Descat, <br />
-                59200 Tourcoing
+                <br /> 99 A Bd Constantin Descat,
+                <br /> 59200 Tourcoing
+
               </p>
             </div>
             <div

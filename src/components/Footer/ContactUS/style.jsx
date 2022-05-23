@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const SContactUs = styled.section`
+  font-family: var(--primary-font-family);
   .blocRightFooter {
     width: 80vw;
     height: 80vh;
@@ -70,7 +71,7 @@ const SContactUs = styled.section`
     color: var(--primary-font-color);
   }
   .iconLinkedIn {
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-left: 1.2vw;
     color: var(--primary-font-color);
     &:hover {
@@ -78,7 +79,7 @@ const SContactUs = styled.section`
     }
   }
   .iconMail {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 2vh;
     padding-left: 1.5vw;
     &:hover {
@@ -87,7 +88,7 @@ const SContactUs = styled.section`
   }
   .iconInsta,
   .iconPhone {
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-left: 1.5vw;
     color: var(--primary-font-color);
     &:hover {
@@ -95,14 +96,14 @@ const SContactUs = styled.section`
     }
   }
   .iconAdresse {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-left: 1.5vw;
     &:hover {
       color: var(--secondary-bg-color);
     }
   }
   .iconArrow {
-    padding-top: 25vh;
+    padding-top: 28vh;
     padding-right: 1.5vw;
     &:hover {
       color: var(--secondary-bg-color);
@@ -125,16 +126,13 @@ const SContactUs = styled.section`
   .email {
     padding-top: 2vh;
     padding-left: 1.7vw;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .place {
     padding-top: 1.5vh;
-  }
-  .place,
-  .street,
-  .city {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-left: 2vw;
+    line-height: 2vh;
   }
   /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -198,7 +196,7 @@ const SContactUs = styled.section`
       height: 29vh;
     }
     .iconLinkedIn {
-      padding-top: 5vh;
+      padding-top: 8vh;
     }
     .iconMail {
       padding-top: 5vh;
@@ -206,7 +204,7 @@ const SContactUs = styled.section`
     }
     .iconInsta,
     .iconPhone {
-      padding-top: 5vh;
+      padding-top: 8vh;
     }
     .iconAdresse {
       padding-top: 5vh;

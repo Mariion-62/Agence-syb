@@ -13,18 +13,25 @@ export default function Mention() {
         <h3 className="titleMentionArticle">Éditeur du Site</h3>
         <p className="contentMentionArticle">
           SYB GROUP – Shake Your Business
-          <p>59 rue de l’union 59200 Tourcoing France</p>
-          <p>Capital social de 3 000 Euros</p> Immatriculation RCS de Lille : B
-          811 346 188 <p>Directeur de la publication : Maxime Porte</p>
+          <br />
+          59 rue de l’union 59200 Tourcoing France
+          <br />
+          Capital social de 3 000 Euros
+          <br /> Immatriculation RCS de Lille : B 811 346 188 <br />
+          Directeur de la publication : Maxime Porte
         </p>
       </div>
       <div className="mentionArticle">
         <h3 className="titleMentionArticle">Hébergeur du Site</h3>
         <p className="contentMentionArticle">
-          OVH <p>SAS au capital de 10 069 020 €</p>{' '}
-          <p>RCS Lille Métropole 424 761 419 00045 </p>N° TVA : FR 22 424 761
-          419 Code <p>APE 2620Z</p>
-          <p>Siège social : 2 rue Kellermann – 59100 Roubaix – France</p>
+          LINADSYS, société par actions simplifiée, au capital variable de
+          400,00 €, <br />
+          dont le siège social est situé au 32 pl de la gare, 59800 LILLE,
+          <br />
+          immatriculée au Registre du Commerce et des Sociétés de Lille
+          Metropole sous le numéro 821 402 781 <br />
+          représentée par M Mickael FOURNEAUX agissant et ayant les pouvoirs
+          nécessaires en tant que président.
         </p>
       </div>
       <div className="mentionArticle">

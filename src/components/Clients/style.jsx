@@ -7,7 +7,7 @@ const HeaderClient = styled.section`
   background-color: var(--fourth-bg-color);
   color: var(--fourth-font-color);
   font-family: var(--primary-font-family);
-  font-size: 2.2rem;
+  font-size: 2rem;
   .titleClient {
     width: 37vw;
     margin-left: 50vw;
@@ -22,7 +22,7 @@ const HeaderClient = styled.section`
   .itsThem {
     margin-left: 50vw;
     padding-bottom: 5vh;
-    width: 20vw;
+    width: 25vw;
   }
 
   /* MODE MOBIL */

@@ -5,7 +5,7 @@ const SHook = styled.div`
   color: var(--primary-font-color);
   display: flex;
   justify-content: center;
-  height: 140vh;
+  height: 142vh;
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
@@ -15,7 +15,7 @@ const SHook = styled.div`
   .textHook {
     width: 35vw;
     font-family: var(--primary-font-family);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 50vw;
   }
   .video {
@@ -38,7 +38,7 @@ const SHook = styled.div`
     }
     .textHook {
       font-size: 18px;
-      width: 70vw;
+      width: 72vw;
       margin: 0vh 0 0 5vw;
     }
     .video {
@@ -59,16 +59,13 @@ const SHook = styled.div`
     }
     .textHook {
       font-size: 18px;
-      width: 70vw;
+      width: 54vw;
       margin: 0vh 0 0 5vw;
     }
     .video {
       padding-top: 2vh;
       padding-bottom: 5vh;
     }
-  }
-  /*MODE DESKTOP MAC*/
-  @media screen and (min-width: 1440px) {
   }
 `;
 export default SHook;

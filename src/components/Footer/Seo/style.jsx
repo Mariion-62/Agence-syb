@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
 const SSeo = styled.section`
+  color: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   a {
     text-decoration: none;
     cursor: pointer;
     color: var(--primary-font-color);
   }
   .textFunFooterTwo {
-    font-size: 2.2rem;
-    width: 25vw;
-    margin-left: 15vw;
-    margin-top: -5vh;
+    font-size: 2rem;
+    width: 26vw;
+    margin-left: 8vw;
+    margin-top: -10vh;
+    text-align: right;
   }
   .textFooterTwo {
     width: 31vw;
@@ -24,13 +27,17 @@ const SSeo = styled.section`
     word-break: normal;
   }
   .textFooterThree {
-    width: 31vw;
+    width: 35vw;
     margin-left: 50vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 2.5vh;
     padding-bottom: 1vh;
     padding-top: 2vh;
     word-break: normal;
+  }
+  .bolder {
+    color: var(--secondary-font-color);
+    font-weight: bolder;
   }
   /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {

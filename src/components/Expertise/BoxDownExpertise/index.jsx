@@ -25,7 +25,8 @@ export default function BoxDownExpertise() {
               data-aos-offset="200"
               data-aos-duration="800"
             >
-              Promis, l’équipe est cool !
+              Promis, <br />
+              l’équipe est cool !
             </p>
           </div>
           <div className="contentSentence">
