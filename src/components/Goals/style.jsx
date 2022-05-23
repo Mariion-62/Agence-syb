@@ -15,17 +15,19 @@ const SGoals = styled.section`
   }
   .containerTitleGoal {
     display: flex;
-    width: 25vw;
+    width: 30vw;
     height: 6vh;
     font-family: var(--title-font-family);
     margin-left: 11vh;
     margin-top: 5vh;
   }
   .textFun {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 1.6vh;
     margin-left: 5vw;
     text-align: right;
+    width: 30vw;
+    height: 8vh;
   }
   .rightGoals {
     margin-left: 50vw;
@@ -33,7 +35,7 @@ const SGoals = styled.section`
     margin-top: -10vh;
   }
   .titleGoal {
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-bottom: 2vh;
   }
   .lineWhiteGoalsText {
@@ -50,13 +52,16 @@ const SGoals = styled.section`
     word-break: normal;
   }
   .listGoal {
-    padding: 2vh 0;
+    padding: 2vh 2vw;
     height: 3vh;
-    width: 27vw;
-    border-bottom: 1px solid white;
+    width: 35vw;
+    display: flex;
+  }
+  .iconTarget {
+    padding-right: 1vw;
   }
   .textGoalTwo {
-    width: 30vw;
+    width: 38vw;
     font-family: var(--title-font-family);
     font-size: 1.3rem;
     text-align: left;
@@ -74,21 +79,32 @@ const SGoals = styled.section`
   .btnMeet {
     font-family: var(--primary-font-family);
     font-size: 1rem;
-    width: 10vw;
+    width: 15vw;
     height: 3vh;
-    margin-top: 7vh;
+    margin: 5vh 0;
     background-color: var(--secondary-bg-color);
-    color: var(--fourth-font-color);
     border: none;
     cursor: pointer;
+    border-radius: 100px 0px 100px 0px;
+    transition: 200ms;
     &:hover {
       background-color: var(--fourth-bg-color);
       color: var(--fourth-font-color);
+      border-radius: 0px 100px 0px 100px;
+      transition: 200ms;
     }
+    a {
+      text-decoration: none;
+      color: var(--fourth-font-color);
+    }
+  }
+  .bolder {
+    color: var(--secondary-font-color);
+    font-weight: bolder;
   }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
-    height: 110vh;
+    height: 150vh;
     .blocGoal {
       display: flex;
       flex-direction: column;
@@ -102,10 +118,11 @@ const SGoals = styled.section`
       margin-left: 2.5vw;
     }
     .textFun {
-      width: 50vw;
+      width: 70vw;
       margin-left: 2.5vw;
       margin-top: 3vh;
       font-size: 20px;
+      text-align: left;
     }
     .rightGoals {
       width: 70vw;
@@ -123,6 +140,13 @@ const SGoals = styled.section`
       width: 64vw;
       font-size: 0.9rem;
       margin-top: 8vh;
+    }
+    .listGoal {
+      width: 93vw;
+      padding: 2vh 0vw;
+    }
+    .iconTarget {
+      padding-right: 2vw;
     }
     .textGoalTwo {
       width: 90vw;
@@ -143,7 +167,7 @@ const SGoals = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    height: 110vh;
+    height: 140vh;
     .blocGoal {
       display: flex;
       flex-direction: column;
@@ -178,11 +202,16 @@ const SGoals = styled.section`
       width: 80vw;
       margin-top: 5vh;
     }
+    .listGoal {
+      width: 80vw;
+    }
+    .iconTarget {
+      padding-right: 4vw;
+    }
     .textGoalTwo {
       width: 80vw;
       margin-top: 0vh;
     }
-
     .textGoalThree {
       width: 70vw;
     }

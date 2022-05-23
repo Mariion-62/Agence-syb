@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const SDownFooter = styled.section`
+  color: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   a {
     text-decoration: none;
     cursor: pointer;

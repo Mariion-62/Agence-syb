@@ -98,9 +98,11 @@ export default function ContactUs() {
                 <IoLocationSharp size={40} />
               </div>
               <h3 className="titleAdresse">On est ici !</h3>
-              <p className="place">Plaine Images,</p>
-              <p className="street">99 A Bd Constantin Descat,</p>
-              <p className="city">59200 Tourcoing</p>
+              <p className="place">
+                Plaine Images,
+                <br /> 99 A Bd Constantin Descat,
+                <br /> 59200 Tourcoing
+              </p>
             </div>
             <div
               className="iconArrow"

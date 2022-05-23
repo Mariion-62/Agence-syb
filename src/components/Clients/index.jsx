@@ -27,7 +27,8 @@ export default function Client() {
             data-aos-offset="200"
             data-aos-duration="800"
           >
-            B2B / B2C, s’ils nous font confiance, pourquoi pas toi ?
+            B2B / B2C, s’ils nous font confiance,
+            <br /> pourquoi pas toi ?
           </h2>
           <div className="lineBlackClients" />
           <LogoClients />

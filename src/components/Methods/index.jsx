@@ -82,7 +82,8 @@ export default function Methods() {
             data-aos-offset="200"
             data-aos-duration="800"
           >
-            Une mécanique bien huilée
+            Une mécanique <br />
+            bien huilée
           </h2>
           <div
             className="allTitleMethods"
@@ -111,24 +112,27 @@ export default function Methods() {
             >
               <h1 className="titleBox">{method.title}</h1>
               <p className="contentMethods">
-                {method.contentOne} <p>{method.contentTwo}</p>
-                <p>{method.contentThree}</p>
-                <p>{method.contentFour}</p>
+                {method.contentOne}
+                <br /> {method.contentTwo}
+                <br />
+                {method.contentThree}
+                <br />
+                {method.contentFour}
               </p>
               <img
                 className="imgBox"
                 src={method.picture}
                 alt={`${method.picture}`}
               />
-              <a
-                href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button" className="btnMethod">
+              <button type="button" className="btnMethod">
+                <a
+                  href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {method.button}
-                </button>
-              </a>
+                </a>
+              </button>
             </button>
           ))}
         </section>

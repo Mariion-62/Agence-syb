@@ -17,6 +17,7 @@ const SMentionLegals = styled.section`
     font-weight: bolder;
     margin-bottom: 2vh;
     font-size: 1.5rem;
+    color: var(--secondary-font-color);
   }
   .contentMentionArticle {
     text-align: justify;

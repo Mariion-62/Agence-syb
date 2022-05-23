@@ -11,10 +11,11 @@ const TitleMethods = styled.h2`
     flex-direction: column;
   }
   .subTitleMethods {
-    font-size: 2.2rem;
-    width: 15vw;
+    font-size: 2rem;
+    width: 20vw;
+    text-align: right;
     font-family: var(--primary-font-family);
-    margin-left: 20vw;
+    margin-left: 15vw;
     margin-top: 10vh;
   }
   .allTitleMethods {
@@ -23,7 +24,7 @@ const TitleMethods = styled.h2`
     margin-top: -13vh;
   }
   .titleMethods {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: 50vw;
     font-family: var(--title-font-family);
   }
@@ -102,7 +103,7 @@ const SSlideMethods = styled.div`
     font-size: 1.2rem;
     text-align: left;
     margin: 3vh 6vw;
-    width: 25vw;
+    width: 28vw;
     height: 20vh;
     transition: 700ms;
     font-family: var(--primary-font-family);
@@ -119,14 +120,23 @@ const SSlideMethods = styled.div`
     font-family: var(--primary-font-family);
     border: none;
     font-size: 1rem;
-    width: 6vw;
+    width: 8vw;
     margin: 3vh 6vw;
     cursor: pointer;
     background-color: var(--secondary-bg-color);
-    color: var(--fourth-font-color);
+    border-radius: 100px 0px 100px 0px;
+    transition: 200ms;
     &:hover {
       background-color: var(--primary-bg-color);
-      color: var(--primary-font-color);
+      border-radius: 0px 100px 0px 100px;
+      transition: 200ms;
+      a {
+        color: var(--primary-font-color);
+      }
+    }
+    a {
+      text-decoration: none;
+      color: var(--fourth-font-color);
     }
   }
   .hiddenBox {
@@ -155,6 +165,9 @@ const SSlideMethods = styled.div`
       margin-top: -13vh;
     }
     .btnMethod {
+      display: none;
+    }
+    .ctaMethods {
       display: none;
     }
   }

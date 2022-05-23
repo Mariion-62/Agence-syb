@@ -18,8 +18,8 @@ const SBoxDownExpertise = styled.section`
     margin-left: 3vw;
   }
   h2 {
-    width: 20vw;
-    font-size: 2.2rem;
+    width: 22vw;
+    font-size: 2rem;
     padding-bottom: 2vh;
   }
   .lineBlackDownSlider {
@@ -29,17 +29,17 @@ const SBoxDownExpertise = styled.section`
   }
   .textFunSentenceOne {
     text-align: right;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: var(--fourth-font-family);
-    width: 15vw;
-    margin-left: 4vw;
+    width: 30vw;
+    margin-left: -7vw;
     margin-top: 5.6vh;
   }
   .rightBlocSentence {
     display: flex;
   }
   .textSentenceDownSlider {
-    font-size: 1.1rem;
+    font-size: 1rem;
     width: 20vw;
     text-align: left;
     font-family: var(--fourth-font-family);
@@ -47,7 +47,7 @@ const SBoxDownExpertise = styled.section`
   }
   .textSentenceTwo {
     width: 13vw;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 3vw;
     line-height: 2.5vh;
     word-break: normal;
@@ -56,9 +56,9 @@ const SBoxDownExpertise = styled.section`
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .allSentence {
       flex-direction: column;
-      padding-top: 70vh;
-      margin: 0;
+      padding-top: 5vh;
       width: 100vw;
+      height: 40vh;
     }
     h2 {
       width: 80vw;
@@ -100,9 +100,10 @@ const SBoxDownExpertise = styled.section`
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .allSentence {
       flex-direction: column;
-      padding-top: 55vh;
+      padding-top: 5vh;
       margin: 0;
       width: 100vw;
+      height: 40vh;
     }
     h2 {
       width: 80vw;
@@ -123,7 +124,7 @@ const SBoxDownExpertise = styled.section`
       width: 48vw;
       text-align: left;
       margin-top: 2vh;
-      margin-left: -6.5vw;
+      margin-left: -7vw;
       margin-bottom: 2vh;
     }
     .textSentenceDownSlider {
@@ -133,7 +134,7 @@ const SBoxDownExpertise = styled.section`
     .textSentenceTwo {
       width: 50vw;
       padding-top: 4vh;
-      margin-left: -1.5vw;
+      margin-left: -3vw;
     }
   }
 `;

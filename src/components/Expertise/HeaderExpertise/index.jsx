@@ -21,8 +21,8 @@ export default function HeaderExpertise() {
               <h2 className="firstTitleExpertise">Nos expertises</h2>
 
               <h2 className="titleExpertise">
-                &nbsp;&nbsp;&nbsp;Co-créons enfin la bonne stratégie de
-                croissance
+                Co-créons enfin <br />
+                la bonne stratégie <br /> de croissance
               </h2>
             </div>
           </section>
@@ -35,28 +35,44 @@ export default function HeaderExpertise() {
                 data-aos-offset="500"
                 data-aos-duration="800"
               >
-                Tu es au bon endroit. Ici c’est moins de blabla, plus de
-                résultats. Notre équipe de Shakers t’écoute, t’accompagne et
-                actionne les bons leviers de la communication, du marketing et
-                du commerce. Chacun d’entre nous a son petit dada. De la
-                stratégie à l’opérationnel, nous intervenons sur tes
-                problématiques de prospection, fidélisation, activation,
-                transformation et d’autres trucs qui se finissent en “ion”. Toi
-                tu gères ton business, nous on s’occupe du reste. On bosse
-                ensemble et on crée un cercle vertueux pour démultiplier l’effet
-                de nos actions.
+                Tu es au bon endroit. Ici c’est moins <br />
+                de blabla, plus de résultats. Notre équipe de Shakers t’écoute,
+                t’accompagne et actionne les bons leviers de la{' '}
+                <span className="bolder">communication</span>, <br />
+                du
+                <span className="bolder"> marketing</span> et du{' '}
+                <span className="bolder"> commerce</span>.
+                <br /> Chacun d’entre nous a son petit dada.
+                <br /> De la stratégie à l’opérationnel, nous intervenons sur
+                tes problématiques de{' '}
+                <span className="bolder">prospection</span>,{' '}
+                <span className="bolder">fidélisation</span>,{' '}
+                <span className="bolder">activation</span>,
+                <br /> <span className="bolder">transformation</span> et
+                d’autres trucs <br />
+                qui se finissent en “ion”. Toi tu gères ton business, nous on
+                s’occupe du reste. <br />
+                On bosse ensemble et on crée un cercle vertueux pour
+                démultiplier l’effet de nos actions.
               </p>
-              <p
-                className="textTwoExpertise"
-                data-aos="fade-up"
-                data-aos-offset="500"
-                data-aos-duration="800"
-              >
-                Et si SYB devenait le partenaire de ta réussite ?
-                <p className="textThreeExpertise">
+              <div>
+                <p
+                  className="textTwoExpertise"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
+                  Et si SYB devenait le partenaire de ta réussite ?
+                </p>
+                <p
+                  className="textTwoExpertise"
+                  data-aos="fade-up"
+                  data-aos-offset="500"
+                  data-aos-duration="800"
+                >
                   Viens voir de quoi on est capable.
                 </p>
-              </p>
+              </div>
             </div>
           </section>
         </div>

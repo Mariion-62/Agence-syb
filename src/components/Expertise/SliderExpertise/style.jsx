@@ -17,7 +17,7 @@ const SSlideExpert = styled.div`
   .firstTextExpert,
   .secondTextExpert,
   .thirdTextExpert {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 2vh;
     padding-left: 2vh;
     opacity: 0;
@@ -199,7 +199,7 @@ const SSlideExpert = styled.div`
         .secondTextExpert,
         .thirdTextExpert {
           opacity: 1;
-          width: 75vw;
+          width: 70vw;
           height: 2vh;
           animation: none;
         }
@@ -220,9 +220,8 @@ const SSlideExpert = styled.div`
 
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    padding-top: 10%;
     h1 {
-      margin: 3%;
+      margin: 1vh 1vw;
       font-size: 5vh;
       width: 80vw;
     }
@@ -238,16 +237,17 @@ const SSlideExpert = styled.div`
     .contentSocial,
     .contentClient,
     .contentMore {
-      margin: 20vh;
-      width: 50vw;
+      margin-top: 20vh;
+      width: 70vw;
+      margin-left: -5vw;
       padding-left: 0vw;
     }
     .firstTextExpert,
     .secondTextExpert,
     .thirdTextExpert {
-      font-size: 20px;
+      font-size: 1.9rem;
       font-weight: bolder;
-      width: 50vw;
+      width: 70vw;
       opacity: 1;
     }
     .slideStrat,
@@ -260,6 +260,7 @@ const SSlideExpert = styled.div`
     .slideMore {
       height: 40vh;
       width: 100vw;
+      padding-top: 2vh;
       margin-bottom: 2vh;
       &:hover {
         animation: none;
@@ -274,8 +275,8 @@ const SSlideExpert = styled.div`
         .secondTextExpert,
         .thirdTextExpert {
           opacity: 1;
-          width: 75vw;
-          height: 2vh;
+          width: 70vw;
+          font-size: 1.9rem;
           animation: none;
         }
       }
