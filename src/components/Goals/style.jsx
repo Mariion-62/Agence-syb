@@ -59,7 +59,6 @@ const SGoals = styled.section`
   }
   .iconTarget {
     padding-right: 1vw;
-
   }
   .textGoalTwo {
     width: 38vw;

@@ -19,7 +19,6 @@ export default function HeaderExpertise() {
               data-aos-duration="800"
             >
               <h2 className="firstTitleExpertise">Nos expertises</h2>
-
               <h2 className="titleExpertise">
                 Co-créons enfin <br />
                 la bonne stratégie <br /> de croissance
@@ -74,7 +73,6 @@ export default function HeaderExpertise() {
                   Viens voir de quoi on est capable.
                 </p>
               </div>
-
             </div>
           </section>
         </div>

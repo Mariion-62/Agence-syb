@@ -29,7 +29,6 @@ export default function Client() {
           >
             B2B / B2C, s’ils nous font confiance,
             <br /> pourquoi pas toi ?
-
           </h2>
           <div className="lineBlackClients" />
           <LogoClients />

@@ -102,7 +102,6 @@ export default function ContactUs() {
                 Plaine Images,
                 <br /> 99 A Bd Constantin Descat,
                 <br /> 59200 Tourcoing
-
               </p>
             </div>
             <div

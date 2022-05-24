@@ -112,13 +112,11 @@ export default function Methods() {
             >
               <h1 className="titleBox">{method.title}</h1>
               <p className="contentMethods">
-
                 {method.contentOne}
                 <br /> {method.contentTwo}
                 <br />
                 {method.contentThree}
                 <br />
-
                 {method.contentFour}
               </p>
               <img
@@ -136,7 +134,6 @@ export default function Methods() {
                   {method.button}
                 </a>
               </button>
-
             </button>
           ))}
         </section>

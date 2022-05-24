@@ -26,14 +26,12 @@ export default function Hook() {
             data-aos-offset="500"
             data-aos-duration="800"
           >
-
             Shake Your Business,
             <br /> c’est une équipe de petits malins <br />
             du
             <span className="bolder"> marketing</span>, de la
             <span className="bolder"> communication </span>et du
             <span className="bolder"> commerce</span>, <br />
-
             au service de la croissance de ton business.
           </p>
           <video

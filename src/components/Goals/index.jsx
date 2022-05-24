@@ -50,7 +50,6 @@ export default function Goals() {
               data-aos-duration="800"
             >
               <li className="listGoal">
-
                 <div className="iconTarget">
                   <FiTarget size={20} />
                 </div>
@@ -90,7 +89,6 @@ export default function Goals() {
                 </div>
                 <span className="bolder">Augmenter</span>&nbsp;la conversion
                 pour vendre plus et mieux.
-
               </li>
             </ul>
             <p
@@ -108,17 +106,14 @@ export default function Goals() {
               data-aos-duration="800"
             >
               Et si on commençait par discuter de tes objectifs et de ROI ?
-
             </p>{' '}
             <button
               type="button"
               className="btnMeet"
-
               data-aos="fade-up"
               data-aos-offset="100"
               data-aos-duration="800"
             >
-
               <a
                 href="mailto:hello@syb-group.fr?subject=Première rencontre"
                 target="_blank"
@@ -127,7 +122,6 @@ export default function Goals() {
                 Viens nous rencontrer
               </a>
             </button>
-
           </section>
         </section>
         <PellMell />
