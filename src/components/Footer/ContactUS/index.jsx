@@ -5,6 +5,7 @@ import {
   IoCallOutline,
   IoLocationSharp,
   IoArrowForwardCircleOutline,
+  IoLogoFacebook,
 } from 'react-icons/io5';
 import SContactUs from './style';
 
@@ -17,7 +18,7 @@ export default function ContactUs() {
             <div className="containerSocialLogo">
               <div className="socialLogo">
                 <a
-                  href="https://fr.linkedin.com/company/syb-group/"
+                  href="https://www.instagram.com/syb_group/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -28,6 +29,20 @@ export default function ContactUs() {
                     data-aos-duration="800"
                   >
                     <IoLogoInstagram size={40} />
+                  </div>
+                </a>
+                <a
+                  href="https://www.facebook.com/AGENCE.SYB"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div
+                    className="iconFacebook"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-duration="800"
+                  >
+                    <IoLogoFacebook size={40} />
                   </div>
                 </a>
                 <a
@@ -57,7 +72,7 @@ export default function ContactUs() {
             </div>
           </div>
           <a
-            href="tel:+0622174495"
+            href="tel:+0320160502"
             className="phone"
             target="_blank"
             rel="noreferrer"

@@ -1,6 +1,6 @@
-import photo7 from '../../../assets/photo7.jpg';
+import photoExpertise from '../../../assets/PlaineImages/sybshooting_pi-45.jpg';
 import SExpertise from './style';
-import Cta from '../../Cta';
+import CtaBrief from '../../CtaBrief';
 
 export default function HeaderExpertise() {
   return (
@@ -8,9 +8,11 @@ export default function HeaderExpertise() {
       <section className="expertise">
         <div className="blocExpertise">
           <section className="rightExpertise">
-            <img className="photo7" src={photo7} alt="photo7" />
+            <div className="opacity" />
+            <img className="photo7" src={photoExpertise} alt="expertise" />
+
             <div className="ctaExpertise">
-              <Cta />
+              <CtaBrief />
             </div>
             <div
               className="allTitle"
@@ -35,9 +37,9 @@ export default function HeaderExpertise() {
                 data-aos-duration="800"
               >
                 Tu es au bon endroit. Ici c’est moins <br />
-                de blabla, plus de résultats. Notre équipe de Shakers t’écoute,
-                t’accompagne et actionne les bons leviers de la{' '}
-                <span className="bolder">communication</span>, <br />
+                de blabla, plus de résultats. Notre équipe <br />
+                de Shakers t’écoute, t’accompagne et actionne les bons leviers
+                de la <span className="bolder">communication</span>, <br />
                 du
                 <span className="bolder"> marketing</span> et du{' '}
                 <span className="bolder"> commerce</span>.
@@ -47,11 +49,10 @@ export default function HeaderExpertise() {
                 <span className="bolder">prospection</span>,{' '}
                 <span className="bolder">fidélisation</span>,{' '}
                 <span className="bolder">activation</span>,
-                <br /> <span className="bolder">transformation</span> et
-                d’autres trucs <br />
-                qui se finissent en “ion”. Toi tu gères ton business, nous on
-                s’occupe du reste. <br />
-                On bosse ensemble et on crée un cercle vertueux pour
+                <span className="bolder"> transformation</span> <br />
+                et d’autres trucs qui se finissent en “ion”.
+                <br /> Toi tu gères ton business, nous on s’occupe <br />
+                du reste. On bosse ensemble et on crée un cercle vertueux pour
                 démultiplier l’effet de nos actions.
               </p>
 
@@ -62,7 +63,8 @@ export default function HeaderExpertise() {
                   data-aos-offset="500"
                   data-aos-duration="800"
                 >
-                  Et si SYB devenait le partenaire de ta réussite ?
+                  Et si SYB devenait le partenaire <br />
+                  de ta réussite ?
                 </p>
                 <p
                   className="textTwoExpertise"

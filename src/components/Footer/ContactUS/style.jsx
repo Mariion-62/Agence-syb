@@ -4,16 +4,15 @@ const SContactUs = styled.section`
   font-family: var(--primary-font-family);
   .blocRightFooter {
     width: 80vw;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
   .gridFooter {
     display: flex;
-    width: 50vw;
-    flex-wrap: wrap;
-    margin-left: 50vw;
+    width: 100vw;
+    margin-left: 15vw;
   }
   .containerSocialLogo,
   .containerPhone,
@@ -32,18 +31,14 @@ const SContactUs = styled.section`
   }
   .social {
     display: flex;
-    border-top: 1px solid var(--fourth-bg-color);
-    border-right: 1px solid var(--fourth-bg-color);
-    border-bottom: 1px solid var(--fourth-bg-color);
-    border-left: 1px solid var(--fourth-bg-color);
+    border: 1px solid var(--fourth-bg-color);
     width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
   .adresse {
     display: flex;
-    border-top: 0;
-    border-right: 1px solid var(--fourth-bg-color);
+    border-top: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
     border-left: 1px solid var(--fourth-bg-color);
     width: 17.5vw;
@@ -53,24 +48,20 @@ const SContactUs = styled.section`
   .phone {
     display: flex;
     border-top: 1px solid var(--fourth-bg-color);
-    border-right: 1px solid var(--fourth-bg-color);
     border-bottom: 1px solid var(--fourth-bg-color);
-    border-left: 0;
     width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
   .mail {
     display: flex;
-    border-top: 0;
-    border-right: 1px solid var(--fourth-bg-color);
-    border-bottom: 1px solid var(--fourth-bg-color);
-    border-left: 0;
+    border: 1px solid var(--fourth-bg-color);
     width: 17.5vw;
     height: 32vh;
     color: var(--primary-font-color);
   }
-  .iconLinkedIn {
+  .iconLinkedIn,
+  .iconFacebook {
     padding-top: 10vh;
     padding-left: 1.2vw;
     color: var(--primary-font-color);

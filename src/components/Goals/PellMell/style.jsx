@@ -5,30 +5,34 @@ const SPellMell = styled.section`
     margin: 20vh -75vw;
     width: 50vw;
   }
-  .photo5 {
-    width: 15vw;
+  .photo1 {
+    width: 18vw;
+    height: 50vh;
     position: absolute;
     z-index: 1;
     margin: 0vh 23vw;
-  }
-  .photo6 {
-    width: 20vw;
-    height: 20vh;
     object-fit: cover;
-    margin: 5vh 5vw;
+  }
+  .photo2 {
+    width: 20vw;
+    height: 22vh;
+    object-fit: cover;
+    margin: 6vh 0 0 5vw;
     z-index: 1;
     position: absolute;
   }
-  .photo7 {
+  .photo3 {
     width: 10vw;
-    height: 30vh;
+    height: 35vh;
     position: absolute;
     margin: 38vh 15vw;
     object-fit: cover;
   }
-  .photo9 {
+  .photo4 {
     width: 30vw;
+    height: 40vh;
     margin-top: 27vh;
+    object-fit: cover;
     margin-left: -3vw;
   }
   /* MODE MOBILE*/

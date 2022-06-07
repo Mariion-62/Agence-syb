@@ -126,6 +126,7 @@ const SSlideExpert = styled.section`
   }
   img {
     width: 23.5vw;
+    height: 55vh;
     position: relative;
     opacity: 0.5;
     object-fit: cover;

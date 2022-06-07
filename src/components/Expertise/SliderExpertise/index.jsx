@@ -1,6 +1,10 @@
-import photo5 from '../../../assets/photo5.jpg';
-import photo7 from '../../../assets/photo7.jpg';
-import photo11 from '../../../assets/photo11.jpg';
+import photoStrat from '../../../assets/Strategie/john-schnobrich-2FPjlAyMQTA-unsplash.jpg';
+import photoWeb from '../../../assets/WebDesign/pexels-tranmautritam-326503.jpg';
+import photoCrea from '../../../assets/Creativite/pexels-flo-dahm-699459.jpg';
+import photoSeo from '../../../assets/SEA_SEO/scott-graham-5fNmWej4tAA-unsplash.jpg';
+import photoSea from '../../../assets/SEA_SEO/pexels-george-morina-4960323.jpg';
+import photoSocial from '../../../assets/ReseauxSociaux/pexels-picjumbocom-196655.jpg';
+import photoClient from '../../../assets/RelationClient/redd-5U_28ojjgms-unsplash.jpg';
 
 import SSlideExpert from './style';
 
@@ -12,7 +16,7 @@ export default function SliderExpertise() {
           <div className="container">
             <div className="blocHorizontal">
               <div className="slideStrat">
-                <img src={photo5} alt="photo1" />
+                <img src={photoStrat} alt="stratégie" />
                 <h1>Stratégie</h1>
                 <div className="contentStrat">
                   <p className="firstTextExpert">On et offline</p>
@@ -21,7 +25,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideCrea">
-                <img src={photo7} alt="photo1" />
+                <img src={photoCrea} alt="création" />
                 <h1>Créativité</h1>
                 <div className="contentCrea">
                   <p className="firstTextExpert">Support digitaux et print</p>
@@ -34,7 +38,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideWeb">
-                <img src={photo5} alt="photo1" />
+                <img src={photoWeb} alt="website" />
                 <h1>Site Web</h1>
                 <div className="contentWeb">
                   <p className="firstTextExpert">UX/UI</p>
@@ -43,7 +47,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideSeo">
-                <img src={photo7} alt="photo1" />
+                <img src={photoSeo} alt="SEO" />
                 <h1>SEO</h1>
                 <div className="contentSeo">
                   <p className="firstTextExpert">Audit SEO</p>
@@ -54,7 +58,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideSea">
-                <img src={photo5} alt="photo1" />
+                <img src={photoSea} alt="SEA" />
                 <h1>SEA</h1>
                 <div className="contentSea">
                   <p className="firstTextExpert">Affiliation</p>
@@ -63,7 +67,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideSocial">
-                <img src={photo7} alt="photo1" />
+                <img src={photoSocial} alt="Réseaux sociaux" />
                 <h1>Réseaux sociaux</h1>
                 <div className="contentSocial">
                   <p className="firstTextExpert">Automation</p>
@@ -74,7 +78,7 @@ export default function SliderExpertise() {
                 </div>
               </div>
               <div className="slideClient">
-                <img src={photo11} alt="photo1" />
+                <img src={photoClient} alt="Relation client" />
                 <h1>Relation Client</h1>
                 <div className="contentClient">
                   <p className="firstTextExpert">Newsletter</p>

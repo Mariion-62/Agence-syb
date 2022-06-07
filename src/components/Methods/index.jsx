@@ -1,5 +1,13 @@
 import { useState, useEffect } from 'react';
 import Aos from 'aos';
+import CtaCoCreate from '../../assets/Cta/Co-Creons.png';
+import CtaOptimise from '../../assets/Cta/Optimisons.png';
+import CtaDeploy from '../../assets/Cta/Deployons.png';
+import CtaAnalyze from '../../assets/Cta/Analysons.png';
+import CreaPhoto from '../../assets/PlaineImages/sybshooting_pi-14.jpg';
+import AnalysePhoto from '../../assets/PlaineImages/sybshooting_pi-53.jpg';
+import OptimisePhoto from '../../assets/RelationClient/annie-spratt-QckxruozjRg-unsplash.jpg';
+import DeployPhoto from '../../assets/ReseauxSociaux/pexels-picjumbocom-196655.jpg';
 import 'aos/dist/aos.css';
 import { SSlideMethods, TitleMethods } from './style';
 
@@ -12,9 +20,8 @@ const dataMethods = [
     contentThree:
       'On prend un peu de recul pour choisir ensemble les bons leviers et stratégie à mettre sur pied.  ',
 
-    picture:
-      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
-    button: 'Je crée',
+    picture: `${CreaPhoto}`,
+    button: `${CtaCoCreate}`,
   },
   {
     id: 2,
@@ -25,9 +32,8 @@ const dataMethods = [
       'A partir de là, on déroule un plan d’action béton pour relever le défi que tu nous as lancé. ',
     contentFour:
       'On peut même former tes équipes à devenir meilleures que nous sur le sujet !  ',
-    picture:
-      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
-    button: "J'optimise",
+    picture: `${OptimisePhoto}`,
+    button: `${CtaOptimise}`,
   },
   {
     id: 3,
@@ -38,9 +44,8 @@ const dataMethods = [
       'On te dédie le spécialiste de chaque sujet pour t’accompagner !',
     contentFour:
       'On apprend et on ajuste au quotidien pour challenger tes performances.',
-    picture:
-      'https://cdn.pixabay.com/photo/2017/12/18/13/59/create-3026190_960_720.jpg',
-    button: 'Je déploie',
+    picture: `${DeployPhoto}`,
+    button: `${CtaDeploy}`,
   },
   {
     id: 4,
@@ -50,9 +55,8 @@ const dataMethods = [
     contentThree:
       'On échange régulièrement pour t’expliquer les résultats de chacune de nos actions. ',
     contentFour: 'Alors, défi relevé ?? ',
-    picture:
-      'https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg',
-    button: "J'analyse",
+    picture: `${AnalysePhoto}`,
+    button: `${CtaAnalyze}`,
   },
 ];
 export default function Methods() {
@@ -124,14 +128,17 @@ export default function Methods() {
                 src={method.picture}
                 alt={`${method.picture}`}
               />
-
               <button type="button" className="btnMethod">
                 <a
                   href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {method.button}
+                  <img
+                    className="imgBtn"
+                    src={method.button}
+                    alt={`${method.title}`}
+                  />
                 </a>
               </button>
             </button>
