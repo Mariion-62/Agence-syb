@@ -10,7 +10,7 @@ const SDownFooter = styled.section`
   }
   .lastLine {
     width: 30vw;
-    height: 1.5vh;
+    height: 3vh;
     font-size: 1rem;
     display: flex;
     justify-content: space-around;

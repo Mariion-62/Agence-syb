@@ -53,12 +53,12 @@ const SGoals = styled.section`
   .listGoal {
     padding: 2vh 2vw;
     height: 3vh;
-
     width: 35vw;
     display: flex;
   }
   .iconTarget {
     padding-right: 1vw;
+    padding-top: 0.1vh;
   }
   .textGoalTwo {
     width: 38vw;
@@ -72,35 +72,9 @@ const SGoals = styled.section`
   .textGoalThree {
     width: 40vw;
     font-size: 1.3rem;
-    padding-top: 5vh;
+    padding-top: 1vh;
     text-align: left;
     line-height: 2.5vh;
-  }
-  .btnMeet {
-    font-family: var(--primary-font-family);
-    font-size: 1rem;
-    width: 15vw;
-    height: 3vh;
-    margin: 5vh 0;
-    background-color: var(--secondary-bg-color);
-    border: none;
-    border-radius: 100px 0px 100px 0px;
-    cursor: pointer;
-
-    border-radius: 100px 0px 100px 0px;
-    transition: 200ms;
-
-    &:hover {
-      background-color: var(--fourth-bg-color);
-      color: var(--fourth-font-color);
-      border-radius: 0px 100px 0px 100px;
-
-      transition: 200ms;
-    }
-    a {
-      text-decoration: none;
-      color: var(--fourth-font-color);
-    }
   }
   .bolder {
     color: var(--secondary-font-color);

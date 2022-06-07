@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { FiTarget } from 'react-icons/fi';
-
+import { IoStopOutline } from 'react-icons/io5';
+import CtaMeet from 'components/CtaMeet';
 import SGoals from './style';
 import PellMell from './PellMell';
 
@@ -51,13 +51,13 @@ export default function Goals() {
             >
               <li className="listGoal">
                 <div className="iconTarget">
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder">Bâtir </span>&nbsp;une marque forte
               </li>
               <li className="listGoal">
                 <div className="iconTarget">
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder">Attirer</span>&nbsp;plus de trafic on
                 et offline
@@ -65,27 +65,27 @@ export default function Goals() {
               <li className="listGoal">
                 <div className="iconTarget">
                   {' '}
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder">Générer</span>&nbsp;plus de leads
               </li>
               <li className="listGoal">
                 <div className="iconTarget">
                   {' '}
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder">Engager</span>&nbsp;les clients
               </li>
               <li className="listGoal">
                 <div className="iconTarget">
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder"> Construire</span>&nbsp;les communautés
               </li>
               <li className="listGoal">
                 <div className="iconTarget">
                   {' '}
-                  <FiTarget size={20} />
+                  <IoStopOutline size={20} />
                 </div>
                 <span className="bolder">Augmenter</span>&nbsp;la conversion
                 pour vendre plus et mieux.
@@ -107,21 +107,11 @@ export default function Goals() {
             >
               Et si on commençait par discuter de tes objectifs et de ROI ?
             </p>{' '}
-            <button
-              type="button"
-              className="btnMeet"
+            <CtaMeet
               data-aos="fade-up"
               data-aos-offset="100"
               data-aos-duration="800"
-            >
-              <a
-                href="mailto:hello@syb-group.fr?subject=Première rencontre"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Viens nous rencontrer
-              </a>
-            </button>
+            />
           </section>
         </section>
         <PellMell />

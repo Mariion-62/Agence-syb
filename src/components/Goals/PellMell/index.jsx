@@ -1,7 +1,7 @@
-import photo5 from '../../../assets/photo5.jpg';
-import photo6 from '../../../assets/photo6.jpg';
-import photo7 from '../../../assets/photo7.jpg';
-import photo9 from '../../../assets/photo9.jpg';
+import photo1 from '../../../assets/PlaineImages/gameBoy.jpg';
+import photo2 from '../../../assets/PlaineImages/sybshooting_pi-15.jpg';
+import photo3 from '../../../assets/PlaineImages/sybshooting_pi-48.jpg';
+import photo4 from '../../../assets/PlaineImages/sybshooting_pi-30.jpg';
 import SPellMell from './style';
 
 export default function PellMell() {
@@ -13,10 +13,10 @@ export default function PellMell() {
         data-aos-offset="500"
         data-aos-duration="800"
       >
-        <img className="photo5" src={photo5} alt="photo5" />
-        <img className="photo6" src={photo6} alt="photo6" />
-        <img className="photo7" src={photo7} alt="photo7" />
-        <img className="photo9" src={photo9} alt="photo9" />
+        <img className="photo1" src={photo1} alt="photo1" />
+        <img className="photo2" src={photo2} alt="photo2" />
+        <img className="photo3" src={photo3} alt="photo3" />
+        <img className="photo4" src={photo4} alt="photo4" />
       </section>
     </SPellMell>
   );

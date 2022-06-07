@@ -16,7 +16,7 @@ const SSeo = styled.section`
     text-align: right;
   }
   .textFooterTwo {
-    width: 31vw;
+    width: 35vw;
     margin-left: 50vw;
     font-size: 1.1rem;
     margin-top: -6.5vh;

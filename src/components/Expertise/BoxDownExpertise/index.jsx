@@ -46,9 +46,10 @@ export default function BoxDownExpertise() {
                 data-aos-offset="200"
                 data-aos-duration="800"
               >
-                Chez SYB, on a plus d’un tour dans notre sac. Mais comme on a
-                pas assez de place sur un site web pour étaler notre science, on
-                aimerait mieux en discuter de vive voix.
+                Chez SYB, on a plus d’un tour dans notre sac. <br />
+                Mais comme on a pas assez de place sur un site web pour étaler
+                notre science, on aimerait mieux <br />
+                en discuter de vive voix.
               </p>
               <p
                 className="textSentenceTwo"
@@ -56,7 +57,8 @@ export default function BoxDownExpertise() {
                 data-aos-offset="200"
                 data-aos-duration="800"
               >
-                Alors, on s’appelle pour voir jusqu’où on peut aller ensemble ?
+                Alors, on s’appelle <br />
+                pour voir jusqu’où on peut aller ensemble ?
               </p>
             </section>
           </div>

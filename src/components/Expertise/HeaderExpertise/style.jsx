@@ -19,14 +19,23 @@ const SExpertise = styled.section`
   .rightExpertise {
     display: flex;
   }
+  .opacity {
+    width: 160px;
+    height: 400px;
+    position: absolute;
+    margin: 5vh 18vw;
+    background-color: white;
+    opacity: 0.6;
+  }
   .photo7 {
+    width: 300px;
     height: 400px;
     margin: 5vh 10vw;
-    opacity: 0.4;
+    object-fit: cover;
   }
   .ctaExpertise {
     height: 20%;
-    padding-top: 42vh;
+    padding-top: 39vh;
     margin-left: -14vw;
   }
   .firstTitleExpertise {
@@ -38,7 +47,7 @@ const SExpertise = styled.section`
   .titleExpertise {
     width: 18vw;
     margin-top: 2vh;
-    margin-left: -14vw;
+    margin-left: -16vw;
     z-index: 1;
     font-size: 2rem;
     text-align: right;

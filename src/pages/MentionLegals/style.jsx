@@ -11,7 +11,8 @@ const SMentionLegals = styled.section`
   }
   .mentionArticle {
     width: 60vw;
-    margin: 8vh 20vw 5vh 20vw;
+    margin: 3vh 20vw 0vh 20vw;
+    padding-bottom: 3vh;
   }
   .titleMentionArticle {
     font-weight: bolder;

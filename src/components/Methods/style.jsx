@@ -103,7 +103,7 @@ const SSlideMethods = styled.div`
     font-size: 1.2rem;
     text-align: left;
     margin: 3vh 6vw;
-    width: 28vw;
+    width: 30vw;
     height: 20vh;
     transition: 700ms;
     font-family: var(--primary-font-family);
@@ -113,32 +113,32 @@ const SSlideMethods = styled.div`
   .imgBox {
     width: 30vw;
     height: 28vh;
+    margin-top: -6vh;
     margin-left: 6vw;
     object-fit: cover;
   }
   .btnMethod {
-    font-family: var(--primary-font-family);
+    width: 10vw;
+    height: 20vh;
+    margin-top: 1vh;
+    margin-left: 6vw;
+    border-radius: 50%;
     border: none;
-    font-size: 1rem;
-    width: 8vw;
-    margin: 3vh 6vw;
-    cursor: pointer;
-    background-color: var(--secondary-bg-color);
-    border-radius: 100px 0px 100px 0px;
-    transition: 200ms;
-    &:hover {
-      background-color: var(--primary-bg-color);
-      border-radius: 0px 100px 0px 100px;
-      transition: 200ms;
-      a {
-        color: var(--primary-font-color);
-      }
+    background-color: transparent;
+    :hover {
+      background-color: var(--secondary-font-color);
     }
+  }
+  .imgBtn {
+    width: 10vw;
+    margin-top: 0.5vh;
+    margin-left: -0.3vw;
     a {
       text-decoration: none;
       color: var(--fourth-font-color);
     }
   }
+
   .hiddenBox {
     width: 19vw;
     height: 80vh;

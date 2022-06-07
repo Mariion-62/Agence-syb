@@ -12,7 +12,9 @@ export default function Seo() {
           marketing à <span className="bolder">Lille</span>. SYB,{' '}
           <span className="bolder">agence SEO </span>
           Lilloise. Shake Your Business, votre agence de{' '}
-          <span className="bolder">communication</span> à Lille. SYB, agence de
+          <span className="bolder">communication</span> à Lille. SYB, agence{' '}
+          <br />
+          de
           <span className="bolder"> prospection BtoB</span>. SYB, agence{' '}
           <span className="bolder">SEA</span> dans le nord. Agence de{' '}
           <span className="bolder">création de site web</span> à Lille.
