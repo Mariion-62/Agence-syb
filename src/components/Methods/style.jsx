@@ -117,25 +117,27 @@ const SSlideMethods = styled.div`
     margin-left: 6vw;
     object-fit: cover;
   }
-  .btnMethod {
-    width: 10vw;
-    height: 20vh;
-    margin-top: 1vh;
-    margin-left: 6vw;
-    border-radius: 50%;
-    border: none;
-    background-color: transparent;
-    :hover {
-      background-color: var(--secondary-font-color);
-    }
-  }
   .imgBtn {
     width: 10vw;
-    margin-top: 0.5vh;
-    margin-left: -0.3vw;
-    a {
-      text-decoration: none;
-      color: var(--fourth-font-color);
+    margin-top: -8vh;
+    margin-left: 3vw;
+    animation: rotate 30s linear 0s infinite;
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      75% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
     }
   }
 
@@ -164,10 +166,7 @@ const SSlideMethods = styled.div`
     .imgBox {
       margin-top: -13vh;
     }
-    .btnMethod {
-      display: none;
-    }
-    .ctaMethods {
+    .imgBtn {
       display: none;
     }
   }

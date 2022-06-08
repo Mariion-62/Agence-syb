@@ -128,8 +128,9 @@ const SContactUs = styled.section`
   /*MODE MOBIL*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .gridFooter {
-      width: 95vw;
+      width: 90vw;
       margin-left: 2vw;
+      flex-wrap: wrap;
     }
     .titleContact {
       width: 32vw;
@@ -179,11 +180,14 @@ const SContactUs = styled.section`
     .socialLogo {
       display: flex;
     }
+    .phone {
+      border: 1px solid var(--primary-font-color);
+    }
     .social,
     .adresse,
     .phone,
     .mail {
-      width: 45vw;
+      width: 44vw;
       height: 29vh;
     }
     .iconLinkedIn {
@@ -194,14 +198,15 @@ const SContactUs = styled.section`
       padding-bottom: 0;
     }
     .iconInsta,
-    .iconPhone {
+    .iconPhone,
+    .iconFacebook {
       padding-top: 8vh;
     }
     .iconAdresse {
       padding-top: 5vh;
     }
     .iconArrow {
-      padding: 18vh 1vw 0 0;
+      padding: 20vh 1vw 0 0;
     }
     .place,
     .street,

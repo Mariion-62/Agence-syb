@@ -42,7 +42,7 @@ const SExpertise = styled.section`
     width: 15vw;
     height: 5vh;
     font-size: 2rem;
-    margin-left: 25vw;
+    margin-left: 19vw;
   }
   .titleExpertise {
     width: 18vw;
@@ -93,7 +93,7 @@ const SExpertise = styled.section`
   @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 3vh;
     .expertise {
-      height: 115vh;
+      height: 125vh;
     }
     .blocExpertise {
       flex-direction: column;
@@ -104,13 +104,18 @@ const SExpertise = styled.section`
       margin-left: 10vw;
       margin-bottom: 0vh;
     }
+    .opacity {
+      margin: 13vh 44vw;
+      height: 300px;
+    }
     .ctaExpertise {
       padding-top: 42vh;
-      margin-left: -25vw;
+      margin-left: -35vw;
+      width: 0vw;
     }
     .firstTitleExpertise {
       width: 45vw;
-      margin-left: -30vw;
+      margin-left: -40vw;
       margin-bottom: 0;
       margin-top: 3vh;
       font-size: 1.5rem;
@@ -121,7 +126,7 @@ const SExpertise = styled.section`
       width: 50vw;
       height: 10vh;
       margin-top: 5vh;
-      margin-left: -40vw;
+      margin-left: -15vw;
     }
     .leftExpertise {
       width: 80vw;

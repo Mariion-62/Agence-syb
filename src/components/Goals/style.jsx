@@ -134,7 +134,7 @@ const SGoals = styled.section`
     }
     .textGoalThree {
       width: 70vw;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
     .btnMeet {
       width: 40vw;

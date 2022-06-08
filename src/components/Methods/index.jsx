@@ -6,8 +6,8 @@ import CtaDeploy from '../../assets/Cta/Deployons.png';
 import CtaAnalyze from '../../assets/Cta/Analysons.png';
 import CreaPhoto from '../../assets/PlaineImages/sybshooting_pi-14.jpg';
 import AnalysePhoto from '../../assets/PlaineImages/sybshooting_pi-53.jpg';
-import OptimisePhoto from '../../assets/RelationClient/annie-spratt-QckxruozjRg-unsplash.jpg';
-import DeployPhoto from '../../assets/ReseauxSociaux/pexels-picjumbocom-196655.jpg';
+import OptimisePhoto from '../../assets/PlaineImages/syb_shooting_laptop-14.jpg';
+import DeployPhoto from '../../assets/PlaineImages/syb_shooting_laptop-23.jpg';
 import 'aos/dist/aos.css';
 import { SSlideMethods, TitleMethods } from './style';
 
@@ -128,19 +128,17 @@ export default function Methods() {
                 src={method.picture}
                 alt={`${method.picture}`}
               />
-              <button type="button" className="btnMethod">
-                <a
-                  href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="imgBtn"
-                    src={method.button}
-                    alt={`${method.title}`}
-                  />
-                </a>
-              </button>
+              <a
+                href="mailto:hello@syb-group.fr?subject=On se rencontre quand ?"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="imgBtn"
+                  src={method.button}
+                  alt={`${method.title}`}
+                />
+              </a>
             </button>
           ))}
         </section>

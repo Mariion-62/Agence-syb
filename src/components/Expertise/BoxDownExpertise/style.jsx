@@ -60,7 +60,7 @@ const SBoxDownExpertise = styled.section`
       flex-direction: column;
       padding-top: 5vh;
       width: 100vw;
-      height: 40vh;
+      height: 45vh;
     }
     h2 {
       width: 80vw;
@@ -94,7 +94,7 @@ const SBoxDownExpertise = styled.section`
     .textSentenceTwo {
       width: 80vw;
       padding-top: 4vh;
-      font-size: 1.3rem;
+      font-size: 0.9rem;
       margin-left: -1.5vw;
     }
   }
