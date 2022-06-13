@@ -3,23 +3,33 @@ import styled from 'styled-components';
 const SHook = styled.div`
   background-color: var(--primary-bg-color);
   color: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   display: flex;
   justify-content: center;
   height: 142vh;
+  .headerHook {
+    display: flex;
+    flex-direction: column;
+  }
+  .textFunHook {
+    font-size: 2rem;
+    margin-left: 14vw;
+  }
+
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
+    margin-top: -2.5vh;
     padding-bottom: 5vh;
     margin-left: 50vw;
   }
   .textHook {
     width: 35vw;
-    font-family: var(--primary-font-family);
     font-size: 1.3rem;
     margin-left: 50vw;
   }
   .video {
-    padding-top: 10vh;
+    padding-top: 2vh;
     padding-bottom: 20vh;
   }
   span.bolder {

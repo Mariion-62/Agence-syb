@@ -19,21 +19,33 @@ export default function Hook() {
     <>
       <SHook>
         <section className="allHook">
-          <div className="lineWhiteHook" />
-          <p
-            className="textHook"
-            data-aos="fade-down"
-            data-aos-offset="500"
-            data-aos-duration="800"
-          >
-            Shake Your Business,
-            <br /> c’est une équipe de petits malins <br />
-            du
-            <span className="bolder"> marketing</span>, de la
-            <span className="bolder"> communication </span>et du
-            <span className="bolder"> commerce</span>, <br />
-            au service de la croissance de ton business.
-          </p>
+          <div className="headerHook">
+            <div>
+              <p
+                className="textFunHook"
+                data-aos="fade-up"
+                data-aos-offset="500"
+                data-aos-duration="800"
+              >
+                Accélérateur de croissance
+              </p>
+            </div>
+            <div className="lineWhiteHook" />
+            <p
+              className="textHook"
+              data-aos="fade-down"
+              data-aos-offset="500"
+              data-aos-duration="800"
+            >
+              Shake Your Business,
+              <br /> c’est une équipe de petits malins <br />
+              du
+              <span className="bolder"> marketing</span>, de la
+              <span className="bolder"> communication </span>et du
+              <span className="bolder"> commerce</span>, <br />
+              au service de la croissance de ton business.
+            </p>
+          </div>
           <video
             className="video"
             muted
