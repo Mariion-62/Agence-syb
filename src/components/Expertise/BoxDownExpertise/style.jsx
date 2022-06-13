@@ -27,6 +27,7 @@ const SBoxDownExpertise = styled.section`
   .lineBlackDownSlider {
     border-top: var(--fourth-font-color) 1px solid;
     width: 35vw;
+    margin-top: 2vh;
     padding-bottom: 4vh;
   }
   .textFunSentenceOne {
@@ -35,7 +36,7 @@ const SBoxDownExpertise = styled.section`
     font-family: var(--fourth-font-family);
     width: 30vw;
     margin-left: -7vw;
-    margin-top: 5.6vh;
+    margin-top: 7vh;
   }
   .rightBlocSentence {
     display: flex;

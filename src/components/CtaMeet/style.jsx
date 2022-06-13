@@ -32,6 +32,9 @@ const SCtaMeet = styled.div`
         transform: rotate(360deg);
       }
     }
+    :hover {
+      stroke: var(--primary-font-color);
+    }
   }
 `;
 export default SCtaMeet;

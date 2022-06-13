@@ -46,7 +46,6 @@ const SExpertise = styled.section`
   }
   .titleExpertise {
     width: 18vw;
-    margin-top: 2vh;
     margin-left: -16vw;
     z-index: 1;
     font-size: 2rem;
@@ -57,7 +56,7 @@ const SExpertise = styled.section`
     color: black;
     width: 45vw;
     margin-left: -15vw;
-    margin-top: 8vh;
+    margin-top: 6vh;
   }
   .lineBlackExpertise {
     border-top: var(--fourth-font-color) 1px solid;
@@ -168,6 +167,11 @@ const SExpertise = styled.section`
     }
     .blocExpertise {
       flex-direction: column;
+    }
+    .opacity {
+      margin: 13vh 36vw;
+      width: 200px;
+      height: 600px;
     }
     .photo7 {
       padding-top: 8vh;

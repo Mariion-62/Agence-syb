@@ -1,19 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  }
   :root{
     --primary-bg-color: #000000;
     --secondary-bg-color: #fcd629;
-    --thirdy-bg-color:#33392d;
     --fourth-bg-color: #ffffff;
     --primary-font-color: #ffffff;
     --secondary-font-color: #fcd629;
-    --thirdy-font-color: #33392d;
     --fourth-font-color: #000000;
     --primary-font-family: 'Radio Canada', sans-serif;
     --title-font-family: 'Radio Canada', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
   }
   body {
       width: 100vw;
@@ -29,5 +26,6 @@ const GlobalStyle = createGlobalStyle`
       width: 100%;
       height: 100%;
     }
+  }
   `;
 export default GlobalStyle;

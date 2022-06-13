@@ -231,6 +231,8 @@ const SContactUs = styled.section`
     .gridFooter {
       width: 95vw;
       margin-left: 5vw;
+      flex-wrap: wrap;
+      margin-top: 2vh;
     }
     .containerSocialLogo,
     .containerPhone,
@@ -256,6 +258,9 @@ const SContactUs = styled.section`
     .socialLogo {
       display: flex;
     }
+    .phone {
+      border: 1px solid var(--primary-font-color);
+    }
     .social,
     .adresse,
     .phone,
@@ -263,7 +268,8 @@ const SContactUs = styled.section`
       width: 45vw;
       height: 29vh;
     }
-    .iconLinkedIn {
+    .iconLinkedIn,
+    .iconFacebook {
       padding-top: 5vh;
     }
     .iconMail {

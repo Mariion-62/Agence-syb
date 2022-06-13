@@ -63,8 +63,9 @@ const TitleMethods = styled.h2`
     }
     .subTitleMethods {
       font-size: 1.5rem;
-      width: 40vw;
+      width: 20vw;
       margin-left: 5vw;
+      text-align: left;
     }
     .lineWhiteMethods {
       border-top: var(--fourth-font-color) 1px solid;

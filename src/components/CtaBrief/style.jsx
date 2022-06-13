@@ -32,7 +32,7 @@ const SCta = styled.div`
       }
     }
     :hover {
-      stroke: yellow;
+      stroke: var(--secondary-font-color);
     }
   }
 `;
