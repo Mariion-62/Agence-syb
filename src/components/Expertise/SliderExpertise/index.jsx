@@ -24,6 +24,10 @@ export default function SliderExpertise() {
                     {expertise.secondTextExpert}
                     <br />
                     {expertise.thirdTextExpert}
+                    <br />
+                    {expertise.fourthTextExpert}
+                    <br />
+                    {expertise.fifthTextExpert}
                   </p>
                 </div>
               ))}
