@@ -40,6 +40,8 @@ const SFooter = styled.section`
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
     padding-top: 5vh;
+    margin-bottom: 2vh;
+    margin-left: 38vw;
   }
   .textFooterOne {
     width: 33vw;
@@ -47,7 +49,7 @@ const SFooter = styled.section`
     text-align: left;
     line-height: 2.5vh;
     padding-bottom: 5vh;
-    word-break: normal;
+    margin-left: -12vw;
   }
   .bolder {
     color: var(--secondary-font-color);
@@ -105,8 +107,9 @@ const SFooter = styled.section`
     }
     .titleContact {
       width: 32vw;
-      height: 3vh;
+      padding-bottom: 0vh;
       margin-left: 5vw;
+      border: 1px solid red;
     }
     .textFunFooterOne {
       width: 70vw;
@@ -119,7 +122,8 @@ const SFooter = styled.section`
     .lineWhiteFooterText {
       border-top: var(--primary-font-color) 1px solid;
       width: 60vw;
-      padding-top: 5vh;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
       margin-left: 2vw;
     }
     .textFooterOne {

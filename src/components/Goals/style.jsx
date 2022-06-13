@@ -134,7 +134,7 @@ const SGoals = styled.section`
     }
     .textGoalThree {
       width: 70vw;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
     .btnMeet {
       width: 40vw;
@@ -146,7 +146,7 @@ const SGoals = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    height: 140vh;
+    height: 150vh;
     .blocGoal {
       display: flex;
       flex-direction: column;
@@ -164,6 +164,7 @@ const SGoals = styled.section`
       margin-left: 2.5vw;
       margin-top: 1vh;
       font-size: 20px;
+      text-align: left;
     }
     .rightGoals {
       width: 70vw;

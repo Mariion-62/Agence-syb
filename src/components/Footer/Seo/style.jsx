@@ -18,7 +18,7 @@ const SSeo = styled.section`
   .textFooterTwo {
     width: 35vw;
     margin-left: 50vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: -6.5vh;
     line-height: 2.5vh;
     border-top: 1px solid var(--primary-font-color);

@@ -27,6 +27,7 @@ const SBoxDownExpertise = styled.section`
   .lineBlackDownSlider {
     border-top: var(--fourth-font-color) 1px solid;
     width: 35vw;
+    margin-top: 2vh;
     padding-bottom: 4vh;
   }
   .textFunSentenceOne {
@@ -35,7 +36,7 @@ const SBoxDownExpertise = styled.section`
     font-family: var(--fourth-font-family);
     width: 30vw;
     margin-left: -7vw;
-    margin-top: 5.6vh;
+    margin-top: 7vh;
   }
   .rightBlocSentence {
     display: flex;
@@ -60,7 +61,7 @@ const SBoxDownExpertise = styled.section`
       flex-direction: column;
       padding-top: 5vh;
       width: 100vw;
-      height: 40vh;
+      height: 45vh;
     }
     h2 {
       width: 80vw;
@@ -94,7 +95,7 @@ const SBoxDownExpertise = styled.section`
     .textSentenceTwo {
       width: 80vw;
       padding-top: 4vh;
-      font-size: 1.3rem;
+      font-size: 0.9rem;
       margin-left: -1.5vw;
     }
   }

@@ -39,58 +39,55 @@ const SPellMell = styled.section`
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .peleMele {
       width: 80vw;
-      margin-left: 10vw;
+      margin-left: 15vw;
       margin-top: 5vh;
     }
-    .photo5 {
-      width: 38vw;
+    .photo1 {
+      width: 30vw;
+      height: 25vh;
       margin-left: 41vw;
       margin-top: 0vh;
     }
-    .photo6 {
+    .photo2 {
       width: 40vw;
       height: 12vh;
-      margin-top: 5vh;
+      margin-top: 2vh;
     }
-    .photo7 {
+    .photo3 {
       width: 25vw;
       height: 20vh;
-      margin-top: 27vh;
+      margin-top: 17vh;
       margin-left: 21vw;
     }
-    .photo9 {
+    .photo4 {
       width: 50vw;
       height: 15vh;
-      margin-top: 19vh;
+      margin-top: 13vh;
     }
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .peleMele {
       width: 80vw;
-      margin-left: 5vw;
-      margin-top: 5vh;
+      margin-left: 40vw;
+      margin-top: -15vh;
     }
-    .photo5 {
-      width: 38vw;
-      margin-left: 41vw;
-      margin-top: 0vh;
+    .photo1 {
+      width: 30vw;
     }
-    .photo6 {
-      width: 40vw;
-      height: 12vh;
-      margin-top: 5vh;
+    .photo2 {
+      width: 30vw;
+      margin-top: 10vh;
+      margin-left: -3vw;
     }
-    .photo7 {
+    .photo3 {
       width: 25vw;
-      height: 20vh;
-      margin-top: 27vh;
-      margin-left: 21vw;
     }
-    .photo9 {
-      width: 50vw;
-      height: 15vh;
-      margin-top: 19vh;
+    .photo4 {
+      width: 40vw;
+      height: 30vh;
+      margin-top: 30vh;
+      margin-left: -15vw;
     }
   }
 `;
