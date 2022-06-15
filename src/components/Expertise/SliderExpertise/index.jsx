@@ -22,9 +22,7 @@ export default function SliderExpertise() {
                     {expertise.title}
                   </h1>
                   <div className="contentExpertise">
-                    <p className="textExpertFirst">
-                      {expertise.firstTextExpert}
-                    </p>
+                    <p className="textExpert">{expertise.firstTextExpert}</p>
                     <p className="textExpertSecond">
                       {expertise.secondTextExpert}
                     </p>

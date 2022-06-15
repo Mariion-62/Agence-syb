@@ -45,6 +45,8 @@ const SSlideExpert = styled.section`
     font-size: 1.5rem;
     z-index: 1;
   }
+  .textExpertFirst {
+  }
   .slideExpertise {
     width: 25vw;
     height: 55vh;
