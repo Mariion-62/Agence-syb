@@ -29,7 +29,7 @@ const SPellMell = styled.section`
     object-fit: cover;
   }
   .photo4 {
-    width: 30vw;
+    width: 28vw;
     height: 40vh;
     margin-top: 27vh;
     object-fit: cover;

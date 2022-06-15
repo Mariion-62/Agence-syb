@@ -1,5 +1,6 @@
 import 'aos/dist/aos.css';
 import SBoxDownExpertise from './style';
+import CallUs from '../../../assets/Cta/callUS.png';
 
 export default function BoxDownExpertise() {
   return (
@@ -48,6 +49,9 @@ export default function BoxDownExpertise() {
                 Alors, on s’appelle <br />
                 pour voir jusqu’où on peut aller ensemble ?
               </p>
+              <a href="tel:+0622174495" target="_blank" rel="noreferrer">
+                <img className="ctaCallUs" src={CallUs} alt="appelle-nous" />
+              </a>
             </section>
           </div>
         </section>

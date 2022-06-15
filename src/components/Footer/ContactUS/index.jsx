@@ -18,17 +18,17 @@ export default function ContactUs() {
             <div className="containerSocialLogo">
               <div className="socialLogo">
                 <a
-                  href="https://www.instagram.com/syb_group/"
+                  href="https://fr.linkedin.com/company/syb-group/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div
-                    className="iconInsta"
+                    className="iconLinkedIn"
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-duration="800"
                   >
-                    <IoLogoInstagram size={40} />
+                    <IoLogoLinkedin size={40} />
                   </div>
                 </a>
                 <a
@@ -46,17 +46,17 @@ export default function ContactUs() {
                   </div>
                 </a>
                 <a
-                  href="https://fr.linkedin.com/company/syb-group/"
+                  href="https://www.instagram.com/syb_group/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div
-                    className="iconLinkedIn"
+                    className="iconInsta"
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-duration="800"
                   >
-                    <IoLogoLinkedin size={40} />
+                    <IoLogoInstagram size={40} />
                   </div>
                 </a>
               </div>

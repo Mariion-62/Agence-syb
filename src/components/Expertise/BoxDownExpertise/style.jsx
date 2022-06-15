@@ -55,6 +55,30 @@ const SBoxDownExpertise = styled.section`
     line-height: 2.5vh;
     word-break: normal;
   }
+  .ctaCallUs {
+    width: 5vw;
+    height: 10vh;
+    margin-top: 4vh;
+    margin-left: -5vw;
+    animation: rotate 30s linear 0s infinite;
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      75% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .allSentence {
