@@ -1,10 +1,7 @@
-import photoStrat from '../../../assets/Strategie/john-schnobrich-2FPjlAyMQTA-unsplash.jpg';
-import photoWeb from '../../../assets/WebDesign/pexels-tranmautritam-326503.jpg';
-import photoCrea from '../../../assets/Creativite/pexels-flo-dahm-699459.jpg';
-import photoSeo from '../../../assets/SEA_SEO/scott-graham-5fNmWej4tAA-unsplash.jpg';
-import photoSea from '../../../assets/SEA_SEO/pexels-george-morina-4960323.jpg';
-import photoSocial from '../../../assets/ReseauxSociaux/pexels-picjumbocom-196655.jpg';
-import photoClient from '../../../assets/RelationClient/redd-5U_28ojjgms-unsplash.jpg';
+import photoOne from '../../../assets/SYB_TEXTURE_1.jpg';
+import photoTwo from '../../../assets/SYB_TEXTURE_2.jpg';
+import photoThree from '../../../assets/BG_SC3.jpg';
+import photoFour from '../../../assets/BG_SC10.jpg';
 
 const dataExpertise = [
   {
@@ -13,7 +10,7 @@ const dataExpertise = [
     firstTextExpert: 'On et offline',
     secondTextExpert: 'BtoB et BtoC',
     thirdTextExpert: 'E-commerce, DNVB, Retail',
-    picture: `${photoStrat}`,
+    picture: `${photoOne}`,
   },
   {
     id: 2,
@@ -22,7 +19,7 @@ const dataExpertise = [
     secondTextExpert: 'Motion design, photo et vidéo',
     thirdTextExpert: 'Contenu Réseaux Sociaux ',
     fourthTextExpert: 'Support digitaux et print',
-    picture: `${photoCrea}`,
+    picture: `${photoTwo}`,
   },
   {
     id: 3,
@@ -31,7 +28,7 @@ const dataExpertise = [
     secondTextExpert: 'UX/UI et Webdesign',
     thirdTextExpert: 'E-commerce et refonte de site',
     fourthTextExpert: 'Lead généré',
-    picture: `${photoWeb}`,
+    picture: `${photoThree}`,
   },
   {
     id: 4,
@@ -41,7 +38,7 @@ const dataExpertise = [
     thirdTextExpert: ' Technique et sémantique ',
     fourthTextExpert: 'Référencement local',
     fifthTextExpert: 'Netlinking',
-    picture: `${photoSeo}`,
+    picture: `${photoFour}`,
   },
   {
     id: 5,
@@ -50,7 +47,7 @@ const dataExpertise = [
     secondTextExpert: 'Retargeting',
     thirdTextExpert: 'Google Ads',
     fourthTextExpert: ' Social Ads',
-    picture: `${photoSea}`,
+    picture: `${photoOne}`,
   },
   {
     id: 6,
@@ -58,7 +55,7 @@ const dataExpertise = [
     firstTextExpert: 'Automation',
     secondTextExpert: 'Community management',
     thirdTextExpert: 'Ligne éditoriale et publication',
-    picture: `${photoSocial}`,
+    picture: `${photoTwo}`,
   },
   {
     id: 7,
@@ -67,7 +64,7 @@ const dataExpertise = [
     secondTextExpert: 'Customer insight',
     thirdTextExpert: 'Automation et prospection',
     fourthTextExpert: 'Formation',
-    picture: `${photoClient}`,
+    picture: `${photoThree}`,
   },
 ];
 

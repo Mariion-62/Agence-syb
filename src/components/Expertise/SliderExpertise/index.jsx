@@ -16,19 +16,29 @@ export default function SliderExpertise() {
                     src={expertise.picture}
                     alt={`${expertise.picture}`}
                   />
-                  <h1 className="titleExpertise">{expertise.title}</h1>
+                  <h1 className="titleExpertiseBlack">{expertise.title}</h1>
+                  <h1 className="titleExpertiseYellow">{expertise.title}</h1>
+                  <h1 className="titleExpertiseYellowTrans">
+                    {expertise.title}
+                  </h1>
+                  <div className="contentExpertise">
+                    <p className="textExpertFirst">
+                      {expertise.firstTextExpert}
+                    </p>
+                    <p className="textExpertSecond">
+                      {expertise.secondTextExpert}
+                    </p>
 
-                  <p className="textExpert">
-                    {expertise.firstTextExpert}
-                    <br />
-                    {expertise.secondTextExpert}
-                    <br />
-                    {expertise.thirdTextExpert}
-                    <br />
-                    {expertise.fourthTextExpert}
-                    <br />
-                    {expertise.fifthTextExpert}
-                  </p>
+                    <p className="textExpertThird">
+                      {expertise.thirdTextExpert}
+                    </p>
+                    <p className="textExpertFourth">
+                      {expertise.fourthTextExpert}
+                    </p>
+                    <p className="textExpertFifth">
+                      {expertise.fifthTextExpert}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

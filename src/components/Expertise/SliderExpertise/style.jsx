@@ -5,23 +5,44 @@ const SSlideExpert = styled.section`
   padding-top: 8vh;
   font-family: var(--title-font-family);
   height: 58vh;
-  .titleExpertise {
+  .titleExpertiseBlack {
     font-size: 3.1rem;
     position: absolute;
     color: black;
     width: 20vw;
+    font-weight: bold;
     text-align: center;
     margin-top: -42vh;
     margin-left: 2vw;
+    text-transform: uppercase;
   }
-  .textExpert {
+  .titleExpertiseYellow {
+    font-size: 3.1rem;
     position: absolute;
+    color: var(--secondary-font-color);
+    width: 20vw;
+    font-weight: bold;
     text-align: center;
+    margin-top: -31vh;
+    margin-left: 2vw;
+    text-transform: uppercase;
+  }
+  .titleExpertiseYellowTrans {
+    font-size: 3.1rem;
+    position: absolute;
+    font-weight: bold;
+    color: var(--secondary-font-color);
+    width: 20vw;
+    text-align: center;
+    margin-top: -21vh;
+    margin-left: 2vw;
+    opacity: 0.3;
+    text-transform: uppercase;
+  }
+  .contentExpertise {
+    position: absolute;
     line-height: 4.5vh;
     font-size: 1.5rem;
-    padding-top: 2vh;
-    padding-left: 5vh;
-    opacity: 0;
     z-index: 1;
   }
   .slideExpertise {
@@ -49,7 +70,6 @@ const SSlideExpert = styled.section`
         opacity: 0.2;
       }
       .textExpert {
-        opacity: 1;
         width: 20vw;
         height: 2vh;
         animation: textUp 1s ease 0s 1 normal forwards;
