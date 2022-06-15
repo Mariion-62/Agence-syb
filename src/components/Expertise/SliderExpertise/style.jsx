@@ -2,40 +2,37 @@ import styled from 'styled-components';
 
 const SSlideExpert = styled.section`
   background-color: var(--fourth-bg-color);
-  padding-top: 8vh;
+  padding-top: 15vh;
   font-family: var(--title-font-family);
   height: 58vh;
   .titleExpertiseBlack {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     position: absolute;
     color: black;
-    width: 20vw;
+    width: 23.5vw;
     font-weight: bold;
     text-align: center;
-    margin-top: -42vh;
-    margin-left: 2vw;
+    margin-top: -34vh;
     text-transform: uppercase;
   }
   .titleExpertiseYellow {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     position: absolute;
     color: var(--secondary-font-color);
-    width: 20vw;
+    width: 23.5vw;
     font-weight: bold;
     text-align: center;
-    margin-top: -31vh;
-    margin-left: 2vw;
+    margin-top: -25vh;
     text-transform: uppercase;
   }
   .titleExpertiseYellowTrans {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     position: absolute;
     font-weight: bold;
     color: var(--secondary-font-color);
-    width: 20vw;
+    width: 23.5vw;
     text-align: center;
-    margin-top: -21vh;
-    margin-left: 2vw;
+    margin-top: -17vh;
     opacity: 0.3;
     text-transform: uppercase;
   }
@@ -44,8 +41,14 @@ const SSlideExpert = styled.section`
     line-height: 4.5vh;
     font-size: 1.5rem;
     z-index: 1;
+    width: 23.5vw;
+    margin-top: 15vh;
+    opacity: 0.5;
+    filter: blur(3px);
   }
-  .textExpertFirst {
+  .textExpert {
+    text-align: center;
+    width: 22vw;
   }
   .slideExpertise {
     width: 25vw;
@@ -54,6 +57,9 @@ const SSlideExpert = styled.section`
     align-items: center;
     color: var(--fourth-font-color);
     &:hover {
+      .contentExpertise {
+        filter: blur(0px);
+      }
       animation: myAnim 1s ease 0s 1 normal forwards;
       @keyframes myAnim {
         0% {
@@ -64,35 +70,25 @@ const SSlideExpert = styled.section`
           transform: scale(1.1);
         }
       }
-      .titleExpertise {
-        width: 20vw;
-        padding: 5vh 0;
-      }
-      .imgExpertise {
-        opacity: 0.2;
-      }
       .textExpert {
-        width: 20vw;
-        height: 2vh;
         animation: textUp 1s ease 0s 1 normal forwards;
       }
-      @keyframes textUp {
-        0% {
-          opacity: 0;
-          transform: translateY(20px);
-        }
+    }
+    @keyframes textUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
 
-        100% {
-          opacity: 1;
-          transform: translateY(0);
-        }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
   }
   .imgExpertise {
     width: 23.5vw;
     height: 55vh;
-    opacity: 0.5;
     object-fit: cover;
   }
   .blocHorizontal {

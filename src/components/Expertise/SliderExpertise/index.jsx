@@ -23,19 +23,11 @@ export default function SliderExpertise() {
                   </h1>
                   <div className="contentExpertise">
                     <p className="textExpert">{expertise.firstTextExpert}</p>
-                    <p className="textExpertSecond">
-                      {expertise.secondTextExpert}
-                    </p>
+                    <p className="textExpert">{expertise.secondTextExpert}</p>
 
-                    <p className="textExpertThird">
-                      {expertise.thirdTextExpert}
-                    </p>
-                    <p className="textExpertFourth">
-                      {expertise.fourthTextExpert}
-                    </p>
-                    <p className="textExpertFifth">
-                      {expertise.fifthTextExpert}
-                    </p>
+                    <p className="textExpert">{expertise.thirdTextExpert}</p>
+                    <p className="textExpert">{expertise.fourthTextExpert}</p>
+                    <p className="textExpert">{expertise.fifthTextExpert}</p>
                   </div>
                 </div>
               ))}

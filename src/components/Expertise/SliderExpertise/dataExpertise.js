@@ -1,7 +1,5 @@
 import photoOne from '../../../assets/SYB_TEXTURE_1.jpg';
 import photoTwo from '../../../assets/SYB_TEXTURE_2.jpg';
-import photoThree from '../../../assets/BG_SC3.jpg';
-import photoFour from '../../../assets/BG_SC10.jpg';
 
 const dataExpertise = [
   {
@@ -28,7 +26,7 @@ const dataExpertise = [
     secondTextExpert: 'UX/UI et Webdesign',
     thirdTextExpert: 'E-commerce et refonte de site',
     fourthTextExpert: 'Lead généré',
-    picture: `${photoThree}`,
+    picture: `${photoOne}`,
   },
   {
     id: 4,
@@ -38,7 +36,7 @@ const dataExpertise = [
     thirdTextExpert: ' Technique et sémantique ',
     fourthTextExpert: 'Référencement local',
     fifthTextExpert: 'Netlinking',
-    picture: `${photoFour}`,
+    picture: `${photoTwo}`,
   },
   {
     id: 5,
@@ -64,7 +62,7 @@ const dataExpertise = [
     secondTextExpert: 'Customer insight',
     thirdTextExpert: 'Automation et prospection',
     fourthTextExpert: 'Formation',
-    picture: `${photoThree}`,
+    picture: `${photoOne}`,
   },
 ];
 

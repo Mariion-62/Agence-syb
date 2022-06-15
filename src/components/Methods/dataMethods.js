@@ -6,6 +6,10 @@ import CreaPhoto from '../../assets/PlaineImages/sybshooting_pi-14.jpg';
 import AnalysePhoto from '../../assets/PlaineImages/sybshooting_pi-53.jpg';
 import OptimisePhoto from '../../assets/PlaineImages/syb_shooting_laptop-14.jpg';
 import DeployPhoto from '../../assets/PlaineImages/syb_shooting_laptop-23.jpg';
+import BgOne from '../../assets/BG_SC1.jpg';
+import BgTwo from '../../assets/BG_SC2.jpg';
+import BgThree from '../../assets/BG_SC3.jpg';
+import BgFour from '../../assets/BG_SC10.jpg';
 
 const dataMethods = [
   {
@@ -18,6 +22,7 @@ const dataMethods = [
 
     picture: `${CreaPhoto}`,
     button: `${CtaCoCreate}`,
+    bgImg: `${BgOne}`,
   },
   {
     id: 2,
@@ -30,6 +35,7 @@ const dataMethods = [
       'On peut même former tes équipes à devenir meilleures que nous sur le sujet !  ',
     picture: `${OptimisePhoto}`,
     button: `${CtaOptimise}`,
+    bgImg: `${BgTwo}`,
   },
   {
     id: 3,
@@ -42,6 +48,7 @@ const dataMethods = [
       'On apprend et on ajuste au quotidien pour challenger tes performances.',
     picture: `${DeployPhoto}`,
     button: `${CtaDeploy}`,
+    bgImg: `${BgThree}`,
   },
   {
     id: 4,
@@ -53,6 +60,7 @@ const dataMethods = [
     contentFour: 'Alors, défi relevé ?? ',
     picture: `${AnalysePhoto}`,
     button: `${CtaAnalyze}`,
+    bgImg: `${BgFour}`,
   },
 ];
 

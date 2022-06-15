@@ -82,23 +82,37 @@ const SSlideMethods = styled.div`
     display: flex;
     height: 90vh;
   }
+  .btnPlus {
+    opacity: 0;
+  }
   .boxMethods {
     display: flex;
     flex-direction: column;
     width: 42.9vw;
     height: 80vh;
-    background-color: white;
     transition: 700ms;
     z-index: 1;
+    background-color: white;
     box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
     border: none;
   }
+  .bgImg {
+    object-fit: cover;
+    width: 43.1vw;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+    margin-left: -0.5vw;
+  }
+
   .titleBox {
     width: 10vw;
     margin: 3vh 6vw;
     font-size: 2.2rem;
     text-align: left;
     font-family: var(--title-font-family);
+    text-transform: uppercase;
+    font-weight: bold;
   }
   .contentMethods {
     font-size: 1.2rem;
@@ -154,9 +168,19 @@ const SSlideMethods = styled.div`
     &:hover {
       background-color: #eaecee;
     }
+    .btnPlus {
+      opacity: 1;
+      margin-left: 16vw;
+      padding-bottom: 20vh;
+    }
+
     .boxMethods {
       cursor: pointer;
     }
+    .bgImg {
+      display: none;
+    }
+
     .titleBox {
       margin: 3vh 4vw;
       text-align: center;
@@ -215,6 +239,9 @@ const SSlideMethods = styled.div`
       transition: 700ms;
       overflow: hidden;
       box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
+      .btnPlus {
+        opacity: 1;
+      }
       &:hover {
         background-color: #eaecee;
       }

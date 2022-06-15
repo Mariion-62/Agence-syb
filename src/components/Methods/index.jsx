@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { IoAddSharp } from 'react-icons/io5';
 import dataMethods from './dataMethods';
 import 'aos/dist/aos.css';
 import { SSlideMethods, TitleMethods } from './style';
@@ -47,7 +48,11 @@ export default function Methods() {
               className={showBox === method.id ? 'boxMethods' : 'hiddenBox'}
               onClick={() => viewBox(method.id)}
             >
-              <h1 className="titleBox">{method.title}</h1>
+              <img src={method.bgImg} alt="imagedefond" className="bgImg" />
+              <div className="btnPlus">
+                <IoAddSharp size={20} />
+              </div>{' '}
+              <h1 className="titleBox">{method.title}</h1>{' '}
               <p className="contentMethods">
                 {method.contentOne}
                 <br /> {method.contentTwo}
