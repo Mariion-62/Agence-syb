@@ -228,7 +228,7 @@ const SSlideMethods = styled.div`
       height: 30vh;
     }
     .imgBox {
-      width: 60vw;
+      width: 50vw;
       height: 28vh;
     }
     .btnMethod {
@@ -254,11 +254,12 @@ const SSlideMethods = styled.div`
       }
       .boxMethods {
         cursor: pointer;
-        width: 2vw;
+        width: 1vw;
+        border: 1px solid red;
       }
       .titleBox {
-        width: 5vw;
-        font-size: 1.5rem;
+        width: 3vw;
+        font-size: 1rem;
         text-align: center;
         writing-mode: vertical-rl;
         text-orientation: upright;
