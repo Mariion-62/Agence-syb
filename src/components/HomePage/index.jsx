@@ -1,11 +1,11 @@
-// import BtnUp from 'components/BtnUp';
-// import Client from 'components/Clients';
+import BtnUp from 'components/BtnUp';
+import Client from 'components/Clients';
 import Expertise from 'components/Expertise';
-// import Footer from 'components/Footer';
-// import Goals from 'components/Goals';
+import Footer from 'components/Footer';
+import Goals from 'components/Goals';
 import Header from 'components/Header';
 import Hook from 'components/Hook';
-// import Methods from 'components/Methods';
+import Methods from 'components/Methods';
 import Mouse from 'components/Mouse';
 
 export default function HomePage() {
@@ -15,11 +15,11 @@ export default function HomePage() {
       <Mouse />
       <Hook />
       <Expertise />
-      {/* <Goals />
+      <Goals />
       <Methods />
       <Client />
       <Footer />
-      <BtnUp /> */}
+      <BtnUp />
     </>
   );
 }
