@@ -6,7 +6,7 @@ const SGoals = styled.section`
   font-family: var(--primary-font-family);
   .blocGoal {
     display: flex;
-    height: 90vh;
+    height: 97vh;
     padding-top: 5vh;
   }
   .parafGoal {
@@ -88,6 +88,7 @@ const SGoals = styled.section`
       display: flex;
       flex-direction: column;
       width: 90vw;
+      margin-left: 5vw;
     }
     .parafGoal {
       display: flex;
@@ -121,8 +122,9 @@ const SGoals = styled.section`
       margin-top: 8vh;
     }
     .listGoal {
-      width: 93vw;
+      width: 70vw;
       padding: 2vh 0vw;
+      text-align: left;
     }
     .iconTarget {
       padding-right: 2vw;

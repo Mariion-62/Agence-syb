@@ -11,8 +11,9 @@ const SContactUs = styled.section`
   }
   .gridFooter {
     display: flex;
-    width: 100vw;
+    width: 80vw;
     margin-left: 15vw;
+    margin-top: 10vh;
   }
   .containerSocialLogo,
   .containerPhone,

@@ -60,7 +60,7 @@ const SPellMell = styled.section`
       margin-left: 21vw;
     }
     .photo4 {
-      width: 50vw;
+      width: 48vw;
       height: 15vh;
       margin-top: 13vh;
     }

@@ -9,7 +9,7 @@ const SExpertise = styled.section`
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
-    padding-top: 3vh;
+    padding-top: 5vh;
     line-height: 4vh;
     width: 100vw;
   }
@@ -104,19 +104,20 @@ const SExpertise = styled.section`
       margin-bottom: 0vh;
     }
     .opacity {
-      margin: 13vh 44vw;
+      margin: 13vh 0 0 46vw;
       height: 300px;
+      width: 41vw;
     }
     .ctaExpertise {
       padding-top: 42vh;
-      margin-left: -35vw;
+      margin-left: -52vw;
       width: 0vw;
     }
     .firstTitleExpertise {
       width: 45vw;
-      margin-left: -40vw;
+      margin-left: -35vw;
       margin-bottom: 0;
-      margin-top: 3vh;
+      margin-top: 6vh;
       font-size: 1.5rem;
     }
     .titleExpertise {
@@ -124,8 +125,8 @@ const SExpertise = styled.section`
       line-height: 2.5vh;
       width: 50vw;
       height: 10vh;
-      margin-top: 5vh;
-      margin-left: -15vw;
+      margin-top: 2vh;
+      margin-left: -0vw;
     }
     .leftExpertise {
       width: 80vw;
@@ -133,6 +134,7 @@ const SExpertise = styled.section`
     }
     .lineBlackExpertise {
       width: 70vw;
+      margin-left: 5vw;
     }
     .content {
       padding-top: 0vh;
@@ -140,16 +142,19 @@ const SExpertise = styled.section`
       flex-direction: column;
     }
     .textOneExpertise {
-      width: 95vw;
+      width: 77vw;
+      margin-left: 5vw;
       font-size: 0.9rem;
     }
     .textTwoExpertise {
       width: 80vw;
       font-size: 1.3rem;
+      margin-left: 5vw;
       padding-top: 2vh;
     }
     .textThreeExpertise {
       padding-top: 3vh;
+      margin-left: 5vw;
       width: 80vw;
     }
     .slider {

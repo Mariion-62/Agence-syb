@@ -6,7 +6,7 @@ const SHook = styled.div`
   font-family: var(--primary-font-family);
   display: flex;
   justify-content: center;
-  height: 142vh;
+  height: 120vh;
   .headerHook {
     display: flex;
     flex-direction: column;
@@ -15,7 +15,6 @@ const SHook = styled.div`
     font-size: 2rem;
     margin-left: 14vw;
   }
-
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
@@ -30,7 +29,7 @@ const SHook = styled.div`
   }
   .video {
     padding-top: 2vh;
-    padding-bottom: 20vh;
+    padding-bottom: 5vh;
   }
   span.bolder {
     color: var(--secondary-font-color);
@@ -40,16 +39,20 @@ const SHook = styled.div`
   @media screen and (min-width: 360px) and (max-width: 767px) {
     height: 50vh;
     padding: 2vh 0;
+    .textFunHook {
+      font-size: 1.6rem;
+      margin-left: 10vw;
+    }
     .lineWhiteHook {
       border-top: var(--primary-font-color) 1px solid;
       width: 70vw;
       margin-top: 4vh;
-      margin-left: 5vw;
+      margin-left: 10vw;
     }
     .textHook {
       font-size: 18px;
       width: 72vw;
-      margin: 0vh 0 0 5vw;
+      margin: 0vh 0 0 10vw;
     }
     .video {
       padding-top: 2vh;

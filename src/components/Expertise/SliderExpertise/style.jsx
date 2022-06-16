@@ -4,7 +4,7 @@ const SSlideExpert = styled.section`
   background-color: var(--fourth-bg-color);
   padding-top: 15vh;
   font-family: var(--title-font-family);
-  height: 58vh;
+  height: 55vh;
   .titleExpertiseBlack {
     font-size: 2.5rem;
     position: absolute;
@@ -109,21 +109,48 @@ const SSlideExpert = styled.section`
   /* MODE MOBILE*/
   @media screen and (min-width: 360px) and (max-width: 767px) {
     padding-top: 10%;
-    .titleExpertise {
-      margin-top: -30vh;
-      margin-left: 10vw;
-      font-size: 5vh;
-      width: 80vw;
-    }
+
     .imgExpertise {
       width: 100vw;
       height: 42vh;
     }
-    .textExpert {
-      font-size: 20px;
-      font-weight: bolder;
+    .titleExpertiseBlack {
+      font-size: 2.5rem;
+      position: absolute;
+      color: black;
+      width: 100vw;
+      font-weight: bold;
+      text-align: center;
+      margin-top: -34vh;
+      text-transform: uppercase;
+    }
+    .titleExpertiseYellow {
+      font-size: 2.5rem;
+      position: absolute;
+      color: var(--secondary-font-color);
+      width: 100vw;
+      font-weight: bold;
+      text-align: center;
+      margin-top: -25vh;
+      text-transform: uppercase;
+    }
+    .titleExpertiseYellowTrans {
+      font-size: 2.5rem;
+      position: absolute;
+      font-weight: bold;
+      color: var(--secondary-font-color);
+      width: 100vw;
+      text-align: center;
+      margin-top: -17vh;
+      opacity: 0.3;
+      text-transform: uppercase;
+    }
+    .contentExpertise {
       width: 70vw;
-      opacity: 1;
+      margin-top: 10vh;
+    }
+    .textExpert {
+      width: 90vw;
       margin-left: 5vw;
     }
     .slideExpertise {
@@ -136,9 +163,13 @@ const SSlideExpert = styled.section`
           width: 45vw;
           padding: 5vh 0;
         }
-        .textExpert {
+        .contentExpertise {
+          margin-top: 10vh;
           width: 70vw;
-          height: 2vh;
+        }
+        .textExpert {
+          width: 90vw;
+          margin-left: 5vw;
           animation: none;
         }
       }
@@ -168,11 +199,13 @@ const SSlideExpert = styled.section`
       width: 100vw;
       height: 42vh;
     }
+    .contentExpertise {
+      width: 70vw;
+      margin-top: 10vh;
+    }
     .textExpert {
-      font-weight: bolder;
       width: 90vw;
-      opacity: 1;
-      margin-left: 0vw;
+      margin-left: 5vw;
     }
     .slideExpertise {
       height: 40vh;
@@ -184,9 +217,13 @@ const SSlideExpert = styled.section`
           width: 45vw;
           padding: 5vh 0;
         }
-        .textExpert {
+        .contentExpertise {
+          margin-top: 10vh;
           width: 70vw;
-          height: 2vh;
+        }
+        .textExpert {
+          width: 90vw;
+          margin-left: 5vw;
           animation: none;
         }
       }

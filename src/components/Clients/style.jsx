@@ -8,10 +8,11 @@ const HeaderClient = styled.section`
   color: var(--fourth-font-color);
   font-family: var(--primary-font-family);
   font-size: 2rem;
+  margin-top: -5vh;
   .titleClient {
     width: 37vw;
     margin-left: 50vw;
-    padding-bottom: 5vh;
+    padding-bottom: 2.5vh;
   }
   .lineBlackClients {
     border-top: var(--fourth-font-color) 1px solid;
@@ -21,13 +22,14 @@ const HeaderClient = styled.section`
   }
   .itsThem {
     margin-left: 50vw;
-    padding-bottom: 5vh;
+    margin-top: -2vh;
+    padding-bottom: 2vh;
     width: 25vw;
   }
 
   /* MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
-    margin-top: -8vh;
+    margin-top: -20vh;
     .titleClient {
       font-size: 1.3rem;
       width: 90vw;
@@ -36,7 +38,7 @@ const HeaderClient = styled.section`
     .lineBlackClients {
       border-top: var(--fourth-font-color) 1px solid;
       width: 70vw;
-      padding-top: 5vh;
+      padding-top: 0vh;
       margin-left: 5vw;
     }
     .itsThem {

@@ -7,7 +7,7 @@ const SBoxDownExpertise = styled.section`
     font-family: var(--title-font-family);
     font-size: 5vh;
     width: 100vw;
-    height: 25vh;
+    height: 28vh;
   }
   .funSentence {
     width: 35vw;
@@ -17,12 +17,11 @@ const SBoxDownExpertise = styled.section`
     width: 40vw;
     margin-left: 3vw;
   }
-
   .firstTitleSentence {
     width: 20vw;
     font-size: 2.2rem;
-
     padding-bottom: 2vh;
+    margin-top: 1vh;
   }
   .lineBlackDownSlider {
     border-top: var(--fourth-font-color) 1px solid;
@@ -58,7 +57,7 @@ const SBoxDownExpertise = styled.section`
   .ctaCallUs {
     width: 5vw;
     height: 10vh;
-    margin-top: 4vh;
+    margin-top: 5vh;
     margin-left: -5vw;
     animation: rotate 30s linear 0s infinite;
     @keyframes rotate {
@@ -90,14 +89,20 @@ const SBoxDownExpertise = styled.section`
     h2 {
       width: 80vw;
       font-size: 1.5rem;
+      margin-left: 3.5vw;
     }
     .contentSentence {
       width: 40vw;
       margin-left: 5vw;
     }
+    .firstTitleSentence {
+      margin-left: 5vw;
+      border: 1px solid red;
+    }
     .lineBlackDownSlider {
       width: 70vw;
       padding-bottom: 2vh;
+      margin-left: 4vw;
     }
     .rightBlocSentence {
       display: flex;
@@ -108,20 +113,27 @@ const SBoxDownExpertise = styled.section`
       font-size: 1.5rem;
       text-align: left;
       margin-top: 2vh;
-      margin-left: -6.5vw;
+      margin-left: -4vw;
       margin-bottom: 2vh;
     }
     .textSentenceDownSlider {
       width: 72vw;
       font-size: 0.9rem;
+      margin-left: 4vw;
       padding-top: 1vh;
     }
     .textSentenceTwo {
       width: 80vw;
       padding-top: 4vh;
       font-size: 0.9rem;
-      margin-left: -1.5vw;
+      margin-left: 1.5vw;
     }
+    .ctaCallUs {
+    width: 20vw;
+    height: 10vh;
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+    margin-left: 60vw;
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {

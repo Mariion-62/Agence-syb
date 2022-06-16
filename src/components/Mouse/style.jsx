@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SMouse = styled.div`
   position: absolute;
-  margin-top: 130vh;
+  margin-top: 107vh;
   margin-left: 45vw;
   height: 150px;
   width: 150px;

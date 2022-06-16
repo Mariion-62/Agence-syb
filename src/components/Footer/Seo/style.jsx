@@ -44,8 +44,9 @@ const SSeo = styled.section`
     .textFunFooterTwo {
       width: 90vw;
       font-size: 1.5rem;
-      margin-top: 2vh;
+      margin-top: 10vh;
       margin-left: 5vw;
+      text-align: left;
     }
     .textFooterTwo {
       width: 66vw;

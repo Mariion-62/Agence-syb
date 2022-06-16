@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const TitleMethods = styled.h2`
   color: var(--fourth-font-color);
   background-color: var(--fourth-bg-color);
-  margin-top: 5vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
   .methods {
@@ -21,7 +20,7 @@ const TitleMethods = styled.h2`
   .allTitleMethods {
     display: flex;
     margin-bottom: 2vh;
-    margin-top: -13vh;
+    margin-top: -16vh;
   }
   .titleMethods {
     font-size: 2rem;
@@ -40,18 +39,20 @@ const TitleMethods = styled.h2`
     .subTitleMethods {
       font-size: 1.2rem;
       width: 60vw;
-      margin-left: 5vw;
+      margin-left: 10vw;
+      margin-bottom: 1vh;
+      text-align: left;
     }
     .titleMethods {
       font-size: 1.5rem;
-      margin-left: 5vw;
+      margin-left: 10vw;
       width: 45vw;
     }
     .lineWhiteMethods {
       border-top: var(--fourth-font-color) 1px solid;
       width: 70vw;
       padding-top: 5vh;
-      margin-left: 5vw;
+      margin-left: 10vw;
     }
   }
   /*MODE TABLET*/
@@ -79,6 +80,7 @@ const TitleMethods = styled.h2`
 const SSlideMethods = styled.div`
   background: var(--fourth-bg-color);
   .containerBox {
+    padding-top: 5vh;
     display: flex;
     height: 90vh;
   }
@@ -209,6 +211,10 @@ const SSlideMethods = styled.div`
       width: 70vw;
       height: 65vh;
     }
+    .bgImg {
+      width: 70vw;
+      height: 65vh;
+    }
     .titleBox {
       width: 40vw;
       margin: 1vh 3vw;
@@ -241,6 +247,7 @@ const SSlideMethods = styled.div`
       box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
       .btnPlus {
         opacity: 1;
+        margin-left: 1vw;
       }
       &:hover {
         background-color: #eaecee;

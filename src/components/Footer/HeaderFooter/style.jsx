@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const SFooter = styled.section`
   color: var(--primary-font-color);
   font-family: var(--primary-font-family);
-  height: 30vh;
+  height: 25vh;
+  margin-top: -10vh;
   .allFooter {
     display: flex;
     flex-direction: column;
@@ -21,7 +22,7 @@ const SFooter = styled.section`
     width: 10vw;
     font-family: var(--title-font-family);
     font-size: 2rem;
-    padding-bottom: 7vh;
+    padding-bottom: 2.5vh;
     margin-left: 38vw;
   }
   .textFunFooterOne {
@@ -63,7 +64,7 @@ const SFooter = styled.section`
     }
     .blocLeftFooter {
       width: 90vw;
-      margin-top: 1vh;
+      margin-top: 6vh;
     }
     .titleContact {
       margin-left: 5vw;
@@ -84,7 +85,8 @@ const SFooter = styled.section`
       width: 75vw;
       font-size: 0.9rem;
       word-break: normal;
-      margin-top: 4vh;
+      margin-top: 6vh;
+      margin-left: 1vw;
     }
     .funFooter {
       margin-left: 1vw;
