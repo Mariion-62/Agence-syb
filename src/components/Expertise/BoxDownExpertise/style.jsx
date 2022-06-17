@@ -11,7 +11,7 @@ const SBoxDownExpertise = styled.section`
   }
   .funSentence {
     width: 35vw;
-    padding-left: 12vw;
+    padding-left: 13vw;
   }
   .contentSentence {
     width: 40vw;
@@ -22,6 +22,8 @@ const SBoxDownExpertise = styled.section`
     font-size: 2.2rem;
     padding-bottom: 2vh;
     margin-top: 1vh;
+    margin-left: 2vw;
+    border: 1px solid red;
   }
   .lineBlackDownSlider {
     border-top: var(--fourth-font-color) 1px solid;
@@ -34,7 +36,7 @@ const SBoxDownExpertise = styled.section`
     font-size: 2rem;
     font-family: var(--fourth-font-family);
     width: 30vw;
-    margin-left: -7vw;
+    margin-left: -8vw;
     margin-top: 7vh;
   }
   .rightBlocSentence {
@@ -129,11 +131,12 @@ const SBoxDownExpertise = styled.section`
       margin-left: 1.5vw;
     }
     .ctaCallUs {
-    width: 20vw;
-    height: 10vh;
-    margin-top: -10vh;
-    margin-bottom: 5vh;
-    margin-left: 60vw;
+      width: 20vw;
+      height: 10vh;
+      margin-top: -10vh;
+      margin-bottom: 5vh;
+      margin-left: 60vw;
+    }
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -142,7 +145,7 @@ const SBoxDownExpertise = styled.section`
       padding-top: 5vh;
       margin: 0;
       width: 100vw;
-      height: 40vh;
+      height: 45vh;
     }
     h2 {
       width: 80vw;
@@ -171,9 +174,16 @@ const SBoxDownExpertise = styled.section`
       padding-top: 1vh;
     }
     .textSentenceTwo {
-      width: 50vw;
+      width: 52vw;
       padding-top: 4vh;
       margin-left: -3vw;
+    }
+    .ctaCallUs {
+      width: 12vw;
+      height: 10vh;
+      margin-top: -15vh;
+      margin-bottom: 5vh;
+      margin-left: 50vw;
     }
   }
 `;

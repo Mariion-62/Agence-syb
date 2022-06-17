@@ -13,19 +13,21 @@ const SHook = styled.div`
   }
   .textFunHook {
     font-size: 2rem;
-    margin-left: 14vw;
+    margin-left: 16vw;
+    text-align: right;
+    width: 11vw;
   }
   .lineWhiteHook {
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
-    margin-top: -2.5vh;
+    margin-top: -6.5vh;
     padding-bottom: 5vh;
-    margin-left: 50vw;
+    margin-left: 43.5vw;
   }
   .textHook {
     width: 35vw;
     font-size: 1.3rem;
-    margin-left: 50vw;
+    margin-left: 43.5vw;
   }
   .video {
     padding-top: 2vh;
@@ -42,6 +44,8 @@ const SHook = styled.div`
     .textFunHook {
       font-size: 1.6rem;
       margin-left: 10vw;
+      width: 40vw;
+      text-align: left;
     }
     .lineWhiteHook {
       border-top: var(--primary-font-color) 1px solid;
@@ -62,8 +66,13 @@ const SHook = styled.div`
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     height: 60vh;
-    padding: 15vh 0;
-
+    padding: 5vh 0;
+    .textFunHook {
+      font-size: 1.6rem;
+      margin-left: 5vw;
+      width: 23vw;
+      text-align: left;
+    }
     .lineWhiteHook {
       border-top: var(--primary-font-color) 1px solid;
       width: 70vw;

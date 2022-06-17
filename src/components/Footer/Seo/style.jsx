@@ -11,13 +11,13 @@ const SSeo = styled.section`
   .textFunFooterTwo {
     font-size: 2rem;
     width: 26vw;
-    margin-left: 8vw;
+    margin-left: 9vw;
     margin-top: -10vh;
     text-align: right;
   }
   .textFooterTwo {
     width: 35vw;
-    margin-left: 50vw;
+    margin-left: 51vw;
     font-size: 1rem;
     margin-top: -6.5vh;
     line-height: 2.5vh;
@@ -28,7 +28,7 @@ const SSeo = styled.section`
   }
   .textFooterThree {
     width: 35vw;
-    margin-left: 50vw;
+    margin-left: 51vw;
     font-size: 1rem;
     line-height: 2.5vh;
     padding-bottom: 1vh;
@@ -67,6 +67,7 @@ const SSeo = styled.section`
       width: 90vw;
       margin-top: 2vh;
       margin-left: 5vw;
+      text-align: left;
     }
     .textFooterTwo {
       width: 70vw;

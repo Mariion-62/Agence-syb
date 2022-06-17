@@ -189,11 +189,36 @@ const SSlideExpert = styled.section`
 
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .titleExpertise {
-      margin-top: -30vh;
-      margin-left: 10vw;
-      font-size: 5vh;
-      width: 80vw;
+    .titleExpertiseBlack {
+      font-size: 2.5rem;
+      position: absolute;
+      color: black;
+      width: 100vw;
+      font-weight: bold;
+      text-align: center;
+      margin-top: -34vh;
+      text-transform: uppercase;
+    }
+    .titleExpertiseYellow {
+      font-size: 2.5rem;
+      position: absolute;
+      color: var(--secondary-font-color);
+      width: 100vw;
+      font-weight: bold;
+      text-align: center;
+      margin-top: -25vh;
+      text-transform: uppercase;
+    }
+    .titleExpertiseYellowTrans {
+      font-size: 2.5rem;
+      position: absolute;
+      font-weight: bold;
+      color: var(--secondary-font-color);
+      width: 100vw;
+      text-align: center;
+      margin-top: -17vh;
+      opacity: 0.3;
+      text-transform: uppercase;
     }
     .imgExpertise {
       width: 100vw;

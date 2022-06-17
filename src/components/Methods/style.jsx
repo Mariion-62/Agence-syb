@@ -24,14 +24,14 @@ const TitleMethods = styled.h2`
   }
   .titleMethods {
     font-size: 2rem;
-    margin-left: 50vw;
+    margin-left: 51vw;
     font-family: var(--title-font-family);
   }
   .lineWhiteMethods {
     border-top: var(--fourth-font-color) 1px solid;
     width: 35vw;
     padding-top: 5vh;
-    margin-left: 50vw;
+    margin-left: 51vw;
   }
   /*MODE MOBIL */
   @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -64,8 +64,9 @@ const TitleMethods = styled.h2`
     }
     .subTitleMethods {
       font-size: 1.5rem;
-      width: 20vw;
+      width: 25vw;
       margin-left: 5vw;
+      margin-bottom: 1vh;
       text-align: left;
     }
     .lineWhiteMethods {
@@ -278,6 +279,11 @@ const SSlideMethods = styled.div`
       display: flex;
       background: var(--fourth-bg-color);
       height: 65vh;
+      padding-bottom: 8vh;
+    }
+    .bgImg {
+      width: 70vw;
+      height: 65vh;
     }
     .boxMethods {
       display: flex;
@@ -317,6 +323,10 @@ const SSlideMethods = styled.div`
       box-shadow: inset -26px 4px 46px 15px rgba(0, 0, 0, 0.1);
       &:hover {
         background-color: #eaecee;
+      }
+      .btnPlus {
+        opacity: 1;
+        margin-left: 3vw;
       }
       .boxMethods {
         cursor: pointer;

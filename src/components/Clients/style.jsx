@@ -11,17 +11,17 @@ const HeaderClient = styled.section`
   margin-top: -5vh;
   .titleClient {
     width: 37vw;
-    margin-left: 50vw;
+    margin-left: 51vw;
     padding-bottom: 2.5vh;
   }
   .lineBlackClients {
     border-top: var(--fourth-font-color) 1px solid;
     width: 35vw;
     padding-top: 5vh;
-    margin-left: 50vw;
+    margin-left: 51vw;
   }
   .itsThem {
-    margin-left: 50vw;
+    margin-left: 51vw;
     margin-top: -2vh;
     padding-bottom: 2vh;
     width: 25vw;

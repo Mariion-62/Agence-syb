@@ -23,7 +23,7 @@ const SFooter = styled.section`
     font-family: var(--title-font-family);
     font-size: 2rem;
     padding-bottom: 2.5vh;
-    margin-left: 38vw;
+    margin-left: 39vw;
   }
   .textFunFooterOne {
     font-size: 2rem;
@@ -34,7 +34,7 @@ const SFooter = styled.section`
     text-align: right;
   }
   .footerLineText {
-    margin-left: 50vw;
+    margin-left: 51vw;
     margin-top: -15.2vh;
   }
   .lineWhiteFooterText {
@@ -42,7 +42,7 @@ const SFooter = styled.section`
     width: 35vw;
     padding-top: 5vh;
     margin-bottom: 2vh;
-    margin-left: 38vw;
+    margin-left: 39vw;
   }
   .textFooterOne {
     width: 33vw;
@@ -79,14 +79,14 @@ const SFooter = styled.section`
       margin-left: 5vw;
     }
     .lineWhiteFooterText {
-      margin-bottom: vh;
+      margin-left: 5vw;
     }
     .textFooterOne {
       width: 75vw;
       font-size: 0.9rem;
       word-break: normal;
       margin-top: 6vh;
-      margin-left: 1vw;
+      margin-left: 0vw;
     }
     .funFooter {
       margin-left: 1vw;
@@ -95,6 +95,7 @@ const SFooter = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
+    margin-top: -2vh;
     .allFooter {
       display: flex;
       flex-direction: column;
@@ -111,7 +112,6 @@ const SFooter = styled.section`
       width: 32vw;
       padding-bottom: 0vh;
       margin-left: 5vw;
-      border: 1px solid red;
     }
     .textFunFooterOne {
       width: 70vw;
@@ -126,13 +126,14 @@ const SFooter = styled.section`
       width: 60vw;
       margin-top: 2vh;
       margin-bottom: 2vh;
-      margin-left: 2vw;
+      margin-left: 5vw;
     }
     .textFooterOne {
       width: 55vw;
       margin-top: 10vh;
-      margin-left: 1vw;
+      margin-left: 0vw;
     }
+  }
 `;
 
 export default SFooter;

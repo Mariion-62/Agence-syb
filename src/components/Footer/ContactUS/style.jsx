@@ -225,15 +225,15 @@ const SContactUs = styled.section`
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .blocRightFooter {
-      width: 100vw;
+      width: 90vw;
       height: 65vh;
       margin-bottom: 0vh;
     }
     .gridFooter {
       width: 95vw;
-      margin-left: 5vw;
+      margin-left: 2vw;
       flex-wrap: wrap;
-      margin-top: 2vh;
+      margin-top: 5vh;
     }
     .containerSocialLogo,
     .containerPhone,

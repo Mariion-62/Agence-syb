@@ -126,7 +126,7 @@ const SExpertise = styled.section`
       width: 50vw;
       height: 10vh;
       margin-top: 2vh;
-      margin-left: -0vw;
+      margin-left: 2vw;
     }
     .leftExpertise {
       width: 80vw;
@@ -185,12 +185,12 @@ const SExpertise = styled.section`
       margin-bottom: 0vh;
     }
     .ctaExpertise {
-      padding-top: 42vh;
+      padding-top: 60vh;
       margin-left: -25vw;
     }
     .firstTitleExpertise {
       width: 45vw;
-      margin-left: -20vw;
+      margin-left: -63vw;
       margin-bottom: 0;
       margin-top: 3vh;
     }

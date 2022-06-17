@@ -18,13 +18,13 @@ const SGoals = styled.section`
     width: 30vw;
     height: 6vh;
     font-family: var(--title-font-family);
-    margin-left: 11vh;
+    margin-left: 6vw;
     margin-top: 5vh;
   }
   .textFun {
     font-size: 2rem;
     margin-top: 1.6vh;
-    margin-left: 5vw;
+    margin-left: -1vw;
     text-align: right;
     width: 30vw;
     height: 8vh;
@@ -36,18 +36,21 @@ const SGoals = styled.section`
   }
   .titleGoal {
     font-size: 2rem;
+    margin-left: 1vw;
     padding-bottom: 2vh;
   }
   .lineWhiteGoalsText {
     border-top: var(--primary-font-color) 1px solid;
     width: 35vw;
     padding-top: 5vh;
+    margin-left: 1vw;
   }
   .textGoal {
     width: 27vw;
     font-family: var(--title-font-family);
     font-size: 1.2rem;
     text-align: left;
+    margin-left: 1vw;
     line-height: 2.5vh;
   }
   .listGoal {
@@ -67,6 +70,7 @@ const SGoals = styled.section`
     text-align: left;
     line-height: 2.5vh;
     padding-top: 5vh;
+    margin-left: 1vw;
     word-break: normal;
   }
   .textGoalThree {
@@ -74,6 +78,7 @@ const SGoals = styled.section`
     font-size: 1.3rem;
     padding-top: 1vh;
     text-align: left;
+    margin-left: 1vw;
     line-height: 2.5vh;
   }
   .bolder {
@@ -148,7 +153,7 @@ const SGoals = styled.section`
   }
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    height: 150vh;
+    height: 155vh;
     .blocGoal {
       display: flex;
       flex-direction: column;
@@ -163,7 +168,7 @@ const SGoals = styled.section`
     }
     .textFun {
       width: 50vw;
-      margin-left: 2.5vw;
+      margin-left: 3.5vw;
       margin-top: 1vh;
       font-size: 20px;
       text-align: left;

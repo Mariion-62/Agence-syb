@@ -68,7 +68,7 @@ const SPellMell = styled.section`
   /*MODE TABLET*/
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .peleMele {
-      width: 80vw;
+      width: 30vw;
       margin-left: 40vw;
       margin-top: -15vh;
     }
